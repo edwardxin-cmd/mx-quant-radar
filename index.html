@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MX-Unified Dynamics | 战术指挥舱</title>
+    <title>MX-Unified Dynamics | Quant Radar</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { background-color: #0d1117; color: #c9d1d9; font-family: 'Courier New', Courier, monospace; }
@@ -13,103 +13,99 @@
         .long { color: #3fb950; font-weight: bold; }
         .short { color: #f85149; font-weight: bold; }
         .neutral { color: #8b949e; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 0.95rem; }
         th, td { padding: 12px; text-align: left; border-bottom: 1px solid #30363d; }
-        th { background-color: #161b22; color: #8b949e; }
+        th { background-color: #161b22; color: #8b949e; font-weight: normal; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.05em; }
         tr:hover { background-color: #1f242c; }
+        .math-box { background: #010409; padding: 4px 8px; border-radius: 4px; border: 1px solid #30363d; font-family: monospace; }
     </style>
 </head>
 <body class="p-4 md:p-8">
 
-    <div class="max-w-6xl mx-auto">
+    <div class="max-w-5xl mx-auto">
         <div class="border-b border-[#30363d] pb-4 mb-6">
             <h1 class="text-3xl font-bold text-white flex items-center gap-3">
-                🛸 MX-Unified Dynamics <span class="text-sm bg-[#238636] px-2 py-1 rounded text-white font-normal">LIVE</span>
+                🛸 MX-Unified Dynamics <span class="text-xs bg-[#238636] px-2 py-1 rounded text-white font-bold tracking-widest">LIVE</span>
             </h1>
-            <p class="text-[#8b949e] mt-2">全球维动能共振扫描雷达 | 最终裁决结果</p>
-            <p id="update-time" class="text-sm text-[#58a6ff] mt-1">🕒 最后同步时间: 加载中...</p>
+            <p class="text-[#8b949e] mt-2">Multi-Dimensional Momentum Radar | Pure Signal Matrix</p>
+            <p id="update-time" class="text-sm text-[#58a6ff] mt-1">🕒 Last Synced: Loading...</p>
         </div>
 
         <div class="flex gap-4 mb-6">
-            <button id="btn-1d" class="tab-btn active" onclick="loadData('1d')">🌞 1D 宏观日线池</button>
-            <button id="btn-1h" class="tab-btn" onclick="loadData('1h')">⚡ 1H 日内刺客池</button>
+            <button id="btn-1d" class="tab-btn active" onclick="loadData('1d')">🌞 1D Macro Pool</button>
+            <button id="btn-1h" class="tab-btn" onclick="loadData('1h')">⚡ 1H Intraday Pool</button>
         </div>
 
-        <div class="overflow-x-auto border border-[#30363d] rounded-lg bg-[#161b22]">
+        <div class="overflow-x-auto border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl">
             <table id="data-table">
                 <thead>
                     <tr>
-                        <th>战术梯队</th>
-                        <th>资产 (Asset)</th>
-                        <th>共振得分</th>
-                        <th>做多票数 (Long)</th>
-                        <th>做空票数 (Short)</th>
-                        <th>净动能 (Net)</th>
-                        <th>终极动作 (Action)</th>
+                        <th>Asset</th>
+                        <th>🟢 Long</th>
+                        <th>🔴 Short</th>
+                        <th>⚪ Neutral</th>
+                        <th>⚖️ Net Score Calc</th>
                     </tr>
                 </thead>
                 <tbody id="table-body">
-                    <tr><td colspan="7" class="text-center py-8">🚀 正在从隐形数据库建立连接...</td></tr>
+                    <tr><td colspan="5" class="text-center py-8">📡 Connecting to global edge network...</td></tr>
                 </tbody>
             </table>
         </div>
 
         <div class="mt-8 text-xs text-[#8b949e] text-center border-t border-[#30363d] pt-4">
-            <p id="disclaimer"></p>
+            <p id="disclaimer">⚠️ Disclaimer: Quantitative models generate these signals for internal research only. Not financial advice.</p>
         </div>
     </div>
 
     <script>
-        // 核心渲染引擎
         async function loadData(timeframe) {
-            // 切换按钮高亮
             document.getElementById('btn-1d').classList.toggle('active', timeframe === '1d');
             document.getElementById('btn-1h').classList.toggle('active', timeframe === '1h');
             
             const tbody = document.getElementById('table-body');
-            tbody.innerHTML = '<tr><td colspan="7" class="text-center py-8">📡 正在读取 ' + timeframe.toUpperCase() + ' 矩阵...</td></tr>';
+            tbody.innerHTML = `<tr><td colspan="5" class="text-center py-8">📡 Fetching ${timeframe.toUpperCase()} Matrix...</td></tr>`;
             
             try {
-                // 动态拉取你刚才推送的 JSON 文件 (加个时间戳防止浏览器缓存)
+                // Fetch JSON with cache-busting
                 const response = await fetch(`consensus_${timeframe}.json?t=${new Date().getTime()}`);
-                
-                if (!response.ok) throw new Error('时空节点无数据');
+                if (!response.ok) throw new Error('No data found for this timeframe.');
                 
                 const data = await response.json();
                 
-                document.getElementById('update-time').innerText = `🕒 纽约时间: ${data.update_time} | 维度: [${data.timeframe}]`;
-                document.getElementById('disclaimer').innerText = `⚠️ Disclaimer: ${data.disclaimer}`;
+                document.getElementById('update-time').innerText = `🕒 NY Time: ${data.update_time} | Dimension: [${data.timeframe}]`;
+                if(data.disclaimer) document.getElementById('disclaimer').innerText = `⚠️ Disclaimer: ${data.disclaimer}`;
                 
-                tbody.innerHTML = ''; // 清空加载提示
+                tbody.innerHTML = ''; 
                 
-                // 渲染数据行
                 data.signals.forEach(row => {
                     const tr = document.createElement('tr');
                     
-                    // 判断动作颜色
-                    let actionHtml = `<span class="neutral">${row.final_action}</span>`;
-                    if (row.final_action === 'EXECUTE_LONG') actionHtml = `<span class="long">🟢 EXECUTE_LONG</span>`;
-                    if (row.final_action === 'EXECUTE_SHORT') actionHtml = `<span class="short">🔴 EXECUTE_SHORT</span>`;
+                    const long = row.long_votes || 0;
+                    const short = row.short_votes || 0;
+                    const neutral = row.neutral_votes !== undefined ? row.neutral_votes : (row.total_runs - long - short);
+                    
+                    // Net Score Math Logic
+                    const sign = row.net_score > 0 ? '+' : '';
+                    const mathDisplay = `<span class="math-box"><span class="long">${long}</span> - <span class="short">${short}</span> = <strong class="text-white">${sign}${row.net_score}</strong></span>`;
 
                     tr.innerHTML = `
-                        <td>${row.tier || '-'}</td>
-                        <td class="font-bold text-white">${row.ticker}</td>
-                        <td>${row.consensus}</td>
-                        <td class="long">${row.long_votes}</td>
-                        <td class="short">${row.short_votes}</td>
-                        <td class="font-bold">${row.net_score > 0 ? '+' : ''}${row.net_score}</td>
-                        <td>${actionHtml}</td>
+                        <td class="font-bold text-white text-base">${row.ticker}</td>
+                        <td class="long">${long}</td>
+                        <td class="short">${short}</td>
+                        <td class="neutral">${neutral}</td>
+                        <td>${mathDisplay}</td>
                     `;
                     tbody.appendChild(tr);
                 });
 
             } catch (error) {
-                tbody.innerHTML = `<tr><td colspan="7" class="text-center py-8 text-[#f85149]">🧊 该维度暂无战报数据，或系统尚未完成初次计算。(${error.message})</td></tr>`;
-                document.getElementById('update-time').innerText = `🕒 最后同步时间: N/A`;
+                tbody.innerHTML = `<tr><td colspan="5" class="text-center py-8 text-[#f85149]">🧊 Matrix Offline: ${error.message}</td></tr>`;
+                document.getElementById('update-time').innerText = `🕒 Last Synced: N/A`;
             }
         }
 
-        // 默认加载 1D 页面
+        // Init load
         loadData('1d');
     </script>
 </body>
