@@ -13,22 +13,26 @@
         .long { color: #3fb950; font-weight: bold; }
         .short { color: #f85149; font-weight: bold; }
         .neutral { color: #8b949e; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 0.95rem; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 0.85rem; }
         th, td { padding: 12px; text-align: left; border-bottom: 1px solid #30363d; }
-        th { background-color: #161b22; color: #8b949e; font-weight: normal; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.05em; }
+        th { background-color: #161b22; color: #8b949e; font-weight: normal; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; }
         tr:hover { background-color: #1f242c; }
-        .math-box { background: #010409; padding: 4px 8px; border-radius: 4px; border: 1px solid #30363d; font-family: monospace; }
+        .math-box { background: #010409; padding: 4px 8px; border-radius: 4px; border: 1px solid #30363d; font-family: monospace; font-size: 1rem; }
     </style>
 </head>
 <body class="p-4 md:p-8">
 
-    <div class="max-w-5xl mx-auto">
+    <div class="max-w-6xl mx-auto">
         <div class="border-b border-[#30363d] pb-4 mb-6">
             <h1 class="text-3xl font-bold text-white flex items-center gap-3">
                 🛸 MX-Unified Dynamics <span class="text-xs bg-[#238636] px-2 py-1 rounded text-white font-bold tracking-widest">LIVE</span>
             </h1>
-            <p class="text-[#8b949e] mt-2">Multi-Dimensional Momentum Radar | Pure Signal Matrix</p>
-            <p id="update-time" class="text-sm text-[#58a6ff] mt-1">🕒 Last Synced: Loading...</p>
+            <p class="text-[#8b949e] mt-2 mb-3">Multi-Dimensional Momentum Radar | Pure Signal Matrix</p>
+            
+            <div class="flex flex-col md:flex-row gap-4 bg-[#161b22] p-3 rounded border border-[#30363d]">
+                <div id="time-1d" class="text-sm">🌞 1D 宏观阵地同步时间: <span class="text-[#8b949e]">正在扫描...</span></div>
+                <div id="time-1h" class="text-sm md:border-l md:border-[#30363d] md:pl-4">⚡ 1H 微观阵地同步时间: <span class="text-[#8b949e]">正在扫描...</span></div>
+            </div>
         </div>
 
         <div class="flex gap-4 mb-6">
@@ -41,14 +45,16 @@
                 <thead>
                     <tr>
                         <th>Asset</th>
-                        <th>🟢 Long</th>
-                        <th>🔴 Short</th>
-                        <th>⚪ Neutral</th>
-                        <th>⚖️ Net Score Calc</th>
+                        <th>⚖️ Net Score</th>
+                        <th>T20 (3D) Momentum</th>
+                        <th>T50 (1W) Structure</th>
+                        <th>T100 (0.5M) Inst.</th>
+                        <th>T200 (1M) Macro</th>
+                        <th>🚀 1W Projection</th>
                     </tr>
                 </thead>
                 <tbody id="table-body">
-                    <tr><td colspan="5" class="text-center py-8">📡 Connecting to global edge network...</td></tr>
+                    <tr><td colspan="7" class="text-center py-8">📡 Connecting to global edge network...</td></tr>
                 </tbody>
             </table>
         </div>
@@ -59,21 +65,43 @@
     </div>
 
     <script>
+        // 👇 核心修改：在页面加载时，独立拉取 1D 和 1H 的 JSON 并提取时间戳
+        async function fetchGlobalTimestamps() {
+            const bust = new Date().getTime();
+            
+            try {
+                const res1d = await fetch(`consensus_1d.json?t=${bust}`);
+                if (res1d.ok) {
+                    const data = await res1d.json();
+                    document.getElementById('time-1d').innerHTML = `🌞 1D 宏观阵地同步时间: <strong class="text-[#58a6ff]">${data.update_time || 'N/A'}</strong>`;
+                } else {
+                    document.getElementById('time-1d').innerHTML = `🌞 1D 宏观阵地同步时间: <span class="text-[#f85149]">无最新数据</span>`;
+                }
+            } catch(e) {}
+
+            try {
+                const res1h = await fetch(`consensus_1h.json?t=${bust}`);
+                if (res1h.ok) {
+                    const data = await res1h.json();
+                    document.getElementById('time-1h').innerHTML = `⚡ 1H 微观阵地同步时间: <strong class="text-[#58a6ff]">${data.update_time || 'N/A'}</strong>`;
+                } else {
+                    document.getElementById('time-1h').innerHTML = `⚡ 1H 微观阵地同步时间: <span class="text-[#f85149]">无最新数据</span>`;
+                }
+            } catch(e) {}
+        }
+
         async function loadData(timeframe) {
             document.getElementById('btn-1d').classList.toggle('active', timeframe === '1d');
             document.getElementById('btn-1h').classList.toggle('active', timeframe === '1h');
             
             const tbody = document.getElementById('table-body');
-            tbody.innerHTML = `<tr><td colspan="5" class="text-center py-8">📡 Fetching ${timeframe.toUpperCase()} Matrix...</td></tr>`;
+            tbody.innerHTML = `<tr><td colspan="7" class="text-center py-8">📡 Fetching ${timeframe.toUpperCase()} Matrix...</td></tr>`;
             
             try {
-                // Fetch JSON with cache-busting
                 const response = await fetch(`consensus_${timeframe}.json?t=${new Date().getTime()}`);
                 if (!response.ok) throw new Error('No data found for this timeframe.');
                 
                 const data = await response.json();
-                
-                document.getElementById('update-time').innerText = `🕒 NY Time: ${data.update_time} | Dimension: [${data.timeframe}]`;
                 if(data.disclaimer) document.getElementById('disclaimer').innerText = `⚠️ Disclaimer: ${data.disclaimer}`;
                 
                 tbody.innerHTML = ''; 
@@ -81,31 +109,42 @@
                 data.signals.forEach(row => {
                     const tr = document.createElement('tr');
                     
-                    const long = row.long_votes || 0;
-                    const short = row.short_votes || 0;
-                    const neutral = row.neutral_votes !== undefined ? row.neutral_votes : (row.total_runs - long - short);
-                    
-                    // Net Score Math Logic
+                    // Net Score 变色逻辑
                     const sign = row.net_score > 0 ? '+' : '';
-                    const mathDisplay = `<span class="math-box"><span class="long">${long}</span> - <span class="short">${short}</span> = <strong class="text-white">${sign}${row.net_score}</strong></span>`;
+                    let scoreClass = 'text-white';
+                    if(row.net_score > 0) scoreClass = 'long';
+                    if(row.net_score < 0) scoreClass = 'short';
+                    const mathDisplay = `<span class="math-box ${scoreClass}">${sign}${row.net_score}</span>`;
+
+                    // 读取 auto_fire.py 吐出的多维数据
+                    const t20 = row['3_Day_Momentum_T20'] || '-';
+                    const t50 = row['1_Week_Structure_T50'] || '-';
+                    const t100 = row['Half_Month_Institutional_T100'] || '-';
+                    const t200 = row['1_Month_Macro_T200'] || '-';
+                    const proj = row['1_Week_Projection'] || 0;
+
+                    // 遇到错误标记标红
+                    const renderStatus = (val) => val.includes('❌') ? `<span class="text-[#f85149]">${val}</span>` : val;
 
                     tr.innerHTML = `
                         <td class="font-bold text-white text-base">${row.ticker}</td>
-                        <td class="long">${long}</td>
-                        <td class="short">${short}</td>
-                        <td class="neutral">${neutral}</td>
                         <td>${mathDisplay}</td>
+                        <td class="text-xs">${renderStatus(t20)}</td>
+                        <td class="text-xs">${renderStatus(t50)}</td>
+                        <td class="text-xs">${renderStatus(t100)}</td>
+                        <td class="text-xs">${renderStatus(t200)}</td>
+                        <td class="text-[#58a6ff] font-bold text-base">${proj}</td>
                     `;
                     tbody.appendChild(tr);
                 });
 
             } catch (error) {
-                tbody.innerHTML = `<tr><td colspan="5" class="text-center py-8 text-[#f85149]">🧊 Matrix Offline: ${error.message}</td></tr>`;
-                document.getElementById('update-time').innerText = `🕒 Last Synced: N/A`;
+                tbody.innerHTML = `<tr><td colspan="7" class="text-center py-8 text-[#f85149]">🧊 Matrix Offline: ${error.message}</td></tr>`;
             }
         }
 
-        // Init load
+        // 初始化加载：同时抓取两个时间戳，并默认显示 1D 表格数据
+        fetchGlobalTimestamps();
         loadData('1d');
     </script>
 </body>
