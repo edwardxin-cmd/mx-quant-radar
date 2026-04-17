@@ -1,10 +1,10 @@
 {
     "timeframe": "1D",
-    "update_time": "2026-04-17 20:34:28",
+    "update_time": "2026-04-17 20:38:24",
     "signals": [
         {
             "ticker": "PLTR",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 6,
             "final_action": "EXECUTE_LONG",
@@ -12,7 +12,7 @@
         },
         {
             "ticker": "RSP",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 6,
             "final_action": "EXECUTE_LONG",
@@ -20,7 +20,7 @@
         },
         {
             "ticker": "LEN",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 5,
             "final_action": "VETO",
@@ -28,7 +28,7 @@
         },
         {
             "ticker": "RSPG",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 5,
             "final_action": "VETO",
@@ -36,7 +36,7 @@
         },
         {
             "ticker": "XPEV",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 4,
             "final_action": "VETO",
@@ -44,7 +44,7 @@
         },
         {
             "ticker": "TLT",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 4,
             "final_action": "VETO",
@@ -52,7 +52,7 @@
         },
         {
             "ticker": "OPEN",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 4,
             "final_action": "VETO",
@@ -60,7 +60,7 @@
         },
         {
             "ticker": "BABA",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 3,
             "final_action": "VETO",
@@ -68,7 +68,7 @@
         },
         {
             "ticker": "TSLA",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 3,
             "final_action": "VETO",
@@ -76,7 +76,7 @@
         },
         {
             "ticker": "SMH",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 3,
             "final_action": "VETO",
@@ -84,7 +84,7 @@
         },
         {
             "ticker": "SPY",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 3,
             "final_action": "VETO",
@@ -92,7 +92,7 @@
         },
         {
             "ticker": "QQQ",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 3,
             "final_action": "VETO",
@@ -100,7 +100,7 @@
         },
         {
             "ticker": "XLP",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 3,
             "final_action": "VETO",
@@ -108,7 +108,7 @@
         },
         {
             "ticker": "EWJ",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 3,
             "final_action": "VETO",
@@ -116,7 +116,7 @@
         },
         {
             "ticker": "IWM",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 2,
             "final_action": "VETO",
@@ -124,7 +124,7 @@
         },
         {
             "ticker": "RSPF",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 2,
             "final_action": "VETO",
@@ -132,7 +132,7 @@
         },
         {
             "ticker": "PDD",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 2,
             "final_action": "VETO",
@@ -140,7 +140,7 @@
         },
         {
             "ticker": "KWEB",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 1,
             "final_action": "VETO",
@@ -148,7 +148,7 @@
         },
         {
             "ticker": "ETH-USD",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 1,
             "final_action": "VETO",
@@ -156,7 +156,7 @@
         },
         {
             "ticker": "META",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 0,
             "final_action": "VETO",
@@ -164,7 +164,7 @@
         },
         {
             "ticker": "XLV",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 0,
             "final_action": "VETO",
@@ -172,7 +172,7 @@
         },
         {
             "ticker": "AMZN",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 0,
             "final_action": "VETO",
@@ -180,7 +180,7 @@
         },
         {
             "ticker": "ASHR",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 0,
             "final_action": "VETO",
@@ -188,7 +188,7 @@
         },
         {
             "ticker": "^VIX",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 0,
             "final_action": "VETO",
@@ -196,7 +196,7 @@
         },
         {
             "ticker": "EWI",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 0,
             "final_action": "VETO",
@@ -204,7 +204,7 @@
         },
         {
             "ticker": "DBB",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": 0,
             "final_action": "VETO",
@@ -212,7 +212,7 @@
         },
         {
             "ticker": "AAPL",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -1,
             "final_action": "VETO",
@@ -220,7 +220,7 @@
         },
         {
             "ticker": "XLB",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -1,
             "final_action": "VETO",
@@ -228,7 +228,7 @@
         },
         {
             "ticker": "STX",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -1,
             "final_action": "VETO",
@@ -236,7 +236,7 @@
         },
         {
             "ticker": "000300.SS",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -1,
             "final_action": "VETO",
@@ -244,7 +244,7 @@
         },
         {
             "ticker": "MAGS",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -1,
             "final_action": "VETO",
@@ -252,7 +252,7 @@
         },
         {
             "ticker": "COPX",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -1,
             "final_action": "VETO",
@@ -260,7 +260,7 @@
         },
         {
             "ticker": "NFLX",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -2,
             "final_action": "VETO",
@@ -268,7 +268,7 @@
         },
         {
             "ticker": "XLE",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -2,
             "final_action": "VETO",
@@ -276,7 +276,7 @@
         },
         {
             "ticker": "EWP",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -2,
             "final_action": "VETO",
@@ -284,7 +284,7 @@
         },
         {
             "ticker": "RSPT",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -2,
             "final_action": "VETO",
@@ -292,7 +292,7 @@
         },
         {
             "ticker": "ASTS",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -2,
             "final_action": "VETO",
@@ -300,7 +300,7 @@
         },
         {
             "ticker": "XLF",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -3,
             "final_action": "VETO",
@@ -308,7 +308,7 @@
         },
         {
             "ticker": "GOOGL",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -4,
             "final_action": "VETO",
@@ -316,7 +316,7 @@
         },
         {
             "ticker": "AMD",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -4,
             "final_action": "VETO",
@@ -324,7 +324,7 @@
         },
         {
             "ticker": "NVDA",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -4,
             "final_action": "VETO",
@@ -332,7 +332,7 @@
         },
         {
             "ticker": "ORCL",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -4,
             "final_action": "VETO",
@@ -340,7 +340,7 @@
         },
         {
             "ticker": "ILF",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -4,
             "final_action": "VETO",
@@ -348,7 +348,7 @@
         },
         {
             "ticker": "CIFR",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -4,
             "final_action": "VETO",
@@ -356,7 +356,7 @@
         },
         {
             "ticker": "EZA",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -4,
             "final_action": "VETO",
@@ -364,7 +364,7 @@
         },
         {
             "ticker": "ASEA",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -4,
             "final_action": "VETO",
@@ -372,7 +372,7 @@
         },
         {
             "ticker": "EWG",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -4,
             "final_action": "VETO",
@@ -380,7 +380,7 @@
         },
         {
             "ticker": "IBB",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -4,
             "final_action": "VETO",
@@ -388,7 +388,7 @@
         },
         {
             "ticker": "SLV",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -4,
             "final_action": "VETO",
@@ -396,7 +396,7 @@
         },
         {
             "ticker": "VNET",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -4,
             "final_action": "VETO",
@@ -404,7 +404,7 @@
         },
         {
             "ticker": "TSM",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -5,
             "final_action": "VETO",
@@ -412,7 +412,7 @@
         },
         {
             "ticker": "CL=F",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -5,
             "final_action": "VETO",
@@ -420,7 +420,7 @@
         },
         {
             "ticker": "^VXN",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -5,
             "final_action": "VETO",
@@ -428,7 +428,7 @@
         },
         {
             "ticker": "UBER",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -5,
             "final_action": "VETO",
@@ -436,7 +436,7 @@
         },
         {
             "ticker": "MSFT",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -444,7 +444,7 @@
         },
         {
             "ticker": "IGV",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -452,7 +452,7 @@
         },
         {
             "ticker": "XLI",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -460,7 +460,7 @@
         },
         {
             "ticker": "KRE",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -468,7 +468,7 @@
         },
         {
             "ticker": "MU",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -476,7 +476,7 @@
         },
         {
             "ticker": "SNDK",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -484,7 +484,7 @@
         },
         {
             "ticker": "KBE",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -492,7 +492,7 @@
         },
         {
             "ticker": "WDC",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -500,7 +500,7 @@
         },
         {
             "ticker": "EEM",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -508,7 +508,7 @@
         },
         {
             "ticker": "ETN",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -516,7 +516,7 @@
         },
         {
             "ticker": "VRT",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -524,7 +524,7 @@
         },
         {
             "ticker": "PWR",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -532,7 +532,7 @@
         },
         {
             "ticker": "TAN",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -540,7 +540,7 @@
         },
         {
             "ticker": "BTC-USD",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -548,7 +548,7 @@
         },
         {
             "ticker": "COIN",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -556,7 +556,7 @@
         },
         {
             "ticker": "CSCO",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -564,7 +564,7 @@
         },
         {
             "ticker": "AVGO",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -572,7 +572,7 @@
         },
         {
             "ticker": "EWZ",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -580,7 +580,7 @@
         },
         {
             "ticker": "ECH",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -588,7 +588,7 @@
         },
         {
             "ticker": "EWW",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -596,7 +596,7 @@
         },
         {
             "ticker": "AIA",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -604,7 +604,7 @@
         },
         {
             "ticker": "EWT",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -612,7 +612,7 @@
         },
         {
             "ticker": "EWY",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -620,7 +620,7 @@
         },
         {
             "ticker": "ENOR",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -628,7 +628,7 @@
         },
         {
             "ticker": "KLAC",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -636,7 +636,7 @@
         },
         {
             "ticker": "LRCX",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -644,7 +644,7 @@
         },
         {
             "ticker": "ASML",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -652,7 +652,7 @@
         },
         {
             "ticker": "AMAT",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -660,7 +660,7 @@
         },
         {
             "ticker": "ROK",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -668,7 +668,7 @@
         },
         {
             "ticker": "SE",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -676,7 +676,7 @@
         },
         {
             "ticker": "RKLB",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -684,7 +684,7 @@
         },
         {
             "ticker": "QBTS",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -692,7 +692,7 @@
         },
         {
             "ticker": "RVLV",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -700,7 +700,7 @@
         },
         {
             "ticker": "KC",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -708,7 +708,7 @@
         },
         {
             "ticker": "URA",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -716,7 +716,7 @@
         },
         {
             "ticker": "IRM",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -724,7 +724,7 @@
         },
         {
             "ticker": "DLR",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -732,7 +732,7 @@
         },
         {
             "ticker": "SATS",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
@@ -740,7 +740,7 @@
         },
         {
             "ticker": "XBI",
-            "timestamp": "2026-04-17 20:34:28",
+            "timestamp": "2026-04-17 20:38:24",
             "total_runs": 12,
             "net_score": -12,
             "final_action": "EXECUTE_SHORT",
