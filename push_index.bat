@@ -4,8 +4,9 @@ color 0A
 cd /d "F:\mx_radar_web"
 
 echo --- Ready to deploy ---
+:: 注意下面的那个点(.)，它代表将 html 和所有 json 数据全部打包！
 git add .
-git commit -m "Auto Update Dashboard"
+git commit -m "Auto Update Dashboard and Data"
 git push origin main
 
 echo.
