@@ -57,7 +57,7 @@
                 🔥 资金轮动矩阵 (Sector Rotation Map)
             </h2>
             <div id="rotation-matrix" class="flex overflow-x-auto gap-4 pb-2 snap-x">
-                </div>
+            </div>
         </div>
 
         <div class="mb-6 border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4">
@@ -106,22 +106,20 @@
             });
         }
 
-        // 🚀 渲染资金轮动矩阵
         function renderRotationMatrix() {
             const container = document.getElementById('rotation-matrix');
             const wrapper = document.getElementById('rotation-container');
             container.innerHTML = '';
             
-            if (currentHistoryData.length === 0) {
+            if (!currentHistoryData || currentHistoryData.length === 0) {
                 wrapper.classList.add('hidden');
                 return;
             }
             wrapper.classList.remove('hidden');
 
             currentHistoryData.forEach(snap => {
-                const rawTime = snap.timestamp.split(' ')[0]; // 取日期部分
+                const rawTime = snap.timestamp.split(' ')[0]; 
                 
-                // 动态过滤
                 const longs6 = snap.signals.filter(s => s.net_score >= 6).map(s => s.ticker);
                 const longs5 = snap.signals.filter(s => s.net_score === 5).map(s => s.ticker);
                 const shorts6 = snap.signals.filter(s => s.net_score <= -6).map(s => s.ticker);
@@ -130,7 +128,6 @@
                 let html = `<div class="rotation-card">`;
                 html += `<div class="text-[#c9d1d9] border-b border-[#30363d] pb-2 mb-3 font-bold tracking-wider">📅 ${rawTime}</div>`;
                 
-                // 多头阵营
                 html += `<div class="mb-3"><div class="text-xs text-[#8b949e] mb-1 uppercase tracking-widest">Bullish Vanguard</div>`;
                 if (longs6.length > 0 || longs5.length > 0) {
                     html += longs6.map(t => `<span class="badge-6" title="+6 Full Consensus">${t}</span>`).join('');
@@ -140,7 +137,6 @@
                 }
                 html += `</div>`;
 
-                // 空头阵营
                 html += `<div><div class="text-xs text-[#8b949e] mb-1 uppercase tracking-widest">Bearish Targets</div>`;
                 if (shorts6.length > 0 || shorts5.length > 0) {
                     html += shorts6.map(t => `<span class="badge-n6" title="-6 Full Short">${t}</span>`).join('');
@@ -155,7 +151,6 @@
             setTimeout(() => { container.scrollLeft = container.scrollWidth; }, 100);
         }
 
-        // 📈 渲染单一个股的动能历史
         function renderChart(ticker) {
             if (!ticker || currentHistoryData.length === 0) return;
 
@@ -165,11 +160,14 @@
                 if (sig) {
                     const score = sig.net_score;
                     const color = score > 0 ? 'rgba(63, 185, 80, 0.8)' : (score < 0 ? 'rgba(248, 81, 73, 0.8)' : 'rgba(139, 148, 158, 0.8)');
-                    const dateStr = snap.timestamp.replace(' ', 'T') + 'Z';
-                    const unixTime = Math.floor(new Date(dateStr).getTime() / 1000);
-                    
-                    if (!chartData.find(d => d.time === unixTime)) {
-                        chartData.push({ time: unixTime, value: score, color: color });
+                    // 极致防弹的日期解析
+                    const rawDate = snap.timestamp.replace(/-/g, '/');
+                    const dateObj = new Date(rawDate);
+                    if (!isNaN(dateObj.getTime())) {
+                        const unixTime = Math.floor(dateObj.getTime() / 1000);
+                        if (!chartData.find(d => d.time === unixTime)) {
+                            chartData.push({ time: unixTime, value: score, color: color });
+                        }
                     }
                 }
             });
@@ -181,18 +179,21 @@
 
         async function fetchGlobalTimestamps() {
             const bust = new Date().getTime();
-            ['1d', '1h'].forEach(async (tf) => {
+            for (const tf of ['1d', '1h']) {
                 try {
                     const res = await fetch(`consensus_${tf}.json?t=${bust}`);
                     if (res.ok) {
-                        const data = await res.json();
-                        const timeEl = document.getElementById(`time-${tf}`);
-                        if(timeEl) {
-                            timeEl.innerHTML = `${tf === '1d' ? '🌞 1D' : '⚡ 1H'} 同步: <strong class="text-[#58a6ff]">${data.update_time || 'N/A'}</strong>`;
+                        const textData = await res.text();
+                        if (textData && textData.trim() !== '') {
+                            const data = JSON.parse(textData);
+                            const timeEl = document.getElementById(`time-${tf}`);
+                            if(timeEl && data.update_time) {
+                                timeEl.innerHTML = `${tf === '1d' ? '🌞 1D' : '⚡ 1H'} 同步: <strong class="text-[#58a6ff]">${data.update_time}</strong>`;
+                            }
                         }
                     }
-                } catch(e) {}
-            });
+                } catch(e) { console.warn(`Failed to fetch timestamp for ${tf}`); }
+            }
         }
 
         function cleanStatus(val) {
@@ -229,9 +230,11 @@
             try {
                 const response = await fetch(`consensus_${timeframe}.json?t=${bust}`);
                 if (!response.ok) throw new Error("Consensus missing");
-                const data = await response.json();
-                tbody.innerHTML = ''; 
+                const textData = await response.text();
+                if (!textData || textData.trim() === '') throw new Error("Empty Consensus");
+                const data = JSON.parse(textData);
                 
+                tbody.innerHTML = ''; 
                 data.signals.forEach(row => {
                     const tr = document.createElement('tr');
                     const scoreClass = row.net_score > 0 ? 'long' : (row.net_score < 0 ? 'short' : 'neutral');
@@ -251,12 +254,14 @@
                 tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8 text-[#f85149]">Matrix Offline (等待生成 ${timeframe} 数据)</td></tr>`;
             }
 
-            // 3. 抓取历史矩阵数据
+            // 3. 抓取历史矩阵数据 (防错装甲版)
             try {
                 const histResponse = await fetch(`history_${timeframe}.json?t=${bust}`);
                 if (!histResponse.ok) throw new Error("History missing");
-                currentHistoryData = await histResponse.json();
+                const rawText = await histResponse.text();
+                if (!rawText || rawText.trim() === '') throw new Error("Empty history");
                 
+                currentHistoryData = JSON.parse(rawText);
                 renderRotationMatrix();
 
                 const select = document.getElementById('ticker-select');
@@ -272,10 +277,9 @@
                     });
                     renderChart(select.value);
                 } else {
-                    throw new Error("Empty history");
+                    throw new Error("No tickers found");
                 }
             } catch (error) {
-                // 🛑 核心修复：如果 history_1h 不存在，优雅地隐藏模块，绝不崩溃！
                 currentHistoryData = [];
                 document.getElementById('ticker-select').innerHTML = '<option value="">📡 等待历史数据累积...</option>';
                 if(histogramSeries) histogramSeries.setData([]);
@@ -283,9 +287,19 @@
             }
         }
 
-        initChart();
-        fetchGlobalTimestamps();
-        loadData('1d'); 
+        // 🛡️ 终极启动序列：等待页面渲染完毕再点火，彻底消灭“卡死”
+        window.onload = () => {
+            console.log("🛸 系统核心已挂载，激活物理探测...");
+            initChart();
+            fetchGlobalTimestamps();
+            
+            setTimeout(() => {
+                loadData('1d');
+            }, 100);
+
+            // 每分钟刷新同步时间
+            setInterval(() => fetchGlobalTimestamps(), 60000);
+        };
     </script>
 </body>
 </html>
