@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MX-Unified Dynamics | Quant Radar</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
     <style>
         body { background-color: #0d1117; color: #c9d1d9; font-family: 'Courier New', Courier, monospace; }
         .tab-btn { padding: 10px 20px; border: 1px solid #30363d; border-radius: 6px; cursor: pointer; transition: 0.3s; background: #161b22; }
@@ -13,11 +14,15 @@
         .long { color: #3fb950; font-weight: bold; }
         .short { color: #f85149; font-weight: bold; }
         .neutral { color: #8b949e; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 0.85rem; }
+        table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
         th, td { padding: 12px; text-align: left; border-bottom: 1px solid #30363d; }
         th { background-color: #161b22; color: #8b949e; font-weight: normal; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; }
         tr:hover { background-color: #1f242c; }
         .math-box { background: #010409; padding: 4px 8px; border-radius: 4px; border: 1px solid #30363d; font-family: monospace; font-size: 1rem; }
+        
+        /* 图表容器样式 */
+        #chart-container { height: 400px; width: 100%; }
+        select { background-color: #010409; color: #c9d1d9; border: 1px solid #30363d; padding: 4px 8px; border-radius: 4px; outline: none; cursor: pointer; }
     </style>
 </head>
 <body class="p-4 md:p-8">
@@ -38,6 +43,18 @@
             <button id="btn-1h" class="tab-btn" onclick="loadData('1h')">⚡ 1H Intraday Pool</button>
         </div>
 
+        <div class="mb-6 border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-lg font-bold text-white flex items-center gap-2">
+                    📈 战术弹道轨迹 (Net Score History)
+                </h2>
+                <select id="ticker-select" onchange="renderChart(this.value)">
+                    <option value="">Loading Signals...</option>
+                </select>
+            </div>
+            <div id="chart-container"></div>
+        </div>
+
         <div class="overflow-x-auto border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl">
             <table id="data-table">
                 <thead id="table-head"></thead>
@@ -49,6 +66,67 @@
     </div>
 
     <script>
+        // ==========================================
+        // 📊 图表引擎全局变量
+        // ==========================================
+        let chart = null;
+        let histogramSeries = null;
+        let currentHistoryData = [];
+
+        // 初始化 TradingView 引擎
+        function initChart() {
+            const container = document.getElementById('chart-container');
+            chart = LightweightCharts.createChart(container, {
+                layout: { background: { type: 'solid', color: '#161b22' }, textColor: '#8b949e' },
+                grid: { vertLines: { color: '#30363d' }, horzLines: { color: '#30363d' } },
+                timeScale: { timeVisible: true, borderColor: '#30363d' },
+                rightPriceScale: { borderColor: '#30363d' },
+            });
+
+            histogramSeries = chart.addHistogramSeries({
+                base: 0, // 0 轴为基准界限
+                priceFormat: { type: 'volume' },
+                priceScaleId: '', 
+            });
+
+            window.addEventListener('resize', () => {
+                chart.resize(container.clientWidth, 400);
+            });
+        }
+
+        // 渲染指定的标的曲线
+        function renderChart(ticker) {
+            if (!ticker || currentHistoryData.length === 0) return;
+
+            const chartData = [];
+            currentHistoryData.forEach(snap => {
+                const sig = snap.signals.find(s => s.ticker === ticker);
+                if (sig) {
+                    const score = sig.net_score;
+                    // 绿色=多头，红色=空头，灰色=纠缠
+                    const color = score > 0 ? 'rgba(63, 185, 80, 0.8)' : (score < 0 ? 'rgba(248, 81, 73, 0.8)' : 'rgba(139, 148, 158, 0.8)');
+                    
+                    // 将 "2026-04-20 15:15:40" 转换为 Unix 时间戳
+                    // 加上 'Z' 强制按 UTC 解析，防止本地浏览器时区干扰相对走势
+                    const dateStr = snap.timestamp.replace(' ', 'T') + 'Z';
+                    const unixTime = Math.floor(new Date(dateStr).getTime() / 1000);
+                    
+                    // 防重装载
+                    if (!chartData.find(d => d.time === unixTime)) {
+                        chartData.push({ time: unixTime, value: score, color: color });
+                    }
+                }
+            });
+
+            // 按时间严格排序
+            chartData.sort((a, b) => a.time - b.time);
+            histogramSeries.setData(chartData);
+            chart.timeScale().fitContent();
+        }
+
+        // ==========================================
+        // 📡 数据总线 (获取 Consensus 与 History)
+        // ==========================================
         async function fetchGlobalTimestamps() {
             const bust = new Date().getTime();
             ['1d', '1h'].forEach(async (tf) => {
@@ -62,10 +140,8 @@
             });
         }
 
-        // 核心修正逻辑：将 XM 代码映射为 "代码 (标签)" 格式
         function cleanStatus(val) {
             if (!val || val.includes('✅')) return '<span class="text-[#3fb950]">OK</span>';
-            
             const match = val.match(/XM(\d)/);
             if (match) {
                 const code = match[0];
@@ -78,23 +154,26 @@
             return val;
         }
 
+        // 核心装载函数：切换 Tab 时，同时更新表格和图表
         async function loadData(timeframe) {
             document.getElementById('btn-1d').classList.toggle('active', timeframe === '1d');
             document.getElementById('btn-1h').classList.toggle('active', timeframe === '1h');
             
             const thead = document.getElementById('table-head');
             const tbody = document.getElementById('table-body');
+            const bust = new Date().getTime();
 
+            // 1. 刷新表格结构
             if (timeframe === '1d') {
                 thead.innerHTML = `<tr><th>Asset</th><th>Total Runs</th><th class="long">Long</th><th class="short">Short</th><th class="neutral">Neutral</th><th>Net Score</th></tr>`;
             } else {
                 thead.innerHTML = `<tr><th>Asset</th><th>Net Score</th><th>T20 (3D)</th><th>T50 (1W)</th><th>T100 (0.5M)</th><th>T200 (1M)</th></tr>`;
             }
-            
             tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8">📡 Fetching ${timeframe.toUpperCase()}...</td></tr>`;
             
+            // 2. 抓取 Consensus 数据 (用于表格)
             try {
-                const response = await fetch(`consensus_${timeframe}.json?t=${new Date().getTime()}`);
+                const response = await fetch(`consensus_${timeframe}.json?t=${bust}`);
                 const data = await response.json();
                 tbody.innerHTML = ''; 
                 
@@ -116,10 +195,40 @@
             } catch (error) {
                 tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8 text-[#f85149]">Matrix Offline</td></tr>`;
             }
+
+            // 3. 抓取 History 数据 (用于图表)
+            try {
+                const histResponse = await fetch(`history_${timeframe}.json?t=${bust}`);
+                currentHistoryData = await histResponse.json();
+                
+                // 提取标的列表填充下拉菜单
+                const select = document.getElementById('ticker-select');
+                const tickers = new Set();
+                currentHistoryData.forEach(snap => snap.signals.forEach(sig => tickers.add(sig.ticker)));
+                
+                select.innerHTML = '';
+                if (tickers.size > 0) {
+                    Array.from(tickers).sort().forEach(t => {
+                        const opt = document.createElement('option');
+                        opt.value = t; opt.textContent = `🎯 ${t}`;
+                        select.appendChild(opt);
+                    });
+                    // 渲染第一个标的
+                    renderChart(select.value);
+                } else {
+                    select.innerHTML = '<option value="">暂无历史轨迹</option>';
+                    histogramSeries.setData([]);
+                }
+            } catch (error) {
+                document.getElementById('ticker-select').innerHTML = '<option value="">📡 等待历史数据累积...</option>';
+                if(histogramSeries) histogramSeries.setData([]);
+            }
         }
 
+        // 🚀 启动序列
+        initChart();
         fetchGlobalTimestamps();
-        loadData('1d');
+        loadData('1d'); // 默认加载 1D
     </script>
 </body>
 </html>
