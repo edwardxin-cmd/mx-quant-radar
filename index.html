@@ -66,7 +66,7 @@
             <div class="border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4">
                 <div class="flex justify-between items-center mb-4">
                     <h2 class="text-lg font-bold text-white">🔥 Persistence Matrix (动能寿命矩阵)</h2>
-                    <span class="text-xs text-[#8b949e]">D0 = First Appearance</span>
+                    <span class="text-xs text-[#8b949e]">D-0 = Current Snapshot</span>
                 </div>
                 <div class="matrix-scroll">
                     <div id="matrix-axis" class="flex pl-[100px] mb-2"></div>
@@ -136,30 +136,25 @@
                 });
             });
 
-            // 3. 执行 D0 物理对齐：找到它首次出现的索引 (startIndex)
-            let maxDays = 0;
+                // 3. 绝对时间对齐：不再做物理左移，保留完整的时间序列，最右侧强制为最新快照 (D-0)
             const alignedRows = [];
+            const maxDays = totalSnaps;
             
             Object.keys(tickerData).forEach(ticker => {
-                const scores = tickerData[ticker];
-                const startIndex = scores.findIndex(s => s !== null);
+                // scores 已经是按时间顺序排列好的完整长度数组 (长度 = totalSnaps)
+                const scores = tickerData[ticker]; 
                 
-                if (startIndex !== -1) {
-                    // 截取从 startIndex 到最后的所有数据，这就是它的 D0, D1, D2...
-                    const alignedPath = scores.slice(startIndex);
-                    maxDays = Math.max(maxDays, alignedPath.length);
-                    // 记录最新的得分用于排序
-                    const lastValidScore = alignedPath.slice().reverse().find(s => s !== null) || 0;
-                    alignedRows.push({ ticker, path: alignedPath, lastScore: lastValidScore });
-                }
+                // 记录最新的得分用于排序（从右往左找第一个有效值）
+                const lastValidScore = scores.slice().reverse().find(s => s !== null) || 0;
+                alignedRows.push({ ticker, path: scores, lastScore: lastValidScore });
             });
 
             // 4. 按动能强度降序排列 (最新分数绝对值越大越靠前)
             alignedRows.sort((a, b) => Math.abs(b.lastScore) - Math.abs(a.lastScore));
 
-            // 5. 渲染表头 X 轴
-            for (let i = 0; i < maxDays; i++) {
-                axis.innerHTML += `<div class="axis-label">D${i}</div>`;
+            // 5. 渲染表头 X 轴 (倒序排列：最左侧是 D-N，最右侧是 D-0)
+            for (let i = maxDays - 1; i >= 0; i--) {
+                axis.innerHTML += `<div class="axis-label">D-${i}</div>`;
             }
 
             // 6. 渲染热力网格
@@ -169,7 +164,7 @@
                 
                 row.path.forEach(score => {
                     let styleClass = 'score-zero';
-                    let displayScore = '-'; // 默认无数据显示横杠
+                    let displayScore = '-'; // 历史未出现的数据显示为空白横杠
                     
                     if (score !== null) {
                         if (score >= 6) styleClass = 'score-p6';
