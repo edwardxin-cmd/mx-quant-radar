@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MX-Unified Dynamics | 全息战术沙盘</title>
+    <title>MX-Unified Dynamics | Quant Radar (量化沙盘)</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.1.1/dist/lightweight-charts.standalone.production.js"></script>
     <style>
         body { background-color: #0d1117; color: #c9d1d9; font-family: 'Courier New', Courier, monospace; overflow-x: hidden; }
         .tab-btn { padding: 10px 20px; border: 1px solid #30363d; border-radius: 6px; cursor: pointer; transition: 0.3s; background: #161b22; }
@@ -16,22 +16,33 @@
         .neutral { color: #8b949e; }
         table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
         th, td { padding: 12px; text-align: left; border-bottom: 1px solid #30363d; }
-        th { background-color: #161b22; color: #8b949e; font-weight: normal; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; }
+        th { background-color: #161b22; color: #8b949e; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; }
         tr:hover { background-color: #1f242c; }
         .math-box { background: #010409; padding: 4px 8px; border-radius: 4px; border: 1px solid #30363d; font-family: monospace; font-size: 1rem; }
         
-        #chart-container { height: 400px; width: 100%; }
-        select { background-color: #010409; color: #c9d1d9; border: 1px solid #30363d; padding: 4px 8px; border-radius: 4px; outline: none; cursor: pointer; }
+        #chart-container { height: 350px; width: 100%; }
+        select { background-color: #010409; color: #c9d1d9; border: 1px solid #30363d; padding: 6px 10px; border-radius: 4px; outline: none; cursor: pointer; font-weight: bold; }
         
-        /* 🚀 轮动矩阵专属样式 */
-        #rotation-matrix::-webkit-scrollbar { height: 8px; }
-        #rotation-matrix::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
-        .rotation-card { min-width: 260px; background: #010409; border: 1px solid #30363d; border-radius: 8px; padding: 12px; scroll-snap-align: start; flex-shrink: 0; }
+        /* 🚀 T0 动能矩阵专属样式 (T0 Matrix Styles) */
+        .matrix-scroll { overflow-x: auto; scroll-behavior: smooth; padding-bottom: 10px; }
+        .matrix-row { display: flex; align-items: center; border-bottom: 1px solid #1f242c; padding: 4px 0; }
+        .matrix-row:hover { background-color: #1f242c; }
+        .matrix-label { width: 90px; flex-shrink: 0; font-size: 13px; font-weight: bold; color: #c9d1d9; cursor: pointer; text-align: right; padding-right: 12px; transition: 0.2s;}
+        .matrix-label:hover { color: #58a6ff; }
+        .matrix-cell { width: 34px; height: 26px; margin: 2px; flex-shrink: 0; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; transition: 0.3s; }
+        .axis-label { width: 34px; margin: 2px; text-align: center; font-size: 11px; color: #8b949e; flex-shrink: 0; font-weight: bold;}
         
-        .badge-6 { background: rgba(63, 185, 80, 0.2); color: #3fb950; border: 1px solid rgba(63, 185, 80, 0.4); padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; display: inline-block; margin: 2px; }
-        .badge-5 { background: rgba(63, 185, 80, 0.1); color: #7ee787; border: 1px solid rgba(63, 185, 80, 0.2); padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; display: inline-block; margin: 2px; }
-        .badge-n6 { background: rgba(248, 81, 73, 0.2); color: #f85149; border: 1px solid rgba(248, 81, 73, 0.4); padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; display: inline-block; margin: 2px; }
-        .badge-n5 { background: rgba(248, 81, 73, 0.1); color: #ff7b72; border: 1px solid rgba(248, 81, 73, 0.2); padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; display: inline-block; margin: 2px; }
+        /* 热力图色阶 (Heatmap Colors) */
+        .score-ultra-long { background-color: #3fb950; color: #fff; box-shadow: 0 0 8px rgba(63, 185, 80, 0.4); }
+        .score-strong-long { background-color: #2ea043; color: #fff; }
+        .score-weak-long { background-color: rgba(35, 134, 54, 0.4); color: #c9d1d9; }
+        .score-neutral { background-color: #21262d; color: #8b949e; border: 1px solid #30363d; }
+        .score-weak-short { background-color: rgba(218, 54, 51, 0.4); color: #c9d1d9; }
+        .score-strong-short { background-color: #f85149; color: #fff; }
+        .score-ultra-short { background-color: #ff7b72; color: #000; box-shadow: 0 0 8px rgba(248, 81, 73, 0.4); }
+        
+        ::-webkit-scrollbar { height: 8px; }
+        ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
     </style>
 </head>
 <body class="p-4 md:p-8">
@@ -39,44 +50,45 @@
     <div class="max-w-7xl mx-auto">
         <div class="border-b border-[#30363d] pb-4 mb-6">
             <h1 class="text-3xl font-bold text-white flex items-center gap-3">
-                🛸 MX-Unified Dynamics <span class="text-xs bg-[#238636] px-2 py-1 rounded text-white font-bold tracking-widest">LIVE</span>
+                🛸 MX-Unified Dynamics <span class="text-xs bg-[#238636] px-2 py-1 rounded text-white font-bold tracking-widest">LIVE EDGE</span>
             </h1>
             <div class="flex flex-col md:flex-row gap-4 mt-4 bg-[#161b22] p-3 rounded border border-[#30363d]">
-                <div id="time-1d" class="text-xs">🌞 1D 同步: <span class="text-[#8b949e]">Scanning...</span></div>
-                <div id="time-1h" class="text-xs md:border-l md:border-[#30363d] md:pl-4">⚡ 1H 同步: <span class="text-[#8b949e]">Scanning...</span></div>
+                <div id="time-1d" class="text-xs">🌞 1D Sync (日线同步): <span class="text-[#8b949e]">Scanning...</span></div>
+                <div id="time-1h" class="text-xs md:border-l md:border-[#30363d] md:pl-4">⚡ 1H Sync (小时同步): <span class="text-[#8b949e]">Scanning...</span></div>
             </div>
         </div>
 
         <div class="flex gap-4 mb-6">
-            <button id="btn-1d" class="tab-btn active" onclick="loadData('1d')">🌞 1D Macro Pool</button>
-            <button id="btn-1h" class="tab-btn" onclick="loadData('1h')">⚡ 1H Intraday Pool</button>
+            <button id="btn-1d" class="tab-btn active" onclick="loadData('1d')">🌞 1D Macro Pool (宏观大局)</button>
+            <button id="btn-1h" class="tab-btn" onclick="loadData('1h')">⚡ 1H Intraday Pool (日内战术)</button>
         </div>
 
-        <div class="mb-6 border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4 hidden" id="rotation-container">
-            <h2 class="text-lg font-bold text-white flex items-center gap-2 mb-4">
-                🔥 资金轮动矩阵 (Sector Rotation Map)
-            </h2>
-            <div id="rotation-matrix" class="flex overflow-x-auto gap-4 pb-2 snap-x">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6 hidden" id="rotation-container">
+            <div class="border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-lg font-bold text-white flex items-center gap-2">🔥 Persistence Matrix (动能寿命矩阵)</h2>
+                    <span class="text-xs text-[#8b949e]">Trigger: |Score| ≥ 4 (T0 Aligned)</span>
+                </div>
+                <div class="matrix-scroll">
+                    <div id="matrix-axis" class="flex pl-[90px] mb-2"></div>
+                    <div id="matrix-body" class="flex flex-col"></div>
+                </div>
             </div>
-        </div>
 
-        <div class="mb-6 border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4">
-            <div class="flex justify-between items-center mb-4">
-                <h2 class="text-lg font-bold text-white flex items-center gap-2">
-                    📈 单兵动能推演 (Net Score History)
-                </h2>
-                <select id="ticker-select" onchange="renderChart(this.value)">
-                    <option value="">Loading Signals...</option>
-                </select>
+            <div class="border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-lg font-bold text-white flex items-center gap-2">📈 Absolute Trajectory (绝对历史轨迹)</h2>
+                    <select id="ticker-select" onchange="renderChart(this.value)"></select>
+                </div>
+                <div id="chart-container"></div>
             </div>
-            <div id="chart-container"></div>
         </div>
 
         <div class="overflow-x-auto border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl">
             <table id="data-table">
                 <thead id="table-head"></thead>
                 <tbody id="table-body">
-                    <tr><td colspan="6" class="text-center py-8">📡 Connecting to global edge network...</td></tr>
+                    <tr><td colspan="6" class="text-center py-8">📡 Connecting to global edge network... (连接全球节点中)</td></tr>
                 </tbody>
             </table>
         </div>
@@ -91,90 +103,107 @@
             const container = document.getElementById('chart-container');
             chart = LightweightCharts.createChart(container, {
                 layout: { background: { type: 'solid', color: '#161b22' }, textColor: '#8b949e' },
-                grid: { vertLines: { color: '#30363d' }, horzLines: { color: '#30363d' } },
-                timeScale: { timeVisible: true, borderColor: '#30363d' },
+                grid: { vertLines: { visible: false }, horzLines: { color: '#30363d' } },
+                timeScale: { borderColor: '#30363d' },
                 rightPriceScale: { borderColor: '#30363d' },
             });
-
-            histogramSeries = chart.addHistogramSeries({
-                base: 0, 
-                priceFormat: { type: 'volume' },
-            });
-
-            window.addEventListener('resize', () => {
-                chart.resize(container.clientWidth, 400);
-            });
+            histogramSeries = chart.addHistogramSeries({ base: 0 });
+            window.addEventListener('resize', () => chart.resize(container.clientWidth, 350));
         }
 
-        function renderRotationMatrix() {
-            const container = document.getElementById('rotation-matrix');
+        // 🚀 核心：渲染 T0 动能寿命矩阵 (T0 Persistence Matrix)
+        function renderPersistenceMatrix() {
+            const body = document.getElementById('matrix-body');
+            const axis = document.getElementById('matrix-axis');
             const wrapper = document.getElementById('rotation-container');
-            container.innerHTML = '';
-            
+            body.innerHTML = ''; axis.innerHTML = '';
+
             if (!currentHistoryData || currentHistoryData.length === 0) {
                 wrapper.classList.add('hidden');
                 return;
             }
             wrapper.classList.remove('hidden');
 
+            const trajectories = {};
             currentHistoryData.forEach(snap => {
-                const rawTime = snap.timestamp.split(' ')[0]; 
-                
-                const longs6 = snap.signals.filter(s => s.net_score >= 6).map(s => s.ticker);
-                const longs5 = snap.signals.filter(s => s.net_score === 5).map(s => s.ticker);
-                const shorts6 = snap.signals.filter(s => s.net_score <= -6).map(s => s.ticker);
-                const shorts5 = snap.signals.filter(s => s.net_score === -5).map(s => s.ticker);
-                
-                let html = `<div class="rotation-card">`;
-                html += `<div class="text-[#c9d1d9] border-b border-[#30363d] pb-2 mb-3 font-bold tracking-wider">📅 ${rawTime}</div>`;
-                
-                html += `<div class="mb-3"><div class="text-xs text-[#8b949e] mb-1 uppercase tracking-widest">Bullish Vanguard</div>`;
-                if (longs6.length > 0 || longs5.length > 0) {
-                    html += longs6.map(t => `<span class="badge-6" title="+6 Full Consensus">${t}</span>`).join('');
-                    html += longs5.map(t => `<span class="badge-5" title="+5 Strong Consensus">${t}</span>`).join('');
-                } else {
-                    html += `<span class="text-xs text-[#484f58]">No targets</span>`;
-                }
-                html += `</div>`;
-
-                html += `<div><div class="text-xs text-[#8b949e] mb-1 uppercase tracking-widest">Bearish Targets</div>`;
-                if (shorts6.length > 0 || shorts5.length > 0) {
-                    html += shorts6.map(t => `<span class="badge-n6" title="-6 Full Short">${t}</span>`).join('');
-                    html += shorts5.map(t => `<span class="badge-n5" title="-5 Strong Short">${t}</span>`).join('');
-                } else {
-                    html += `<span class="text-xs text-[#484f58]">No targets</span>`;
-                }
-                html += `</div></div>`;
-                container.innerHTML += html;
+                snap.signals.forEach(sig => {
+                    if (!trajectories[sig.ticker]) trajectories[sig.ticker] = [];
+                    trajectories[sig.ticker].push({ t: snap.timestamp, s: sig.net_score });
+                });
             });
 
-            setTimeout(() => { container.scrollLeft = container.scrollWidth; }, 100);
+            const alignedData = [];
+            let maxDuration = 0;
+
+            Object.keys(trajectories).forEach(ticker => {
+                const history = trajectories[ticker].sort((a, b) => new Date(a.t) - new Date(b.t));
+                // 阈值为绝对值 >= 4 才会记录进矩阵
+                const day0Index = history.findIndex(h => Math.abs(h.s) >= 4); 
+                
+                if (day0Index !== -1) {
+                    const relativePath = history.slice(day0Index).map(h => h.s);
+                    maxDuration = Math.max(maxDuration, relativePath.length);
+                    alignedData.push({ ticker, path: relativePath });
+                }
+            });
+
+            // 按最后一次得分的动能强度排序
+            alignedData.sort((a, b) => {
+                const lastA = a.path[a.path.length - 1];
+                const lastB = b.path[b.path.length - 1];
+                return Math.abs(lastB) - Math.abs(lastA);
+            });
+
+            for (let i = 0; i < maxDuration; i++) {
+                axis.innerHTML += `<div class="axis-label">D${i}</div>`;
+            }
+
+            alignedData.forEach(row => {
+                let rowHtml = `<div class="matrix-row">`;
+                rowHtml += `<div class="matrix-label" onclick="updateChartFromMatrix('${row.ticker}')" title="Click to view chart">${row.ticker}</div>`;
+                
+                row.path.forEach(score => {
+                    let styleClass = 'score-neutral';
+                    if (score >= 6) styleClass = 'score-ultra-long';
+                    else if (score >= 4) styleClass = 'score-strong-long';
+                    else if (score > 0) styleClass = 'score-weak-long';
+                    else if (score <= -6) styleClass = 'score-ultra-short';
+                    else if (score <= -4) styleClass = 'score-strong-short';
+                    else if (score < 0) styleClass = 'score-weak-short';
+                    
+                    rowHtml += `<div class="matrix-cell ${styleClass}">${score > 0 ? '+'+score : score}</div>`;
+                });
+                rowHtml += `</div>`;
+                body.innerHTML += rowHtml;
+            });
+        }
+
+        // 联动功能：点击矩阵文字，切换图表
+        window.updateChartFromMatrix = function(ticker) {
+            document.getElementById('ticker-select').value = ticker;
+            renderChart(ticker);
         }
 
         function renderChart(ticker) {
             if (!ticker || currentHistoryData.length === 0) return;
-
             const chartData = [];
             currentHistoryData.forEach(snap => {
                 const sig = snap.signals.find(s => s.ticker === ticker);
                 if (sig) {
                     const score = sig.net_score;
-                    const color = score > 0 ? 'rgba(63, 185, 80, 0.8)' : (score < 0 ? 'rgba(248, 81, 73, 0.8)' : 'rgba(139, 148, 158, 0.8)');
-                    // 极致防弹的日期解析
-                    const rawDate = snap.timestamp.replace(/-/g, '/');
-                    const dateObj = new Date(rawDate);
-                    if (!isNaN(dateObj.getTime())) {
-                        const unixTime = Math.floor(dateObj.getTime() / 1000);
-                        if (!chartData.find(d => d.time === unixTime)) {
-                            chartData.push({ time: unixTime, value: score, color: color });
-                        }
+                    const color = score > 0 ? 'rgba(63, 185, 80, 0.7)' : (score < 0 ? 'rgba(248, 81, 73, 0.7)' : 'rgba(139, 148, 158, 0.5)');
+                    const cleanDate = snap.timestamp.split(' ')[0]; 
+                    if (!chartData.find(d => d.time === cleanDate)) {
+                        chartData.push({ time: cleanDate, value: score, color: color });
                     }
                 }
             });
-
-            chartData.sort((a, b) => a.time - b.time);
-            histogramSeries.setData(chartData);
-            chart.timeScale().fitContent();
+            chartData.sort((a, b) => new Date(a.time) - new Date(b.time));
+            
+            try {
+                histogramSeries.setData(chartData);
+                chart.timeScale().fitContent();
+            } catch(e) { console.warn("Chart render skipped due to data mismatch", e); }
         }
 
         async function fetchGlobalTimestamps() {
@@ -188,11 +217,11 @@
                             const data = JSON.parse(textData);
                             const timeEl = document.getElementById(`time-${tf}`);
                             if(timeEl && data.update_time) {
-                                timeEl.innerHTML = `${tf === '1d' ? '🌞 1D' : '⚡ 1H'} 同步: <strong class="text-[#58a6ff]">${data.update_time}</strong>`;
+                                timeEl.innerHTML = `🌞 ${tf.toUpperCase()} Sync: <strong class="text-[#58a6ff]">${data.update_time}</strong>`;
                             }
                         }
                     }
-                } catch(e) { console.warn(`Failed to fetch timestamp for ${tf}`); }
+                } catch(e) { }
             }
         }
 
@@ -202,9 +231,9 @@
             if (match) {
                 const code = match[0];
                 let label = '';
-                if (code === 'XM2') label = ' (Momentum)';
-                else if (code === 'XM3') label = ' (Holding)';
-                else if (code === 'XM4') label = ' (Force)';
+                if (code === 'XM2') label = ' (Vel)';
+                else if (code === 'XM3') label = ' (Stru)';
+                else if (code === 'XM4') label = ' (Frc)';
                 return `<span class="short">${code}${label}</span>`;
             }
             return val;
@@ -218,15 +247,15 @@
             const tbody = document.getElementById('table-body');
             const bust = new Date().getTime();
 
-            // 1. 设置表头
+            // 双语表头
             if (timeframe === '1d') {
-                thead.innerHTML = `<tr><th>Asset</th><th>Total Runs</th><th class="long">Long</th><th class="short">Short</th><th class="neutral">Neutral</th><th>Net Score</th></tr>`;
+                thead.innerHTML = `<tr><th>Asset (资产)</th><th>Total Runs (测算数)</th><th class="long">Long (多)</th><th class="short">Short (空)</th><th class="neutral">Neutral (平)</th><th>Net Score (净动能)</th></tr>`;
             } else {
-                thead.innerHTML = `<tr><th>Asset</th><th>Net Score</th><th>T20 (3D)</th><th>T50 (1W)</th><th>T100 (0.5M)</th><th>T200 (1M)</th></tr>`;
+                thead.innerHTML = `<tr><th>Asset (资产)</th><th>Net Score (净动能)</th><th>T20 (3D)</th><th>T50 (1W)</th><th>T100 (0.5M)</th><th>T200 (1M)</th></tr>`;
             }
-            tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8">📡 Fetching ${timeframe.toUpperCase()}...</td></tr>`;
+            tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8">📡 Fetching ${timeframe.toUpperCase()} Data... (拉取数据中)</td></tr>`;
             
-            // 2. 抓取快照表格数据
+            // 抓取当前共识
             try {
                 const response = await fetch(`consensus_${timeframe}.json?t=${bust}`);
                 if (!response.ok) throw new Error("Consensus missing");
@@ -251,10 +280,10 @@
                     tbody.appendChild(tr);
                 });
             } catch (error) {
-                tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8 text-[#f85149]">Matrix Offline (等待生成 ${timeframe} 数据)</td></tr>`;
+                tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8 text-[#f85149]">Matrix Offline | 未找到 ${timeframe} 数据，请确认已上传 JSON 文件</td></tr>`;
             }
 
-            // 3. 抓取历史矩阵数据 (防错装甲版)
+            // 抓取历史矩阵并渲染图表 (完美容错)
             try {
                 const histResponse = await fetch(`history_${timeframe}.json?t=${bust}`);
                 if (!histResponse.ok) throw new Error("History missing");
@@ -262,7 +291,7 @@
                 if (!rawText || rawText.trim() === '') throw new Error("Empty history");
                 
                 currentHistoryData = JSON.parse(rawText);
-                renderRotationMatrix();
+                renderPersistenceMatrix();
 
                 const select = document.getElementById('ticker-select');
                 const tickers = new Set();
@@ -281,15 +310,14 @@
                 }
             } catch (error) {
                 currentHistoryData = [];
-                document.getElementById('ticker-select').innerHTML = '<option value="">📡 等待历史数据累积...</option>';
+                document.getElementById('ticker-select').innerHTML = '<option value="">📡 Waiting for historical data... (等待历史数据累积...)</option>';
                 if(histogramSeries) histogramSeries.setData([]);
                 document.getElementById('rotation-container').classList.add('hidden');
             }
         }
 
-        // 🛡️ 终极启动序列：等待页面渲染完毕再点火，彻底消灭“卡死”
         window.onload = () => {
-            console.log("🛸 系统核心已挂载，激活物理探测...");
+            console.log("🛸 Core Mounted. Engaging Scanners... (系统挂载完毕)");
             initChart();
             fetchGlobalTimestamps();
             
@@ -297,7 +325,6 @@
                 loadData('1d');
             }, 100);
 
-            // 每分钟刷新同步时间
             setInterval(() => fetchGlobalTimestamps(), 60000);
         };
     </script>
