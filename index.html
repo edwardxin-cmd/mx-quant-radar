@@ -3,44 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MX-Unified Dynamics | Quant Radar (量化沙盘)</title>
+    <title>MX-Unified Dynamics | Momentum Persistence Matrix</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.1.1/dist/lightweight-charts.standalone.production.js"></script>
     <style>
         body { background-color: #0d1117; color: #c9d1d9; font-family: 'Courier New', Courier, monospace; overflow-x: hidden; }
         .tab-btn { padding: 10px 20px; border: 1px solid #30363d; border-radius: 6px; cursor: pointer; transition: 0.3s; background: #161b22; }
         .tab-btn.active { background: #238636; color: white; border-color: #2ea043; font-weight: bold; }
-        .tab-btn:hover:not(.active) { background: #21262d; }
         .long { color: #3fb950; font-weight: bold; }
         .short { color: #f85149; font-weight: bold; }
         .neutral { color: #8b949e; }
         table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
         th, td { padding: 12px; text-align: left; border-bottom: 1px solid #30363d; }
         th { background-color: #161b22; color: #8b949e; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; }
-        tr:hover { background-color: #1f242c; }
         .math-box { background: #010409; padding: 4px 8px; border-radius: 4px; border: 1px solid #30363d; font-family: monospace; font-size: 1rem; }
         
         #chart-container { height: 350px; width: 100%; }
         select { background-color: #010409; color: #c9d1d9; border: 1px solid #30363d; padding: 6px 10px; border-radius: 4px; outline: none; cursor: pointer; font-weight: bold; }
         
-        /* 🚀 T0 动能矩阵专属样式 (T0 Matrix Styles) */
+        /* 🚀 D0 Aligned Matrix Styles */
         .matrix-scroll { overflow-x: auto; scroll-behavior: smooth; padding-bottom: 10px; }
         .matrix-row { display: flex; align-items: center; border-bottom: 1px solid #1f242c; padding: 4px 0; }
         .matrix-row:hover { background-color: #1f242c; }
-        .matrix-label { width: 90px; flex-shrink: 0; font-size: 13px; font-weight: bold; color: #c9d1d9; cursor: pointer; text-align: right; padding-right: 12px; transition: 0.2s;}
+        .matrix-label { width: 100px; flex-shrink: 0; font-size: 13px; font-weight: bold; color: #c9d1d9; cursor: pointer; text-align: right; padding-right: 12px;}
         .matrix-label:hover { color: #58a6ff; }
-        .matrix-cell { width: 34px; height: 26px; margin: 2px; flex-shrink: 0; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; transition: 0.3s; }
-        .axis-label { width: 34px; margin: 2px; text-align: center; font-size: 11px; color: #8b949e; flex-shrink: 0; font-weight: bold;}
+        .matrix-cell { width: 36px; height: 28px; margin: 2px; flex-shrink: 0; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: bold; }
+        .axis-label { width: 36px; margin: 2px; text-align: center; font-size: 11px; color: #8b949e; flex-shrink: 0; font-weight: bold;}
         
-        /* 热力图色阶 (Heatmap Colors) */
-        .score-ultra-long { background-color: #3fb950; color: #fff; box-shadow: 0 0 8px rgba(63, 185, 80, 0.4); }
-        .score-strong-long { background-color: #2ea043; color: #fff; }
-        .score-weak-long { background-color: rgba(35, 134, 54, 0.4); color: #c9d1d9; }
-        .score-neutral { background-color: #21262d; color: #8b949e; border: 1px solid #30363d; }
-        .score-weak-short { background-color: rgba(218, 54, 51, 0.4); color: #c9d1d9; }
-        .score-strong-short { background-color: #f85149; color: #fff; }
-        .score-ultra-short { background-color: #ff7b72; color: #000; box-shadow: 0 0 8px rgba(248, 81, 73, 0.4); }
-        
+        /* Heatmap Intensity */
+        .score-p6 { background-color: #238636; color: #fff; box-shadow: 0 0 8px rgba(35, 134, 54, 0.5); }
+        .score-p4 { background-color: #2ea043; color: #fff; opacity: 0.8; }
+        .score-p1 { background-color: rgba(46, 160, 67, 0.3); color: #c9d1d9; }
+        .score-zero { background-color: #21262d; color: #8b949e; }
+        .score-n1 { background-color: rgba(248, 81, 73, 0.15); color: #c9d1d9; }
+        .score-n4 { background-color: #da3633; color: #fff; opacity: 0.8; }
+        .score-n6 { background-color: #f85149; color: #fff; box-shadow: 0 0 8px rgba(248, 81, 73, 0.5); }
+
         ::-webkit-scrollbar { height: 8px; }
         ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
     </style>
@@ -48,36 +46,37 @@
 <body class="p-4 md:p-8">
 
     <div class="max-w-7xl mx-auto">
-        <div class="border-b border-[#30363d] pb-4 mb-6">
-            <h1 class="text-3xl font-bold text-white flex items-center gap-3">
-                🛸 MX-Unified Dynamics <span class="text-xs bg-[#238636] px-2 py-1 rounded text-white font-bold tracking-widest">LIVE EDGE</span>
-            </h1>
-            <div class="flex flex-col md:flex-row gap-4 mt-4 bg-[#161b22] p-3 rounded border border-[#30363d]">
-                <div id="time-1d" class="text-xs">🌞 1D Sync (日线同步): <span class="text-[#8b949e]">Scanning...</span></div>
-                <div id="time-1h" class="text-xs md:border-l md:border-[#30363d] md:pl-4">⚡ 1H Sync (小时同步): <span class="text-[#8b949e]">Scanning...</span></div>
+        <div class="border-b border-[#30363d] pb-4 mb-6 flex flex-col md:flex-row md:justify-between md:items-end gap-4">
+            <div>
+                <h1 class="text-3xl font-bold text-white flex items-center gap-3">
+                    🛸 MX-Unified Dynamics <span class="text-xs bg-[#238636] px-2 py-1 rounded text-white tracking-widest uppercase">Global Edge</span>
+                </h1>
+                <div class="mt-4 text-xs text-[#8b949e]">
+                    🌞 1D Sync (日线同步): <span id="time-1d" class="text-[#58a6ff]">Scanning...</span> | 
+                    ⚡ 1H Sync (小时同步): <span id="time-1h" class="text-[#58a6ff]">Scanning...</span>
+                </div>
             </div>
-        </div>
-
-        <div class="flex gap-4 mb-6">
-            <button id="btn-1d" class="tab-btn active" onclick="loadData('1d')">🌞 1D Macro Pool (宏观大局)</button>
-            <button id="btn-1h" class="tab-btn" onclick="loadData('1h')">⚡ 1H Intraday Pool (日内战术)</button>
+            <div class="flex gap-2">
+                <button id="btn-1d" class="tab-btn active" onclick="loadData('1d')">1D Macro (宏观)</button>
+                <button id="btn-1h" class="tab-btn" onclick="loadData('1h')">1H Intraday (日内)</button>
+            </div>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6 hidden" id="rotation-container">
             <div class="border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4">
                 <div class="flex justify-between items-center mb-4">
-                    <h2 class="text-lg font-bold text-white flex items-center gap-2">🔥 Persistence Matrix (动能寿命矩阵)</h2>
-                    <span class="text-xs text-[#8b949e]">Trigger: |Score| ≥ 4 (T0 Aligned)</span>
+                    <h2 class="text-lg font-bold text-white">🔥 Persistence Matrix (动能寿命矩阵)</h2>
+                    <span class="text-xs text-[#8b949e]">D0 = First Appearance</span>
                 </div>
                 <div class="matrix-scroll">
-                    <div id="matrix-axis" class="flex pl-[90px] mb-2"></div>
+                    <div id="matrix-axis" class="flex pl-[100px] mb-2"></div>
                     <div id="matrix-body" class="flex flex-col"></div>
                 </div>
             </div>
 
             <div class="border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4">
                 <div class="flex justify-between items-center mb-4">
-                    <h2 class="text-lg font-bold text-white flex items-center gap-2">📈 Absolute Trajectory (绝对历史轨迹)</h2>
+                    <h2 class="text-lg font-bold text-white">📈 Trajectory (绝对轨迹)</h2>
                     <select id="ticker-select" onchange="renderChart(this.value)"></select>
                 </div>
                 <div id="chart-container"></div>
@@ -88,16 +87,14 @@
             <table id="data-table">
                 <thead id="table-head"></thead>
                 <tbody id="table-body">
-                    <tr><td colspan="6" class="text-center py-8">📡 Connecting to global edge network... (连接全球节点中)</td></tr>
+                    <tr><td colspan="6" class="text-center py-8">📡 Connecting... (连接中)</td></tr>
                 </tbody>
             </table>
         </div>
     </div>
 
     <script>
-        let chart = null;
-        let histogramSeries = null;
-        let currentHistoryData = [];
+        let chart = null, histogramSeries = null, currentHistoryData = [];
 
         function initChart() {
             const container = document.getElementById('chart-container');
@@ -111,74 +108,89 @@
             window.addEventListener('resize', () => chart.resize(container.clientWidth, 350));
         }
 
-        // 🚀 核心：渲染 T0 动能寿命矩阵 (T0 Persistence Matrix)
+        // 🚀 D0 Alignment Engine (完全重构版：找到第一天强制视为D0)
         function renderPersistenceMatrix() {
             const body = document.getElementById('matrix-body');
             const axis = document.getElementById('matrix-axis');
             const wrapper = document.getElementById('rotation-container');
+            
             body.innerHTML = ''; axis.innerHTML = '';
-
             if (!currentHistoryData || currentHistoryData.length === 0) {
                 wrapper.classList.add('hidden');
                 return;
             }
             wrapper.classList.remove('hidden');
 
-            const trajectories = {};
-            currentHistoryData.forEach(snap => {
+            // 1. 确保快照按时间顺序排列
+            const snapshots = currentHistoryData.sort((a, b) => new Date(a.timestamp.split(' ')[0]) - new Date(b.timestamp.split(' ')[0]));
+            const totalSnaps = snapshots.length;
+
+            // 2. 构建每只股票在所有快照中的得分矩阵 (不存在则填入 null)
+            const tickerData = {};
+            snapshots.forEach((snap, snapIndex) => {
                 snap.signals.forEach(sig => {
-                    if (!trajectories[sig.ticker]) trajectories[sig.ticker] = [];
-                    trajectories[sig.ticker].push({ t: snap.timestamp, s: sig.net_score });
+                    if (!tickerData[sig.ticker]) {
+                        tickerData[sig.ticker] = new Array(totalSnaps).fill(null);
+                    }
+                    tickerData[sig.ticker][snapIndex] = sig.net_score;
                 });
             });
 
-            const alignedData = [];
-            let maxDuration = 0;
-
-            Object.keys(trajectories).forEach(ticker => {
-                const history = trajectories[ticker].sort((a, b) => new Date(a.t) - new Date(b.t));
-                // 阈值为绝对值 >= 4 才会记录进矩阵
-                const day0Index = history.findIndex(h => Math.abs(h.s) >= 4); 
+            // 3. 执行 D0 物理对齐：找到它首次出现的索引 (startIndex)
+            let maxDays = 0;
+            const alignedRows = [];
+            
+            Object.keys(tickerData).forEach(ticker => {
+                const scores = tickerData[ticker];
+                const startIndex = scores.findIndex(s => s !== null);
                 
-                if (day0Index !== -1) {
-                    const relativePath = history.slice(day0Index).map(h => h.s);
-                    maxDuration = Math.max(maxDuration, relativePath.length);
-                    alignedData.push({ ticker, path: relativePath });
+                if (startIndex !== -1) {
+                    // 截取从 startIndex 到最后的所有数据，这就是它的 D0, D1, D2...
+                    const alignedPath = scores.slice(startIndex);
+                    maxDays = Math.max(maxDays, alignedPath.length);
+                    // 记录最新的得分用于排序
+                    const lastValidScore = alignedPath.slice().reverse().find(s => s !== null) || 0;
+                    alignedRows.push({ ticker, path: alignedPath, lastScore: lastValidScore });
                 }
             });
 
-            // 按最后一次得分的动能强度排序
-            alignedData.sort((a, b) => {
-                const lastA = a.path[a.path.length - 1];
-                const lastB = b.path[b.path.length - 1];
-                return Math.abs(lastB) - Math.abs(lastA);
-            });
+            // 4. 按动能强度降序排列 (最新分数绝对值越大越靠前)
+            alignedRows.sort((a, b) => Math.abs(b.lastScore) - Math.abs(a.lastScore));
 
-            for (let i = 0; i < maxDuration; i++) {
+            // 5. 渲染表头 X 轴
+            for (let i = 0; i < maxDays; i++) {
                 axis.innerHTML += `<div class="axis-label">D${i}</div>`;
             }
 
-            alignedData.forEach(row => {
+            // 6. 渲染热力网格
+            alignedRows.forEach(row => {
                 let rowHtml = `<div class="matrix-row">`;
                 rowHtml += `<div class="matrix-label" onclick="updateChartFromMatrix('${row.ticker}')" title="Click to view chart">${row.ticker}</div>`;
                 
                 row.path.forEach(score => {
-                    let styleClass = 'score-neutral';
-                    if (score >= 6) styleClass = 'score-ultra-long';
-                    else if (score >= 4) styleClass = 'score-strong-long';
-                    else if (score > 0) styleClass = 'score-weak-long';
-                    else if (score <= -6) styleClass = 'score-ultra-short';
-                    else if (score <= -4) styleClass = 'score-strong-short';
-                    else if (score < 0) styleClass = 'score-weak-short';
+                    let styleClass = 'score-zero';
+                    let displayScore = '-'; // 默认无数据显示横杠
                     
-                    rowHtml += `<div class="matrix-cell ${styleClass}">${score > 0 ? '+'+score : score}</div>`;
+                    if (score !== null) {
+                        if (score >= 6) styleClass = 'score-p6';
+                        else if (score >= 4) styleClass = 'score-p4';
+                        else if (score > 0) styleClass = 'score-p1';
+                        else if (score <= -6) styleClass = 'score-n6';
+                        else if (score <= -4) styleClass = 'score-n4';
+                        else if (score < 0) styleClass = 'score-n1';
+                        
+                        displayScore = score > 0 ? '+' + score : score;
+                        if (score === 0) displayScore = '0';
+                    }
+                    
+                    rowHtml += `<div class="matrix-cell ${styleClass}">${displayScore}</div>`;
                 });
                 rowHtml += `</div>`;
                 body.innerHTML += rowHtml;
             });
         }
 
-        // 联动功能：点击矩阵文字，切换图表
+        // 联动图表
         window.updateChartFromMatrix = function(ticker) {
             document.getElementById('ticker-select').value = ticker;
             renderChart(ticker);
@@ -187,11 +199,12 @@
         function renderChart(ticker) {
             if (!ticker || currentHistoryData.length === 0) return;
             const chartData = [];
+            
             currentHistoryData.forEach(snap => {
                 const sig = snap.signals.find(s => s.ticker === ticker);
                 if (sig) {
                     const score = sig.net_score;
-                    const color = score > 0 ? 'rgba(63, 185, 80, 0.7)' : (score < 0 ? 'rgba(248, 81, 73, 0.7)' : 'rgba(139, 148, 158, 0.5)');
+                    const color = score > 0 ? 'rgba(63, 185, 80, 0.7)' : (score < 0 ? 'rgba(248, 81, 73, 0.7)' : '#30363d');
                     const cleanDate = snap.timestamp.split(' ')[0]; 
                     if (!chartData.find(d => d.time === cleanDate)) {
                         chartData.push({ time: cleanDate, value: score, color: color });
@@ -203,7 +216,7 @@
             try {
                 histogramSeries.setData(chartData);
                 chart.timeScale().fitContent();
-            } catch(e) { console.warn("Chart render skipped due to data mismatch", e); }
+            } catch(e) { console.warn("Chart render skipped", e); }
         }
 
         async function fetchGlobalTimestamps() {
@@ -242,12 +255,11 @@
         async function loadData(timeframe) {
             document.getElementById('btn-1d').classList.toggle('active', timeframe === '1d');
             document.getElementById('btn-1h').classList.toggle('active', timeframe === '1h');
-            
-            const thead = document.getElementById('table-head');
-            const tbody = document.getElementById('table-body');
             const bust = new Date().getTime();
 
-            // 双语表头
+            const thead = document.getElementById('table-head');
+            const tbody = document.getElementById('table-body');
+
             if (timeframe === '1d') {
                 thead.innerHTML = `<tr><th>Asset (资产)</th><th>Total Runs (测算数)</th><th class="long">Long (多)</th><th class="short">Short (空)</th><th class="neutral">Neutral (平)</th><th>Net Score (净动能)</th></tr>`;
             } else {
@@ -255,7 +267,6 @@
             }
             tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8">📡 Fetching ${timeframe.toUpperCase()} Data... (拉取数据中)</td></tr>`;
             
-            // 抓取当前共识
             try {
                 const response = await fetch(`consensus_${timeframe}.json?t=${bust}`);
                 if (!response.ok) throw new Error("Consensus missing");
@@ -280,10 +291,9 @@
                     tbody.appendChild(tr);
                 });
             } catch (error) {
-                tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8 text-[#f85149]">Matrix Offline | 未找到 ${timeframe} 数据，请确认已上传 JSON 文件</td></tr>`;
+                tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8 text-[#f85149]">Matrix Offline | 未找到 ${timeframe} 数据</td></tr>`;
             }
 
-            // 抓取历史矩阵并渲染图表 (完美容错)
             try {
                 const histResponse = await fetch(`history_${timeframe}.json?t=${bust}`);
                 if (!histResponse.ok) throw new Error("History missing");
@@ -291,6 +301,8 @@
                 if (!rawText || rawText.trim() === '') throw new Error("Empty history");
                 
                 currentHistoryData = JSON.parse(rawText);
+                
+                // 渲染矩阵
                 renderPersistenceMatrix();
 
                 const select = document.getElementById('ticker-select');
@@ -310,21 +322,16 @@
                 }
             } catch (error) {
                 currentHistoryData = [];
-                document.getElementById('ticker-select').innerHTML = '<option value="">📡 Waiting for historical data... (等待历史数据累积...)</option>';
+                document.getElementById('ticker-select').innerHTML = '<option value="">📡 Waiting for historical data... (等待数据)</option>';
                 if(histogramSeries) histogramSeries.setData([]);
                 document.getElementById('rotation-container').classList.add('hidden');
             }
         }
 
         window.onload = () => {
-            console.log("🛸 Core Mounted. Engaging Scanners... (系统挂载完毕)");
             initChart();
             fetchGlobalTimestamps();
-            
-            setTimeout(() => {
-                loadData('1d');
-            }, 100);
-
+            setTimeout(() => { loadData('1d'); }, 100);
             setInterval(() => fetchGlobalTimestamps(), 60000);
         };
     </script>
