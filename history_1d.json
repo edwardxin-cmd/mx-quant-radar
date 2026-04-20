@@ -1848,5 +1848,50 @@
                 "reason": "Unanimous Consensus: Full Short"
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-20 21:09:55",
+        "signals": [
+            {
+                "ticker": "^HSCE",
+                "timestamp": "2026-04-20 21:09:55",
+                "total_runs": 4,
+                "long_votes": 3,
+                "short_votes": 1,
+                "net_score": 2,
+                "final_action": "VETO",
+                "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
+            },
+            {
+                "ticker": "^HSI",
+                "timestamp": "2026-04-20 21:09:55",
+                "total_runs": 4,
+                "long_votes": 1,
+                "short_votes": 3,
+                "net_score": -2,
+                "final_action": "VETO",
+                "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
+            },
+            {
+                "ticker": "^HSCC",
+                "timestamp": "2026-04-20 21:09:55",
+                "total_runs": 4,
+                "long_votes": 0,
+                "short_votes": 4,
+                "net_score": -4,
+                "final_action": "EXECUTE_SHORT",
+                "reason": "Unanimous Consensus: Full Short"
+            },
+            {
+                "ticker": "2822.HK",
+                "timestamp": "2026-04-20 21:09:55",
+                "total_runs": 4,
+                "long_votes": 0,
+                "short_votes": 4,
+                "net_score": -4,
+                "final_action": "EXECUTE_SHORT",
+                "reason": "Unanimous Consensus: Full Short"
+            }
+        ]
     }
 ]
