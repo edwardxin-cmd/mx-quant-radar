@@ -1,10 +1,10 @@
 {
     "timeframe": "1H",
-    "update_time": "2026-04-20 10:33:45",
+    "update_time": "2026-04-20 10:42:14",
     "signals": [
         {
             "ticker": "BABA",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 3,
             "short_votes": 1,
@@ -13,11 +13,11 @@
             "1_Week_Structure_T50": "✅",
             "Half_Month_Institutional_T100": "✅",
             "1_Month_Macro_T200": "❌ XM3弹性破位",
-            "1_Week_Projection": 22.85
+            "1_Week_Projection": 23.05
         },
         {
             "ticker": "ETH-USD",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 3,
             "short_votes": 1,
@@ -30,7 +30,7 @@
         },
         {
             "ticker": "SE",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 2,
             "short_votes": 2,
@@ -43,7 +43,7 @@
         },
         {
             "ticker": "XPEV",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 2,
             "short_votes": 2,
@@ -56,7 +56,7 @@
         },
         {
             "ticker": "^VXN",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 2,
             "short_votes": 2,
@@ -69,7 +69,7 @@
         },
         {
             "ticker": "KWEB",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 2,
             "short_votes": 2,
@@ -82,7 +82,7 @@
         },
         {
             "ticker": "RKLB",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 2,
             "short_votes": 2,
@@ -95,7 +95,7 @@
         },
         {
             "ticker": "QQQ",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 2,
             "short_votes": 2,
@@ -108,7 +108,7 @@
         },
         {
             "ticker": "PYPL",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 2,
             "short_votes": 2,
@@ -121,7 +121,7 @@
         },
         {
             "ticker": "IBB",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 2,
             "short_votes": 2,
@@ -134,7 +134,7 @@
         },
         {
             "ticker": "OPEN",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 2,
             "short_votes": 2,
@@ -147,7 +147,7 @@
         },
         {
             "ticker": "^VIX",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 2,
             "short_votes": 2,
@@ -160,7 +160,7 @@
         },
         {
             "ticker": "CL=F",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 2,
             "short_votes": 2,
@@ -169,11 +169,11 @@
             "1_Week_Structure_T50": "❌ XM3弹性破位",
             "Half_Month_Institutional_T100": "❌ XM3弹性破位",
             "1_Month_Macro_T200": "✅",
-            "1_Week_Projection": -29.08
+            "1_Week_Projection": -29.38
         },
         {
             "ticker": "MSTR",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -186,7 +186,7 @@
         },
         {
             "ticker": "RVLV",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -199,7 +199,7 @@
         },
         {
             "ticker": "XLE",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -212,7 +212,7 @@
         },
         {
             "ticker": "BTC-USD",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -225,7 +225,7 @@
         },
         {
             "ticker": "ILF",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -238,7 +238,7 @@
         },
         {
             "ticker": "COIN",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -251,7 +251,7 @@
         },
         {
             "ticker": "SMH",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -264,7 +264,7 @@
         },
         {
             "ticker": "GOOGL",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -277,7 +277,7 @@
         },
         {
             "ticker": "MAGS",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -290,7 +290,7 @@
         },
         {
             "ticker": "ASTS",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -303,7 +303,7 @@
         },
         {
             "ticker": "QBTS",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -316,7 +316,7 @@
         },
         {
             "ticker": "VNET",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -329,7 +329,7 @@
         },
         {
             "ticker": "IGV",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -342,7 +342,7 @@
         },
         {
             "ticker": "IWM",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -355,7 +355,7 @@
         },
         {
             "ticker": "KRE",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -368,7 +368,7 @@
         },
         {
             "ticker": "PDD",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -381,7 +381,7 @@
         },
         {
             "ticker": "EWG",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -394,7 +394,7 @@
         },
         {
             "ticker": "PLTR",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -407,7 +407,7 @@
         },
         {
             "ticker": "SPY",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -416,11 +416,11 @@
             "1_Week_Structure_T50": "✅",
             "Half_Month_Institutional_T100": "❌ XM4弹性衰竭",
             "1_Month_Macro_T200": "❌ XM4弹性衰竭",
-            "1_Week_Projection": 14.62
+            "1_Week_Projection": 14.76
         },
         {
             "ticker": "ORCL",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -433,7 +433,7 @@
         },
         {
             "ticker": "COPX",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -446,7 +446,7 @@
         },
         {
             "ticker": "XBI",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -459,7 +459,7 @@
         },
         {
             "ticker": "RSPG",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -472,7 +472,7 @@
         },
         {
             "ticker": "MU",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -485,7 +485,7 @@
         },
         {
             "ticker": "SLV",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -498,7 +498,7 @@
         },
         {
             "ticker": "EWY",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -511,7 +511,7 @@
         },
         {
             "ticker": "EWW",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -524,7 +524,7 @@
         },
         {
             "ticker": "TSLA",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -537,7 +537,7 @@
         },
         {
             "ticker": "TLT",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -550,7 +550,7 @@
         },
         {
             "ticker": "ASHR",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -563,7 +563,7 @@
         },
         {
             "ticker": "ASML",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -576,7 +576,7 @@
         },
         {
             "ticker": "MSFT",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -589,7 +589,7 @@
         },
         {
             "ticker": "TAN",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -602,7 +602,7 @@
         },
         {
             "ticker": "RSPT",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -615,7 +615,7 @@
         },
         {
             "ticker": "AIA",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -628,7 +628,7 @@
         },
         {
             "ticker": "ENOR",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -641,7 +641,7 @@
         },
         {
             "ticker": "XLP",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -654,7 +654,7 @@
         },
         {
             "ticker": "XLV",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -667,7 +667,7 @@
         },
         {
             "ticker": "000300.SS",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 1,
             "short_votes": 3,
@@ -680,7 +680,7 @@
         },
         {
             "ticker": "ECH",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -693,7 +693,7 @@
         },
         {
             "ticker": "AMZN",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -706,7 +706,7 @@
         },
         {
             "ticker": "ASEA",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -719,7 +719,7 @@
         },
         {
             "ticker": "AMD",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -732,7 +732,7 @@
         },
         {
             "ticker": "LEN",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -745,7 +745,7 @@
         },
         {
             "ticker": "XLF",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -758,7 +758,7 @@
         },
         {
             "ticker": "AMAT",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -771,7 +771,7 @@
         },
         {
             "ticker": "ETN",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -784,7 +784,7 @@
         },
         {
             "ticker": "KBE",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -797,7 +797,7 @@
         },
         {
             "ticker": "ETHA",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -810,7 +810,7 @@
         },
         {
             "ticker": "NFLX",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -823,7 +823,7 @@
         },
         {
             "ticker": "XLI",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -836,7 +836,7 @@
         },
         {
             "ticker": "EWZ",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -849,7 +849,7 @@
         },
         {
             "ticker": "EWJ",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -862,7 +862,7 @@
         },
         {
             "ticker": "EWP",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -875,7 +875,7 @@
         },
         {
             "ticker": "LRCX",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -888,7 +888,7 @@
         },
         {
             "ticker": "STX",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -901,7 +901,7 @@
         },
         {
             "ticker": "TSM",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -914,7 +914,7 @@
         },
         {
             "ticker": "RIOT",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -927,7 +927,7 @@
         },
         {
             "ticker": "KLAC",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -940,7 +940,7 @@
         },
         {
             "ticker": "VRT",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -953,7 +953,7 @@
         },
         {
             "ticker": "KC",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -966,7 +966,7 @@
         },
         {
             "ticker": "NVDA",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -979,7 +979,7 @@
         },
         {
             "ticker": "RSP",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -992,7 +992,7 @@
         },
         {
             "ticker": "ROK",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1005,7 +1005,7 @@
         },
         {
             "ticker": "EEM",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1018,7 +1018,7 @@
         },
         {
             "ticker": "CIFR",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1031,7 +1031,7 @@
         },
         {
             "ticker": "META",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1044,7 +1044,7 @@
         },
         {
             "ticker": "EWI",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1057,7 +1057,7 @@
         },
         {
             "ticker": "UBER",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1070,7 +1070,7 @@
         },
         {
             "ticker": "AVGO",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1083,7 +1083,7 @@
         },
         {
             "ticker": "SNDK",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1096,7 +1096,7 @@
         },
         {
             "ticker": "WDC",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1109,7 +1109,7 @@
         },
         {
             "ticker": "CSCO",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1122,7 +1122,7 @@
         },
         {
             "ticker": "AAPL",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1135,7 +1135,7 @@
         },
         {
             "ticker": "EZA",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1148,7 +1148,7 @@
         },
         {
             "ticker": "EWT",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1161,7 +1161,7 @@
         },
         {
             "ticker": "XLB",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1174,7 +1174,7 @@
         },
         {
             "ticker": "RSPF",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
@@ -1187,7 +1187,7 @@
         },
         {
             "ticker": "PWR",
-            "timestamp": "2026-04-20 10:33:45",
+            "timestamp": "2026-04-20 10:42:14",
             "total_runs": 4,
             "long_votes": 0,
             "short_votes": 4,
