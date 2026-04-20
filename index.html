@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MX-Unified Dynamics | Quant Radar</title>
+    <title>MX-Unified Dynamics | 全息战术沙盘</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
     <style>
@@ -20,14 +20,23 @@
         tr:hover { background-color: #1f242c; }
         .math-box { background: #010409; padding: 4px 8px; border-radius: 4px; border: 1px solid #30363d; font-family: monospace; font-size: 1rem; }
         
-        /* 图表容器样式 */
         #chart-container { height: 400px; width: 100%; }
         select { background-color: #010409; color: #c9d1d9; border: 1px solid #30363d; padding: 4px 8px; border-radius: 4px; outline: none; cursor: pointer; }
+        
+        /* 🚀 轮动矩阵专属样式 */
+        #rotation-matrix::-webkit-scrollbar { height: 8px; }
+        #rotation-matrix::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
+        .rotation-card { min-width: 260px; background: #010409; border: 1px solid #30363d; border-radius: 8px; padding: 12px; scroll-snap-align: start; flex-shrink: 0; }
+        
+        .badge-6 { background: rgba(63, 185, 80, 0.2); color: #3fb950; border: 1px solid rgba(63, 185, 80, 0.4); padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; display: inline-block; margin: 2px; }
+        .badge-5 { background: rgba(63, 185, 80, 0.1); color: #7ee787; border: 1px solid rgba(63, 185, 80, 0.2); padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; display: inline-block; margin: 2px; }
+        .badge-n6 { background: rgba(248, 81, 73, 0.2); color: #f85149; border: 1px solid rgba(248, 81, 73, 0.4); padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; display: inline-block; margin: 2px; }
+        .badge-n5 { background: rgba(248, 81, 73, 0.1); color: #ff7b72; border: 1px solid rgba(248, 81, 73, 0.2); padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; display: inline-block; margin: 2px; }
     </style>
 </head>
 <body class="p-4 md:p-8">
 
-    <div class="max-w-6xl mx-auto">
+    <div class="max-w-7xl mx-auto">
         <div class="border-b border-[#30363d] pb-4 mb-6">
             <h1 class="text-3xl font-bold text-white flex items-center gap-3">
                 🛸 MX-Unified Dynamics <span class="text-xs bg-[#238636] px-2 py-1 rounded text-white font-bold tracking-widest">LIVE</span>
@@ -43,10 +52,18 @@
             <button id="btn-1h" class="tab-btn" onclick="loadData('1h')">⚡ 1H Intraday Pool</button>
         </div>
 
+        <div class="mb-6 border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4 hidden" id="rotation-container">
+            <h2 class="text-lg font-bold text-white flex items-center gap-2 mb-4">
+                🔥 资金轮动矩阵 (Sector Rotation Map)
+            </h2>
+            <div id="rotation-matrix" class="flex overflow-x-auto gap-4 pb-2 snap-x">
+                </div>
+        </div>
+
         <div class="mb-6 border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4">
             <div class="flex justify-between items-center mb-4">
                 <h2 class="text-lg font-bold text-white flex items-center gap-2">
-                    📈 战术弹道轨迹 (Net Score History)
+                    📈 单兵动能推演 (Net Score History)
                 </h2>
                 <select id="ticker-select" onchange="renderChart(this.value)">
                     <option value="">Loading Signals...</option>
@@ -66,14 +83,10 @@
     </div>
 
     <script>
-        // ==========================================
-        // 📊 图表引擎全局变量
-        // ==========================================
         let chart = null;
         let histogramSeries = null;
         let currentHistoryData = [];
 
-        // 初始化 TradingView 引擎
         function initChart() {
             const container = document.getElementById('chart-container');
             chart = LightweightCharts.createChart(container, {
@@ -84,9 +97,8 @@
             });
 
             histogramSeries = chart.addHistogramSeries({
-                base: 0, // 0 轴为基准界限
+                base: 0, 
                 priceFormat: { type: 'volume' },
-                priceScaleId: '', 
             });
 
             window.addEventListener('resize', () => {
@@ -94,7 +106,56 @@
             });
         }
 
-        // 渲染指定的标的曲线
+        // 🚀 渲染资金轮动矩阵
+        function renderRotationMatrix() {
+            const container = document.getElementById('rotation-matrix');
+            const wrapper = document.getElementById('rotation-container');
+            container.innerHTML = '';
+            
+            if (currentHistoryData.length === 0) {
+                wrapper.classList.add('hidden');
+                return;
+            }
+            wrapper.classList.remove('hidden');
+
+            currentHistoryData.forEach(snap => {
+                const rawTime = snap.timestamp.split(' ')[0]; // 取日期部分
+                
+                // 动态过滤
+                const longs6 = snap.signals.filter(s => s.net_score >= 6).map(s => s.ticker);
+                const longs5 = snap.signals.filter(s => s.net_score === 5).map(s => s.ticker);
+                const shorts6 = snap.signals.filter(s => s.net_score <= -6).map(s => s.ticker);
+                const shorts5 = snap.signals.filter(s => s.net_score === -5).map(s => s.ticker);
+                
+                let html = `<div class="rotation-card">`;
+                html += `<div class="text-[#c9d1d9] border-b border-[#30363d] pb-2 mb-3 font-bold tracking-wider">📅 ${rawTime}</div>`;
+                
+                // 多头阵营
+                html += `<div class="mb-3"><div class="text-xs text-[#8b949e] mb-1 uppercase tracking-widest">Bullish Vanguard</div>`;
+                if (longs6.length > 0 || longs5.length > 0) {
+                    html += longs6.map(t => `<span class="badge-6" title="+6 Full Consensus">${t}</span>`).join('');
+                    html += longs5.map(t => `<span class="badge-5" title="+5 Strong Consensus">${t}</span>`).join('');
+                } else {
+                    html += `<span class="text-xs text-[#484f58]">No targets</span>`;
+                }
+                html += `</div>`;
+
+                // 空头阵营
+                html += `<div><div class="text-xs text-[#8b949e] mb-1 uppercase tracking-widest">Bearish Targets</div>`;
+                if (shorts6.length > 0 || shorts5.length > 0) {
+                    html += shorts6.map(t => `<span class="badge-n6" title="-6 Full Short">${t}</span>`).join('');
+                    html += shorts5.map(t => `<span class="badge-n5" title="-5 Strong Short">${t}</span>`).join('');
+                } else {
+                    html += `<span class="text-xs text-[#484f58]">No targets</span>`;
+                }
+                html += `</div></div>`;
+                container.innerHTML += html;
+            });
+
+            setTimeout(() => { container.scrollLeft = container.scrollWidth; }, 100);
+        }
+
+        // 📈 渲染单一个股的动能历史
         function renderChart(ticker) {
             if (!ticker || currentHistoryData.length === 0) return;
 
@@ -103,30 +164,21 @@
                 const sig = snap.signals.find(s => s.ticker === ticker);
                 if (sig) {
                     const score = sig.net_score;
-                    // 绿色=多头，红色=空头，灰色=纠缠
                     const color = score > 0 ? 'rgba(63, 185, 80, 0.8)' : (score < 0 ? 'rgba(248, 81, 73, 0.8)' : 'rgba(139, 148, 158, 0.8)');
-                    
-                    // 将 "2026-04-20 15:15:40" 转换为 Unix 时间戳
-                    // 加上 'Z' 强制按 UTC 解析，防止本地浏览器时区干扰相对走势
                     const dateStr = snap.timestamp.replace(' ', 'T') + 'Z';
                     const unixTime = Math.floor(new Date(dateStr).getTime() / 1000);
                     
-                    // 防重装载
                     if (!chartData.find(d => d.time === unixTime)) {
                         chartData.push({ time: unixTime, value: score, color: color });
                     }
                 }
             });
 
-            // 按时间严格排序
             chartData.sort((a, b) => a.time - b.time);
             histogramSeries.setData(chartData);
             chart.timeScale().fitContent();
         }
 
-        // ==========================================
-        // 📡 数据总线 (获取 Consensus 与 History)
-        // ==========================================
         async function fetchGlobalTimestamps() {
             const bust = new Date().getTime();
             ['1d', '1h'].forEach(async (tf) => {
@@ -154,7 +206,6 @@
             return val;
         }
 
-        // 核心装载函数：切换 Tab 时，同时更新表格和图表
         async function loadData(timeframe) {
             document.getElementById('btn-1d').classList.toggle('active', timeframe === '1d');
             document.getElementById('btn-1h').classList.toggle('active', timeframe === '1h');
@@ -163,7 +214,6 @@
             const tbody = document.getElementById('table-body');
             const bust = new Date().getTime();
 
-            // 1. 刷新表格结构
             if (timeframe === '1d') {
                 thead.innerHTML = `<tr><th>Asset</th><th>Total Runs</th><th class="long">Long</th><th class="short">Short</th><th class="neutral">Neutral</th><th>Net Score</th></tr>`;
             } else {
@@ -171,7 +221,6 @@
             }
             tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8">📡 Fetching ${timeframe.toUpperCase()}...</td></tr>`;
             
-            // 2. 抓取 Consensus 数据 (用于表格)
             try {
                 const response = await fetch(`consensus_${timeframe}.json?t=${bust}`);
                 const data = await response.json();
@@ -196,12 +245,12 @@
                 tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8 text-[#f85149]">Matrix Offline</td></tr>`;
             }
 
-            // 3. 抓取 History 数据 (用于图表)
             try {
                 const histResponse = await fetch(`history_${timeframe}.json?t=${bust}`);
                 currentHistoryData = await histResponse.json();
                 
-                // 提取标的列表填充下拉菜单
+                renderRotationMatrix();
+
                 const select = document.getElementById('ticker-select');
                 const tickers = new Set();
                 currentHistoryData.forEach(snap => snap.signals.forEach(sig => tickers.add(sig.ticker)));
@@ -213,7 +262,6 @@
                         opt.value = t; opt.textContent = `🎯 ${t}`;
                         select.appendChild(opt);
                     });
-                    // 渲染第一个标的
                     renderChart(select.value);
                 } else {
                     select.innerHTML = '<option value="">暂无历史轨迹</option>';
@@ -222,13 +270,13 @@
             } catch (error) {
                 document.getElementById('ticker-select').innerHTML = '<option value="">📡 等待历史数据累积...</option>';
                 if(histogramSeries) histogramSeries.setData([]);
+                document.getElementById('rotation-container').classList.add('hidden');
             }
         }
 
-        // 🚀 启动序列
         initChart();
         fetchGlobalTimestamps();
-        loadData('1d'); // 默认加载 1D
+        loadData('1d'); 
     </script>
 </body>
 </html>
