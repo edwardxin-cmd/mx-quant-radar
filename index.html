@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
     <style>
-        body { background-color: #0d1117; color: #c9d1d9; font-family: 'Courier New', Courier, monospace; }
+        body { background-color: #0d1117; color: #c9d1d9; font-family: 'Courier New', Courier, monospace; overflow-x: hidden; }
         .tab-btn { padding: 10px 20px; border: 1px solid #30363d; border-radius: 6px; cursor: pointer; transition: 0.3s; background: #161b22; }
         .tab-btn.active { background: #238636; color: white; border-color: #2ea043; font-weight: bold; }
         .tab-btn:hover:not(.active) { background: #21262d; }
@@ -186,7 +186,10 @@
                     const res = await fetch(`consensus_${tf}.json?t=${bust}`);
                     if (res.ok) {
                         const data = await res.json();
-                        document.getElementById(`time-${tf}`).innerHTML = `${tf === '1d' ? '🌞 1D' : '⚡ 1H'} 同步: <strong class="text-[#58a6ff]">${data.update_time || 'N/A'}</strong>`;
+                        const timeEl = document.getElementById(`time-${tf}`);
+                        if(timeEl) {
+                            timeEl.innerHTML = `${tf === '1d' ? '🌞 1D' : '⚡ 1H'} 同步: <strong class="text-[#58a6ff]">${data.update_time || 'N/A'}</strong>`;
+                        }
                     }
                 } catch(e) {}
             });
@@ -214,6 +217,7 @@
             const tbody = document.getElementById('table-body');
             const bust = new Date().getTime();
 
+            // 1. 设置表头
             if (timeframe === '1d') {
                 thead.innerHTML = `<tr><th>Asset</th><th>Total Runs</th><th class="long">Long</th><th class="short">Short</th><th class="neutral">Neutral</th><th>Net Score</th></tr>`;
             } else {
@@ -221,8 +225,10 @@
             }
             tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8">📡 Fetching ${timeframe.toUpperCase()}...</td></tr>`;
             
+            // 2. 抓取快照表格数据
             try {
                 const response = await fetch(`consensus_${timeframe}.json?t=${bust}`);
+                if (!response.ok) throw new Error("Consensus missing");
                 const data = await response.json();
                 tbody.innerHTML = ''; 
                 
@@ -242,11 +248,13 @@
                     tbody.appendChild(tr);
                 });
             } catch (error) {
-                tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8 text-[#f85149]">Matrix Offline</td></tr>`;
+                tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8 text-[#f85149]">Matrix Offline (等待生成 ${timeframe} 数据)</td></tr>`;
             }
 
+            // 3. 抓取历史矩阵数据
             try {
                 const histResponse = await fetch(`history_${timeframe}.json?t=${bust}`);
+                if (!histResponse.ok) throw new Error("History missing");
                 currentHistoryData = await histResponse.json();
                 
                 renderRotationMatrix();
@@ -264,10 +272,11 @@
                     });
                     renderChart(select.value);
                 } else {
-                    select.innerHTML = '<option value="">暂无历史轨迹</option>';
-                    histogramSeries.setData([]);
+                    throw new Error("Empty history");
                 }
             } catch (error) {
+                // 🛑 核心修复：如果 history_1h 不存在，优雅地隐藏模块，绝不崩溃！
+                currentHistoryData = [];
                 document.getElementById('ticker-select').innerHTML = '<option value="">📡 等待历史数据累积...</option>';
                 if(histogramSeries) histogramSeries.setData([]);
                 document.getElementById('rotation-container').classList.add('hidden');
