@@ -150,7 +150,23 @@
             });
 
             // 4. 按动能强度降序排列 (最新分数绝对值越大越靠前)
-            alignedRows.sort((a, b) => Math.abs(b.lastScore) - Math.abs(a.lastScore));
+            // 4. 按 D-0 到 D-N 逐级递减最高分排序 (Tie-breaker 逻辑)
+            alignedRows.sort((a, b) => {
+                // 从最新的日期 (数组末尾的 D-0) 开始往前循环比对
+                for (let i = a.path.length - 1; i >= 0; i--) {
+                    // 如果数据为 null（历史某天无数据），将其视作极小值沉底
+                    const scoreA = a.path[i] !== null ? a.path[i] : -Infinity;
+                    const scoreB = b.path[i] !== null ? b.path[i] : -Infinity;
+                    
+                    // 只要在某一天分出了胜负，就直接返回结果
+                    if (scoreA !== scoreB) {
+                        return scoreB - scoreA; // 降序排列：高分在上
+                    }
+                    // 如果分数相同，继续下一轮循环 (比对 D-1, D-2...)
+                }
+                // 如果所有记录的每一天分数都完全一模一样，则保持原有顺序
+                return 0; 
+            });
 
             // 5. 渲染表头 X 轴 (倒序排列：最左侧是 D-N，最右侧是 D-0)
             for (let i = maxDays - 1; i >= 0; i--) {
