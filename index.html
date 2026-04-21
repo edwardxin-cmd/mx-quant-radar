@@ -133,12 +133,14 @@
 
             // 2. 构建每只股票在所有快照中的得分矩阵 (不存在则填入 null)
             const tickerData = {};
+            const tickerNames = {}; // 新增：保存代码对应的名称
             snapshots.forEach((snap, snapIndex) => {
                 snap.signals.forEach(sig => {
                     if (!tickerData[sig.ticker]) {
                         tickerData[sig.ticker] = new Array(totalSnaps).fill(null);
                     }
                     tickerData[sig.ticker][snapIndex] = sig.net_score;
+                    if (sig.name) tickerNames[sig.ticker] = sig.name; // 新增：记录中文名
                 });
             });
 
@@ -152,7 +154,8 @@
                 
                 // 记录最新的得分用于排序（从右往左找第一个有效值）
                 const lastValidScore = scores.slice().reverse().find(s => s !== null) || 0;
-                alignedRows.push({ ticker, path: scores, lastScore: lastValidScore });
+                // 加入 name 字段
+                alignedRows.push({ ticker, name: tickerNames[ticker] || ticker, path: scores, lastScore: lastValidScore });
             });
 
             // 4. 终极分层排序引擎 (Tiered Sorting Engine)：识别回撤牛股 vs 纯正空头
@@ -219,8 +222,7 @@
             // 6. 渲染热力网格
             alignedRows.forEach(row => {
                 let rowHtml = `<div class="matrix-row">`;
-                rowHtml += `<div class="matrix-label" onclick="updateChartFromMatrix('${row.ticker}')" title="Click to view chart">${row.ticker}</div>`;
-                
+                rowHtml += `<div class="matrix-label" onclick="updateChartFromMatrix('${row.ticker}')" title="${row.ticker}">${row.name}</div>`;
                 row.path.forEach(score => {
                     let styleClass = 'score-zero';
                     let displayScore = '-'; // 历史未出现的数据显示为空白横杠
