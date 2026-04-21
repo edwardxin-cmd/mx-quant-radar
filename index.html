@@ -52,13 +52,18 @@
                     🛸 MX-Unified Dynamics <span class="text-xs bg-[#238636] px-2 py-1 rounded text-white tracking-widest uppercase">Global Edge</span>
                 </h1>
                 <div class="mt-4 text-xs text-[#8b949e]">
-                    🌞 1D Sync (日线同步): <span id="time-1d" class="text-[#58a6ff]">Scanning...</span> | 
-                    ⚡ 1H Sync (小时同步): <span id="time-1h" class="text-[#58a6ff]">Scanning...</span>
+                    🌞 1D US (美股宏观): <span id="time-1d" class="text-[#58a6ff]">Scanning...</span> | 
+                    ⚡ 1H US (美股日内): <span id="time-1h" class="text-[#58a6ff]">Scanning...</span> | 
+                    🐼 1D China (中国宏观): <span id="time-1d_china" class="text-[#58a6ff]">Scanning...</span>
                 </div>
             </div>
             <div class="flex gap-2">
-                <button id="btn-1d" class="tab-btn active" onclick="loadData('1d')">1D Macro (宏观)</button>
-                <button id="btn-1h" class="tab-btn" onclick="loadData('1h')">1H Intraday (日内)</button>
+                <button id="btn-1d" class="tab-btn active" onclick="loadData('1d')">1D Macro (美国)</button>
+                <button id="btn-1h" class="tab-btn" onclick="loadData('1h')">1H Intraday (美日内)</button>
+                
+                <div class="w-px bg-[#30363d] mx-1"></div>
+                
+                <button id="btn-1d_china" class="tab-btn" onclick="loadData('1d_china')">1D China (中国)</button>
             </div>
         </div>
 
@@ -268,7 +273,8 @@
 
         async function fetchGlobalTimestamps() {
             const bust = new Date().getTime();
-            for (const tf of ['1d', '1h']) {
+            // 👇 增加了 '1d_china'
+            for (const tf of ['1d', '1d_china', '1h']) {
                 try {
                     const res = await fetch(`consensus_${tf}.json?t=${bust}`);
                     if (res.ok) {
@@ -300,14 +306,17 @@
         }
 
         async function loadData(timeframe) {
+            // 1. 动态切换按钮高亮状态
             document.getElementById('btn-1d').classList.toggle('active', timeframe === '1d');
+            document.getElementById('btn-1d_china').classList.toggle('active', timeframe === '1d_china');
             document.getElementById('btn-1h').classList.toggle('active', timeframe === '1h');
+            
             const bust = new Date().getTime();
-
             const thead = document.getElementById('table-head');
             const tbody = document.getElementById('table-body');
 
-            if (timeframe === '1d') {
+            // 2. 渲染表头：1d 和 1d_china 共享同一种表头格式
+            if (timeframe === '1d' || timeframe === '1d_china') {
                 thead.innerHTML = `<tr><th>Asset (资产)</th><th>Total Runs (测算数)</th><th class="long">Long (多)</th><th class="short">Short (空)</th><th class="neutral">Neutral (平)</th><th>Net Score (净动能)</th></tr>`;
             } else {
                 thead.innerHTML = `<tr><th>Asset (资产)</th><th>Net Score (净动能)</th><th>T20 (3D)</th><th>T50 (1W)</th><th>T100 (0.5M)</th><th>T200 (1M)</th></tr>`;
@@ -315,6 +324,7 @@
             tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8">📡 Fetching ${timeframe.toUpperCase()} Data... (拉取数据中)</td></tr>`;
             
             try {
+                // 自动拉取对应的 consensus_1d_china.json 或 consensus_1d.json
                 const response = await fetch(`consensus_${timeframe}.json?t=${bust}`);
                 if (!response.ok) throw new Error("Consensus missing");
                 const textData = await response.text();
@@ -327,11 +337,14 @@
                     const scoreClass = row.net_score > 0 ? 'long' : (row.net_score < 0 ? 'short' : 'neutral');
                     const sign = row.net_score > 0 ? '+' : '';
                     
-                    if (timeframe === '1d') {
-                        const long = row.long_votes || 0;
-                        const short = row.short_votes || 0;
-                        const neutral = row.neutral_votes !== undefined ? row.neutral_votes : (row.total_runs - long - short);
-                        tr.innerHTML = `<td class="font-bold text-white text-base">${row.ticker}</td><td>${row.total_runs}</td><td class="long">${long}</td><td class="short">${short}</td><td class="neutral">${neutral}</td><td><span class="math-box ${scoreClass}">${sign}${row.net_score}</span></td>`;
+                    if (timeframe === '1d' || timeframe === '1d_china') {
+                        // 兼容多种 JSON 命名格式，确保鲁棒性
+                        const runs = row.total_runs !== undefined ? row.total_runs : (row.runs || 0);
+                        const long = row.long_votes !== undefined ? row.long_votes : (row.long || 0);
+                        const short = row.short_votes !== undefined ? row.short_votes : (row.short || 0);
+                        const neutral = row.neutral_votes !== undefined ? row.neutral_votes : (runs - long - short);
+                        
+                        tr.innerHTML = `<td class="font-bold text-white text-base">${row.ticker}</td><td>${runs}</td><td class="long">${long}</td><td class="short">${short}</td><td class="neutral">${neutral}</td><td><span class="math-box ${scoreClass}">${sign}${row.net_score}</span></td>`;
                     } else {
                         tr.innerHTML = `<td class="font-bold text-white text-base">${row.ticker}</td><td><span class="math-box ${scoreClass}">${sign}${row.net_score}</span></td><td>${cleanStatus(row['3_Day_Momentum_T20'])}</td><td>${cleanStatus(row['1_Week_Structure_T50'])}</td><td>${cleanStatus(row['Half_Month_Institutional_T100'])}</td><td>${cleanStatus(row['1_Month_Macro_T200'])}</td>`;
                     }
@@ -342,6 +355,7 @@
             }
 
             try {
+                // 自动拉取对应的 history_1d_china.json 或 history_1d.json
                 const histResponse = await fetch(`history_${timeframe}.json?t=${bust}`);
                 if (!histResponse.ok) throw new Error("History missing");
                 const rawText = await histResponse.text();
@@ -349,7 +363,7 @@
                 
                 currentHistoryData = JSON.parse(rawText);
                 
-                // 渲染矩阵
+                // 渲染热力矩阵
                 renderPersistenceMatrix();
 
                 const select = document.getElementById('ticker-select');
