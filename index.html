@@ -100,6 +100,7 @@
 
     <script>
         let chart = null, histogramSeries = null, currentHistoryData = [];
+        let currentTF = '1d'; // 👈 新增：让系统知道现在在看什么维度
 
         function initChart() {
             const container = document.getElementById('chart-container');
@@ -126,8 +127,8 @@
             }
             wrapper.classList.remove('hidden');
 
-            // 1. 确保快照按时间顺序排列
-            const snapshots = currentHistoryData.sort((a, b) => new Date(a.timestamp.split(' ')[0]) - new Date(b.timestamp.split(' ')[0]));
+            // 1. 确保快照按时间顺序排列 (不再切掉具体时间)
+            const snapshots = currentHistoryData.sort((a, b) => new Date(a.timestamp.replace(/-/g, '/')) - new Date(b.timestamp.replace(/-/g, '/')));
             const totalSnaps = snapshots.length;
 
             // 2. 构建每只股票在所有快照中的得分矩阵 (不存在则填入 null)
@@ -209,9 +210,10 @@
                 return 0;
             });
 
-            // 5. 渲染表头 X 轴 (倒序排列：最左侧是 D-N，最右侧是 D-0)
+            // 5. 渲染表头 X 轴 (1D显示 D-1, 1H显示 T-1 代表Time)
+            const prefix = currentTF === '1h' ? 'T' : 'D';
             for (let i = maxDays - 1; i >= 0; i--) {
-                axis.innerHTML += `<div class="axis-label">D-${i}</div>`;
+                axis.innerHTML += `<div class="axis-label">${prefix}-${i}</div>`;
             }
 
             // 6. 渲染热力网格
@@ -252,17 +254,29 @@
             if (!ticker || currentHistoryData.length === 0) return;
             const chartData = [];
             
+            // ====== 请将 currentHistoryData.forEach 这一段替换为以下代码 ======
             currentHistoryData.forEach(snap => {
                 const sig = snap.signals.find(s => s.ticker === ticker);
                 if (sig) {
                     const score = sig.net_score;
                     const color = score > 0 ? 'rgba(63, 185, 80, 0.7)' : (score < 0 ? 'rgba(248, 81, 73, 0.7)' : '#30363d');
-                    const cleanDate = snap.timestamp.split(' ')[0]; 
-                    if (!chartData.find(d => d.time === cleanDate)) {
-                        chartData.push({ time: cleanDate, value: score, color: color });
+                    
+                    let timeVal;
+                    if (currentTF === '1h') {
+                        // 1H 日内级别：LightweightCharts 需要 Unix 时间戳 (单位：秒) 才能画日内图表
+                        timeVal = Math.floor(new Date(snap.timestamp.replace(/-/g, '/')).getTime() / 1000);
+                    } else {
+                        // 1D 级别：保留原来的 'YYYY-MM-DD' 格式
+                        timeVal = snap.timestamp.split(' ')[0];
+                    }
+
+                    // 查重逻辑也改为精确的 timeVal
+                    if (!chartData.find(d => d.time === timeVal)) {
+                        chartData.push({ time: timeVal, value: score, color: color });
                     }
                 }
             });
+            // ====================================================================
             chartData.sort((a, b) => new Date(a.time) - new Date(b.time));
             
             try {
@@ -306,7 +320,7 @@
         }
 
         async function loadData(timeframe) {
-            // 1. 动态切换按钮高亮状态
+            currentTF = timeframe; // 👈 新增：更新全局维度
             document.getElementById('btn-1d').classList.toggle('active', timeframe === '1d');
             document.getElementById('btn-1d_china').classList.toggle('active', timeframe === '1d_china');
             document.getElementById('btn-1h').classList.toggle('active', timeframe === '1h');
