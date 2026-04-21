@@ -149,43 +149,59 @@
                 alignedRows.push({ ticker, path: scores, lastScore: lastValidScore });
             });
 
-            // 4. 终极四维排序引擎：D0绝对优先 -> 总积分(底蕴) -> D-1 -> D-n
+            // 4. 终极分层排序引擎 (Tiered Sorting Engine)：识别回撤牛股 vs 纯正空头
             alignedRows.sort((a, b) => {
                 const lastIdx = a.path.length - 1;
-                
-                // 提取当天的 D0 分数
                 const d0_A = a.path[lastIdx] !== null ? a.path[lastIdx] : -Infinity;
                 const d0_B = b.path[lastIdx] !== null ? b.path[lastIdx] : -Infinity;
 
-                // 🥇 第一优先级：今天 (D0) 的分数
-                // 只要今天分出胜负，直接定排位。今天 +6 的永远在 +5 上面。
-                if (d0_A !== d0_B) {
-                    return d0_B - d0_A; 
-                }
-
-                // 🥈 & 🥉 第二/三优先级：D0 相同的情况下，看历史总积分 (大势 / 负数深浅)
-                // 比如今天大家都是 +6，那就把这几天的分数全加起来。
-                // 历史总分大的排上面；如果是负数，也会按负数的绝对值大小沉底排列。
+                // 计算总积分
                 const sumA = a.path.reduce((acc, val) => acc + (val !== null ? val : 0), 0);
                 const sumB = b.path.reduce((acc, val) => acc + (val !== null ? val : 0), 0);
-                
-                if (sumA !== sumB) {
-                    return sumB - sumA; 
+
+                // 探测历史是否有过绿色动能 (只要有 > 0 的记录即为 true)
+                const hasGreenA = a.path.some(val => val !== null && val > 0);
+                const hasGreenB = b.path.some(val => val !== null && val > 0);
+
+                // --- 划分三大阵营 ---
+                // 阵营 3：【绝对多头】今天正在上涨 (D0 > 0)
+                // 阵营 2：【上升回撤】今天下跌，但历史有过绿色动能 (D0 <= 0, 但 hasGreen)
+                // 阵营 1：【纯粹空头】历史到今天一路全红，毫无起色 (D0 <= 0, 且无绿)
+                const tierA = d0_A > 0 ? 3 : (hasGreenA ? 2 : 1);
+                const tierB = d0_B > 0 ? 3 : (hasGreenB ? 2 : 1);
+
+                // 🥇 第一维度：阵营阶级碾压
+                // 阵营2 (回撤股，比如你的 SMH -6) 绝对排在 阵营1 (纯正空头的 -1) 前面！
+                if (tierA !== tierB) {
+                    return tierB - tierA;
                 }
 
-                // 🏅 第四优先级：D0 一样，且历史总积分也完全一模一样，启动近期强度 Tie-breaker
-                // 跳过 D0，直接从 D-1 开始往回倒推 PK
+                // 🥈 第二维度：同阵营内部的生存法则
+                if (tierA === 3) {
+                    // 阵营 3 (今天大涨)：D0今天的分数绝对优先，同分才看历史总积分
+                    if (d0_A !== d0_B) return d0_B - d0_A;
+                    if (sumA !== sumB) return sumB - sumA;
+                } else if (tierA === 2) {
+                    // 阵营 2 (回撤中)：**总积分优先！** // 完美实现你的需求：带着+10积分的今天跌-6，永远排在只有+1积分跌-6的上面。
+                    if (sumA !== sumB) return sumB - sumA;
+                    if (d0_A !== d0_B) return d0_B - d0_A; // 如果总分也一样，今天跌得少的优先
+                } else if (tierA === 1) {
+                    // 阵营 1 (纯正空头)：**D0优先**
+                    // 完美实现你的需求：全是红色的死股，按照 -1, -2, -3, -4 的顺序一路沉底排列。
+                    if (d0_A !== d0_B) return d0_B - d0_A;
+                    if (sumA !== sumB) return sumB - sumA;
+                }
+
+                // 🥉 第三维度：终极 Tie-breaker
+                // 阵营、D0、总分全部一模一样，按日期倒推逐日比对
                 for (let i = lastIdx - 1; i >= 0; i--) {
                     const scoreA = a.path[i] !== null ? a.path[i] : -Infinity;
                     const scoreB = b.path[i] !== null ? b.path[i] : -Infinity;
-                    
                     if (scoreA !== scoreB) {
                         return scoreB - scoreA;
                     }
                 }
-                
-                // 四个维度全部一模一样，保持原位
-                return 0; 
+                return 0;
             });
 
             // 5. 渲染表头 X 轴 (倒序排列：最左侧是 D-N，最右侧是 D-0)
