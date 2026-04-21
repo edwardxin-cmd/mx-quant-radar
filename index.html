@@ -337,17 +337,23 @@
                     const scoreClass = row.net_score > 0 ? 'long' : (row.net_score < 0 ? 'short' : 'neutral');
                     const sign = row.net_score > 0 ? '+' : '';
                     
+                    // 1. 统一提取显示名称 (无论哪个模式都先准备好 displayName)
+                    const displayName = row.name ? `${row.ticker} (${row.name})` : row.ticker;
+                    
+                    // 2. 根据模式决定渲染哪种 HTML 布局
                     if (timeframe === '1d' || timeframe === '1d_china') {
-                        // 兼容多种 JSON 命名格式，确保鲁棒性
+                        // --- 1D 宏观/中国布局 ---
                         const runs = row.total_runs !== undefined ? row.total_runs : (row.runs || 0);
                         const long = row.long_votes !== undefined ? row.long_votes : (row.long || 0);
                         const short = row.short_votes !== undefined ? row.short_votes : (row.short || 0);
                         const neutral = row.neutral_votes !== undefined ? row.neutral_votes : (runs - long - short);
                         
-                        tr.innerHTML = `<td class="font-bold text-white text-base">${row.ticker}</td><td>${runs}</td><td class="long">${long}</td><td class="short">${short}</td><td class="neutral">${neutral}</td><td><span class="math-box ${scoreClass}">${sign}${row.net_score}</span></td>`;
+                        tr.innerHTML = `<td class="font-bold text-white text-base">${displayName}</td><td>${runs}</td><td class="long">${long}</td><td class="short">${short}</td><td class="neutral">${neutral}</td><td><span class="math-box ${scoreClass}">${sign}${row.net_score}</span></td>`;
                     } else {
-                        tr.innerHTML = `<td class="font-bold text-white text-base">${row.ticker}</td><td><span class="math-box ${scoreClass}">${sign}${row.net_score}</span></td><td>${cleanStatus(row['3_Day_Momentum_T20'])}</td><td>${cleanStatus(row['1_Week_Structure_T50'])}</td><td>${cleanStatus(row['Half_Month_Institutional_T100'])}</td><td>${cleanStatus(row['1_Month_Macro_T200'])}</td>`;
+                        // --- 1H 日内布局 ---
+                        tr.innerHTML = `<td class="font-bold text-white text-base">${displayName}</td><td><span class="math-box ${scoreClass}">${sign}${row.net_score}</span></td><td>${cleanStatus(row['3_Day_Momentum_T20'])}</td><td>${cleanStatus(row['1_Week_Structure_T50'])}</td><td>${cleanStatus(row['Half_Month_Institutional_T100'])}</td><td>${cleanStatus(row['1_Month_Macro_T200'])}</td>`;
                     }
+                    
                     tbody.appendChild(tr);
                 });
             } catch (error) {
