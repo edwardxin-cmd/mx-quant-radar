@@ -149,22 +149,42 @@
                 alignedRows.push({ ticker, path: scores, lastScore: lastValidScore });
             });
 
-            // 4. 按动能强度降序排列 (最新分数绝对值越大越靠前)
-            // 4. 按 D-0 到 D-N 逐级递减最高分排序 (Tie-breaker 逻辑)
+            // 4. 终极四维排序引擎：D0绝对优先 -> 总积分(底蕴) -> D-1 -> D-n
             alignedRows.sort((a, b) => {
-                // 从最新的日期 (数组末尾的 D-0) 开始往前循环比对
-                for (let i = a.path.length - 1; i >= 0; i--) {
-                    // 如果数据为 null（历史某天无数据），将其视作极小值沉底
+                const lastIdx = a.path.length - 1;
+                
+                // 提取当天的 D0 分数
+                const d0_A = a.path[lastIdx] !== null ? a.path[lastIdx] : -Infinity;
+                const d0_B = b.path[lastIdx] !== null ? b.path[lastIdx] : -Infinity;
+
+                // 🥇 第一优先级：今天 (D0) 的分数
+                // 只要今天分出胜负，直接定排位。今天 +6 的永远在 +5 上面。
+                if (d0_A !== d0_B) {
+                    return d0_B - d0_A; 
+                }
+
+                // 🥈 & 🥉 第二/三优先级：D0 相同的情况下，看历史总积分 (大势 / 负数深浅)
+                // 比如今天大家都是 +6，那就把这几天的分数全加起来。
+                // 历史总分大的排上面；如果是负数，也会按负数的绝对值大小沉底排列。
+                const sumA = a.path.reduce((acc, val) => acc + (val !== null ? val : 0), 0);
+                const sumB = b.path.reduce((acc, val) => acc + (val !== null ? val : 0), 0);
+                
+                if (sumA !== sumB) {
+                    return sumB - sumA; 
+                }
+
+                // 🏅 第四优先级：D0 一样，且历史总积分也完全一模一样，启动近期强度 Tie-breaker
+                // 跳过 D0，直接从 D-1 开始往回倒推 PK
+                for (let i = lastIdx - 1; i >= 0; i--) {
                     const scoreA = a.path[i] !== null ? a.path[i] : -Infinity;
                     const scoreB = b.path[i] !== null ? b.path[i] : -Infinity;
                     
-                    // 只要在某一天分出了胜负，就直接返回结果
                     if (scoreA !== scoreB) {
-                        return scoreB - scoreA; // 降序排列：高分在上
+                        return scoreB - scoreA;
                     }
-                    // 如果分数相同，继续下一轮循环 (比对 D-1, D-2...)
                 }
-                // 如果所有记录的每一天分数都完全一模一样，则保持原有顺序
+                
+                // 四个维度全部一模一样，保持原位
                 return 0; 
             });
 
