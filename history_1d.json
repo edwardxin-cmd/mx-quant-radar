@@ -153,16 +153,6 @@
                 "reason": "Tactical Import from Email Logs"
             },
             {
-                "ticker": "000300.SS",
-                "timestamp": "2026-04-14 15:48:00",
-                "total_runs": 6,
-                "long_votes": 2,
-                "short_votes": 2,
-                "net_score": 0,
-                "final_action": "HISTORICAL_RECORD",
-                "reason": "Tactical Import from Email Logs"
-            },
-            {
                 "ticker": "CL=F",
                 "timestamp": "2026-04-14 15:48:00",
                 "total_runs": 6,
@@ -918,16 +908,6 @@
                 "reason": "Tactical Import from Email Logs"
             },
             {
-                "ticker": "000300.SS",
-                "timestamp": "2026-04-15 23:43:00",
-                "total_runs": 4,
-                "long_votes": 0,
-                "short_votes": 2,
-                "net_score": -2,
-                "final_action": "HISTORICAL_RECORD",
-                "reason": "Tactical Import from Email Logs"
-            },
-            {
                 "ticker": "EWW",
                 "timestamp": "2026-04-15 23:43:00",
                 "total_runs": 4,
@@ -1514,16 +1494,6 @@
             },
             {
                 "ticker": "NFLX",
-                "timestamp": "2026-04-16 14:36:00",
-                "total_runs": 6,
-                "long_votes": 1,
-                "short_votes": 4,
-                "net_score": -3,
-                "final_action": "HISTORICAL_RECORD",
-                "reason": "Tactical Import from Email Logs"
-            },
-            {
-                "ticker": "000300.SS",
                 "timestamp": "2026-04-16 14:36:00",
                 "total_runs": 6,
                 "long_votes": 1,
@@ -2298,16 +2268,6 @@
                 "reason": "Tactical Import from Email Logs"
             },
             {
-                "ticker": "000300.SS",
-                "timestamp": "2026-04-17 17:19:00",
-                "total_runs": 6,
-                "long_votes": 2,
-                "short_votes": 3,
-                "net_score": -1,
-                "final_action": "HISTORICAL_RECORD",
-                "reason": "Tactical Import from Email Logs"
-            },
-            {
                 "ticker": "MAGS",
                 "timestamp": "2026-04-17 17:19:00",
                 "total_runs": 6,
@@ -3031,16 +2991,6 @@
                 "net_score": 5,
                 "final_action": "EXECUTE_LONG",
                 "reason": "Unanimous Consensus: Full Long"
-            },
-            {
-                "ticker": "000300.SS",
-                "timestamp": "2026-04-20 21:28:58",
-                "total_runs": 6,
-                "long_votes": 5,
-                "short_votes": 1,
-                "net_score": 4,
-                "final_action": "VETO",
-                "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
             },
             {
                 "ticker": "EZA",
@@ -4748,16 +4698,6 @@
                 "reason": "Unanimous Consensus: Full Short"
             },
             {
-                "ticker": "000300.SS",
-                "timestamp": "2026-04-21 15:39:44",
-                "total_runs": 6,
-                "long_votes": 0,
-                "short_votes": 6,
-                "net_score": -6,
-                "final_action": "EXECUTE_SHORT",
-                "reason": "Unanimous Consensus: Full Short"
-            },
-            {
                 "ticker": "STX",
                 "timestamp": "2026-04-21 15:39:44",
                 "total_runs": 6,
@@ -5263,17 +5203,6 @@
                 "net_score": 0,
                 "final_action": "VETO",
                 "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
-            },
-            {
-                "ticker": "000300.SS",
-                "timestamp": "2026-04-22 15:33:45",
-                "total_runs": 6,
-                "long_votes": 2,
-                "short_votes": 2,
-                "net_score": 0,
-                "final_action": "VETO",
-                "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-                "name": "沪深300"
             },
             {
                 "ticker": "ETH-USD",

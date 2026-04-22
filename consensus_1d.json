@@ -185,17 +185,6 @@
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
         },
         {
-            "ticker": "000300.SS",
-            "timestamp": "2026-04-22 15:40:15",
-            "total_runs": 6,
-            "long_votes": 2,
-            "short_votes": 2,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "沪深300"
-        },
-        {
             "ticker": "ETH-USD",
             "timestamp": "2026-04-22 15:40:15",
             "total_runs": 6,
