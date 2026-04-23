@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MX-Unified Dynamics | Momentum Persistence Matrix</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.1.1/dist/lightweight-charts.standalone.production.js"></script>
     <style>
         body { background-color: #0d1117; color: #c9d1d9; font-family: 'Courier New', Courier, monospace; overflow-x: hidden; }
         .tab-btn { padding: 10px 20px; border: 1px solid #30363d; border-radius: 6px; cursor: pointer; transition: 0.3s; background: #161b22; }
@@ -18,8 +17,6 @@
         th { background-color: #161b22; color: #8b949e; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; }
         .math-box { background: #010409; padding: 4px 8px; border-radius: 4px; border: 1px solid #30363d; font-family: monospace; font-size: 1rem; }
         
-        #chart-container { height: 350px; width: 100%; }
-        select { background-color: #010409; color: #c9d1d9; border: 1px solid #30363d; padding: 6px 10px; border-radius: 4px; outline: none; cursor: pointer; font-weight: bold; }
         
         /* 🚀 D0 Aligned Matrix Styles */
         .matrix-scroll { overflow-x: auto; scroll-behavior: smooth; padding-bottom: 10px; }
@@ -67,7 +64,7 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6 hidden" id="rotation-container">
+        <div class="grid grid-cols-1 gap-6 mb-6 hidden" id="rotation-container">
             <div class="border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4">
                 <div class="flex justify-between items-center mb-4">
                     <h2 class="text-lg font-bold text-white">🔥 Persistence Matrix (动能寿命矩阵)</h2>
@@ -77,14 +74,6 @@
                     <div id="matrix-axis" class="flex pl-[220px] mb-2"></div>
                     <div id="matrix-body" class="flex flex-col"></div>
                 </div>
-            </div>
-
-            <div class="border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4">
-                <div class="flex justify-between items-center mb-4">
-                    <h2 class="text-lg font-bold text-white">📈 Trajectory (绝对轨迹)</h2>
-                    <select id="ticker-select" onchange="renderChart(this.value)"></select>
-                </div>
-                <div id="chart-container"></div>
             </div>
         </div>
 
@@ -99,20 +88,10 @@
     </div>
 
     <script>
-        let chart = null, histogramSeries = null, currentHistoryData = [];
+        let currentHistoryData = [];
         let currentTF = '1d'; // 👈 新增：让系统知道现在在看什么维度
 
-        function initChart() {
-            const container = document.getElementById('chart-container');
-            chart = LightweightCharts.createChart(container, {
-                layout: { background: { type: 'solid', color: '#161b22' }, textColor: '#8b949e' },
-                grid: { vertLines: { visible: false }, horzLines: { color: '#30363d' } },
-                timeScale: { borderColor: '#30363d' },
-                rightPriceScale: { borderColor: '#30363d' },
-            });
-            histogramSeries = chart.addHistogramSeries({ base: 0 });
-            window.addEventListener('resize', () => chart.resize(container.clientWidth, 350));
-        }
+
 
         // 🚀 D0 Alignment Engine (完全重构版：找到第一天强制视为D0)
         function renderPersistenceMatrix() {
@@ -224,7 +203,7 @@
             // 6. 渲染热力网格
             alignedRows.forEach(row => {
                 let rowHtml = `<div class="matrix-row">`;
-                rowHtml += `<div class="matrix-label" onclick="updateChartFromMatrix('${row.ticker}')" title="${row.ticker}">${row.name}</div>`;
+                rowHtml += `<div class="matrix-label" title="${row.ticker}">${row.name}</div>`;
                 row.path.forEach(score => {
                     let styleClass = 'score-zero';
                     let displayScore = '-'; // 历史未出现的数据显示为空白横杠
@@ -248,46 +227,9 @@
             });
         }
 
-        // 联动图表
-        window.updateChartFromMatrix = function(ticker) {
-            document.getElementById('ticker-select').value = ticker;
-            renderChart(ticker);
-        }
 
-        function renderChart(ticker) {
-            if (!ticker || currentHistoryData.length === 0) return;
-            const chartData = [];
-            
-            // ====== 请将 currentHistoryData.forEach 这一段替换为以下代码 ======
-            currentHistoryData.forEach(snap => {
-                const sig = snap.signals.find(s => s.ticker === ticker);
-                if (sig) {
-                    const score = sig.net_score;
-                    const color = score > 0 ? 'rgba(63, 185, 80, 0.7)' : (score < 0 ? 'rgba(248, 81, 73, 0.7)' : '#30363d');
-                    
-                    let timeVal;
-                    if (currentTF === '1h') {
-                        // 1H 日内级别：LightweightCharts 需要 Unix 时间戳 (单位：秒) 才能画日内图表
-                        timeVal = Math.floor(new Date(snap.timestamp.replace(/-/g, '/')).getTime() / 1000);
-                    } else {
-                        // 1D 级别：保留原来的 'YYYY-MM-DD' 格式
-                        timeVal = snap.timestamp.split(' ')[0];
-                    }
 
-                    // 查重逻辑也改为精确的 timeVal
-                    if (!chartData.find(d => d.time === timeVal)) {
-                        chartData.push({ time: timeVal, value: score, color: color });
-                    }
-                }
-            });
-            // ====================================================================
-            chartData.sort((a, b) => new Date(a.time) - new Date(b.time));
-            
-            try {
-                histogramSeries.setData(chartData);
-                chart.timeScale().fitContent();
-            } catch(e) { console.warn("Chart render skipped", e); }
-        }
+
 
         async function fetchGlobalTimestamps() {
             const bust = new Date().getTime();
@@ -390,31 +332,14 @@
                 // 渲染热力矩阵
                 renderPersistenceMatrix();
 
-                const select = document.getElementById('ticker-select');
-                const tickers = new Set();
-                currentHistoryData.forEach(snap => snap.signals.forEach(sig => tickers.add(sig.ticker)));
-                
-                select.innerHTML = '';
-                if (tickers.size > 0) {
-                    Array.from(tickers).sort().forEach(t => {
-                        const opt = document.createElement('option');
-                        opt.value = t; opt.textContent = `🎯 ${t}`;
-                        select.appendChild(opt);
-                    });
-                    renderChart(select.value);
-                } else {
-                    throw new Error("No tickers found");
-                }
+
             } catch (error) {
                 currentHistoryData = [];
-                document.getElementById('ticker-select').innerHTML = '<option value="">📡 Waiting for historical data... (等待数据)</option>';
-                if(histogramSeries) histogramSeries.setData([]);
                 document.getElementById('rotation-container').classList.add('hidden');
             }
         }
 
         window.onload = () => {
-            initChart();
             fetchGlobalTimestamps();
             setTimeout(() => { loadData('1d'); }, 100);
             setInterval(() => fetchGlobalTimestamps(), 60000);
