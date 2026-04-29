@@ -1,10 +1,21 @@
 {
     "timeframe": "1D",
-    "update_time": "2026-04-28 21:52:56",
+    "update_time": "2026-04-29 21:56:28",
     "signals": [
         {
+            "ticker": "000300.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 3,
+            "short_votes": 0,
+            "net_score": 3,
+            "final_action": "EXECUTE_LONG",
+            "reason": "Unanimous Consensus: Full Long",
+            "name": "沪深300"
+        },
+        {
             "ticker": "159825.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 3,
             "short_votes": 0,
@@ -14,52 +25,118 @@
             "name": "农业ETF"
         },
         {
-            "ticker": "159837.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "512880.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 3,
             "short_votes": 0,
             "net_score": 3,
             "final_action": "EXECUTE_LONG",
             "reason": "Unanimous Consensus: Full Long",
-            "name": "生物科技ETF"
+            "name": "证券ETF"
         },
         {
-            "ticker": "517990.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "512200.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 3,
             "short_votes": 0,
             "net_score": 3,
             "final_action": "EXECUTE_LONG",
             "reason": "Unanimous Consensus: Full Long",
-            "name": "医药ETF沪港深"
+            "name": "地产ETF"
         },
         {
-            "ticker": "000002.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "159865.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 3,
             "short_votes": 0,
             "net_score": 3,
             "final_action": "EXECUTE_LONG",
             "reason": "Unanimous Consensus: Full Long",
-            "name": "万科A"
+            "name": "养殖ETF"
         },
         {
-            "ticker": "601668.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "600938.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 3,
             "short_votes": 0,
             "net_score": 3,
             "final_action": "EXECUTE_LONG",
             "reason": "Unanimous Consensus: Full Long",
-            "name": "中国建筑"
+            "name": "中国海油"
+        },
+        {
+            "ticker": "512690.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 3,
+            "short_votes": 0,
+            "net_score": 3,
+            "final_action": "EXECUTE_LONG",
+            "reason": "Unanimous Consensus: Full Long",
+            "name": "酒ETF"
+        },
+        {
+            "ticker": "^HSCC",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 3,
+            "short_votes": 0,
+            "net_score": 3,
+            "final_action": "EXECUTE_LONG",
+            "reason": "Unanimous Consensus: Full Long",
+            "name": "恒生红筹"
+        },
+        {
+            "ticker": "002230.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 3,
+            "short_votes": 0,
+            "net_score": 3,
+            "final_action": "EXECUTE_LONG",
+            "reason": "Unanimous Consensus: Full Long",
+            "name": "科大讯飞"
+        },
+        {
+            "ticker": "300124.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 3,
+            "short_votes": 0,
+            "net_score": 3,
+            "final_action": "EXECUTE_LONG",
+            "reason": "Unanimous Consensus: Full Long",
+            "name": "汇川技术"
+        },
+        {
+            "ticker": "000977.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 3,
+            "short_votes": 0,
+            "net_score": 3,
+            "final_action": "EXECUTE_LONG",
+            "reason": "Unanimous Consensus: Full Long",
+            "name": "浪潮信息"
+        },
+        {
+            "ticker": "600893.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 3,
+            "short_votes": 0,
+            "net_score": 3,
+            "final_action": "EXECUTE_LONG",
+            "reason": "Unanimous Consensus: Full Long",
+            "name": "航发动力"
         },
         {
             "ticker": "300059.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 3,
             "short_votes": 0,
@@ -69,107 +146,52 @@
             "name": "东方财富"
         },
         {
-            "ticker": "^HSCE",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "601919.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 2,
             "short_votes": 0,
             "net_score": 2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +2), Defensive Mode",
-            "name": "恒生国企"
+            "name": "中远海控"
         },
         {
-            "ticker": "512880.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "600183.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 2,
             "short_votes": 0,
             "net_score": 2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +2), Defensive Mode",
-            "name": "证券ETF"
+            "name": "生益科技"
         },
         {
-            "ticker": "600938.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "515880.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 2,
             "short_votes": 0,
             "net_score": 2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +2), Defensive Mode",
-            "name": "中国海油"
+            "name": "通信ETF"
         },
         {
-            "ticker": "159865.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "159797.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
-            "long_votes": 2,
+            "long_votes": 1,
             "short_votes": 0,
-            "net_score": 2,
+            "net_score": 1,
             "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +2), Defensive Mode",
-            "name": "养殖ETF"
-        },
-        {
-            "ticker": "515210.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 2,
-            "short_votes": 0,
-            "net_score": 2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +2), Defensive Mode",
-            "name": "钢铁ETF"
-        },
-        {
-            "ticker": "300498.SZ",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 2,
-            "short_votes": 0,
-            "net_score": 2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +2), Defensive Mode",
-            "name": "温氏股份"
-        },
-        {
-            "ticker": "002230.SZ",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 2,
-            "short_votes": 0,
-            "net_score": 2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +2), Defensive Mode",
-            "name": "科大讯飞"
-        },
-        {
-            "ticker": "688111.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 2,
-            "short_votes": 0,
-            "net_score": 2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +2), Defensive Mode",
-            "name": "金山办公"
-        },
-        {
-            "ticker": "600036.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 2,
-            "short_votes": 0,
-            "net_score": 2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +2), Defensive Mode",
-            "name": "招商银行"
+            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
+            "name": "医疗器械ETF"
         },
         {
             "ticker": "601888.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 0,
@@ -179,52 +201,19 @@
             "name": "中国中免"
         },
         {
-            "ticker": "601919.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "512170.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 0,
-            "net_score": 1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "中远海控"
-        },
-        {
-            "ticker": "510050.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 2,
-            "short_votes": 1,
-            "net_score": 1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "上证50ETF"
-        },
-        {
-            "ticker": "512170.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 2,
-            "short_votes": 1,
             "net_score": 1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
             "name": "医疗ETF"
         },
         {
-            "ticker": "513580.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 1,
-            "short_votes": 0,
-            "net_score": 1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "恒生科技ETF指数基金"
-        },
-        {
             "ticker": "688303.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 0,
@@ -234,173 +223,162 @@
             "name": "大全能源"
         },
         {
-            "ticker": "512200.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "513580.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 0,
             "net_score": 1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "地产ETF"
+            "name": "恒生科技ETF指数基金"
         },
         {
-            "ticker": "688981.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "159857.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 2,
             "short_votes": 1,
             "net_score": 1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "中芯国际"
+            "name": "光伏ETF"
         },
         {
-            "ticker": "512720.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "688256.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 0,
             "net_score": 1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "计算机ETF"
+            "name": "寒武纪-U"
         },
         {
-            "ticker": "^HSI",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "512400.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 0,
             "net_score": 1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "恒生指数"
+            "name": "有色金属ETF"
         },
         {
-            "ticker": "^HSCC",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 1,
-            "short_votes": 0,
-            "net_score": 1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "恒生红筹"
-        },
-        {
-            "ticker": "300502.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "515030.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 2,
             "short_votes": 1,
             "net_score": 1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "新易盛"
+            "name": "新能源车ETF"
         },
         {
-            "ticker": "600893.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "688111.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 0,
             "net_score": 1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "航发动力"
+            "name": "金山办公"
         },
         {
-            "ticker": "300124.SZ",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 1,
-            "short_votes": 0,
-            "net_score": 1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "汇川技术"
-        },
-        {
-            "ticker": "002714.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "300498.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 2,
             "short_votes": 1,
             "net_score": 1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "牧原股份"
+            "name": "温氏股份"
+        },
+        {
+            "ticker": "601390.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 1,
+            "short_votes": 0,
+            "net_score": 1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
+            "name": "中国中铁"
+        },
+        {
+            "ticker": "000066.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 1,
+            "short_votes": 0,
+            "net_score": 1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
+            "name": "中国长城"
         },
         {
             "ticker": "002241.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
-            "long_votes": 1,
-            "short_votes": 0,
+            "long_votes": 2,
+            "short_votes": 1,
             "net_score": 1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
             "name": "歌尔股份"
         },
         {
-            "ticker": "159797.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "516150.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 1,
             "net_score": 0,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "医疗器械ETF"
+            "name": "稀土ETF"
         },
         {
-            "ticker": "601012.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "510050.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 1,
+            "short_votes": 1,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
+            "name": "上证50ETF"
+        },
+        {
+            "ticker": "002085.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 0,
             "net_score": 0,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "隆基绿能"
+            "name": "万丰奥威"
         },
         {
-            "ticker": "300745.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "517990.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
-            "long_votes": 1,
-            "short_votes": 1,
+            "long_votes": 0,
+            "short_votes": 0,
             "net_score": 0,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "欣旺达"
-        },
-        {
-            "ticker": "159857.SZ",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 1,
-            "short_votes": 1,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "光伏ETF"
-        },
-        {
-            "ticker": "600030.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 1,
-            "short_votes": 1,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "中信证券"
+            "name": "医药ETF沪港深"
         },
         {
             "ticker": "688235.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 0,
@@ -410,63 +388,85 @@
             "name": "百济神州-U"
         },
         {
-            "ticker": "600673.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 1,
-            "short_votes": 1,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "东阳光"
-        },
-        {
-            "ticker": "515650.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "002389.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 0,
             "net_score": 0,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "消费50ETF"
+            "name": "航天彩虹"
         },
         {
-            "ticker": "515030.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "159928.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 0,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
+            "name": "消费ETF"
+        },
+        {
+            "ticker": "159611.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 1,
             "net_score": 0,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "新能源车ETF"
+            "name": "电力电网ETF"
         },
         {
-            "ticker": "300750.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "300476.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 1,
             "net_score": 0,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "宁德时代"
+            "name": "胜宏科技"
         },
         {
-            "ticker": "600048.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "000002.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 1,
             "net_score": 0,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "保利发展"
+            "name": "万科A"
+        },
+        {
+            "ticker": "002714.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 0,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
+            "name": "牧原股份"
+        },
+        {
+            "ticker": "601668.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 1,
+            "short_votes": 1,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
+            "name": "中国建筑"
         },
         {
             "ticker": "9868.HK",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 0,
@@ -476,63 +476,107 @@
             "name": "XPEV"
         },
         {
-            "ticker": "601390.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 2,
+            "ticker": "603019.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
             "long_votes": 1,
             "short_votes": 1,
             "net_score": 0,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "中国中铁"
+            "name": "中科曙光"
         },
         {
-            "ticker": "516150.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "002475.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 0,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
+            "name": "立讯精密"
+        },
+        {
+            "ticker": "002583.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 0,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
+            "name": "海能达"
+        },
+        {
+            "ticker": "588000.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 2,
             "net_score": -1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "稀土ETF"
+            "name": "科创50ETF"
         },
         {
             "ticker": "516010.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 1,
-            "short_votes": 2,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "游戏ETF"
-        },
-        {
-            "ticker": "159992.SZ",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 1,
-            "short_votes": 2,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "创新药ETF"
-        },
-        {
-            "ticker": "512980.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 1,
             "net_score": -1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "传媒ETF"
+            "name": "游戏ETF"
+        },
+        {
+            "ticker": "601012.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 1,
+            "short_votes": 2,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
+            "name": "隆基绿能"
+        },
+        {
+            "ticker": "^HSCE",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 1,
+            "short_votes": 2,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
+            "name": "恒生国企"
+        },
+        {
+            "ticker": "159992.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 1,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
+            "name": "创新药ETF"
+        },
+        {
+            "ticker": "600030.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 1,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
+            "name": "中信证券"
         },
         {
             "ticker": "600519.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 1,
@@ -542,107 +586,162 @@
             "name": "贵州茅台"
         },
         {
-            "ticker": "512690.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "^HSI",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 1,
             "net_score": -1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "酒ETF"
+            "name": "恒生指数"
         },
         {
-            "ticker": "512400.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "512720.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 1,
             "net_score": -1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "有色金属ETF"
-        },
-        {
-            "ticker": "515880.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 1,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "通信ETF"
+            "name": "计算机ETF"
         },
         {
             "ticker": "159755.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 1,
+            "long_votes": 1,
+            "short_votes": 2,
             "net_score": -1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
             "name": "电池ETF"
         },
         {
-            "ticker": "000858.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "2822.HK",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 1,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
+            "name": "A50ETF(港股)"
+        },
+        {
+            "ticker": "159930.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 1,
             "short_votes": 2,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
+            "name": "能源ETF"
+        },
+        {
+            "ticker": "000858.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 1,
             "net_score": -1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
             "name": "五粮液"
         },
         {
-            "ticker": "300476.SZ",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 1,
-            "short_votes": 2,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "胜宏科技"
-        },
-        {
-            "ticker": "601166.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 1,
-            "short_votes": 2,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "兴业银行"
-        },
-        {
-            "ticker": "002625.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "600036.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 1,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
+            "name": "招商银行"
+        },
+        {
+            "ticker": "002625.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 1,
+            "short_votes": 2,
             "net_score": -1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
             "name": "光启技术"
         },
         {
-            "ticker": "000977.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "601166.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 1,
             "net_score": -1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "浪潮信息"
+            "name": "兴业银行"
+        },
+        {
+            "ticker": "300474.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 1,
+            "short_votes": 2,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
+            "name": "景嘉微"
+        },
+        {
+            "ticker": "002384.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 1,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
+            "name": "东山精密"
+        },
+        {
+            "ticker": "300787.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 1,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
+            "name": "海能实业"
+        },
+        {
+            "ticker": "600111.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 1,
+            "short_votes": 2,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
+            "name": "北方稀土"
+        },
+        {
+            "ticker": "512930.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 2,
+            "net_score": -2,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
+            "name": "人工智能ETF"
         },
         {
             "ticker": "399001.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
@@ -653,7 +752,7 @@
         },
         {
             "ticker": "601318.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
@@ -663,30 +762,19 @@
             "name": "中国平安"
         },
         {
-            "ticker": "512560.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "603083.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
             "net_score": -2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "军工ETF易方达"
-        },
-        {
-            "ticker": "600183.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 2,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "生益科技"
+            "name": "剑桥科技"
         },
         {
             "ticker": "512950.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
@@ -696,107 +784,96 @@
             "name": "央企改革ETF"
         },
         {
-            "ticker": "560700.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "516020.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
             "net_score": -2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "央企/国企红利ETF"
+            "name": "化工ETF"
         },
         {
-            "ticker": "301165.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "159667.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
             "net_score": -2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "锐捷网络"
+            "name": "工业母机ETF"
         },
         {
-            "ticker": "002389.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "300745.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
             "net_score": -2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "航天彩虹"
+            "name": "欣旺达"
         },
         {
-            "ticker": "159928.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "512980.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
             "net_score": -2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "消费ETF"
+            "name": "传媒ETF"
         },
         {
-            "ticker": "688256.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "515210.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
             "net_score": -2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "寒武纪-U"
+            "name": "钢铁ETF"
         },
         {
-            "ticker": "0522.HK",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "600879.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
             "net_score": -2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "ASMPT"
+            "name": "航天电子"
         },
         {
-            "ticker": "603986.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "300750.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
             "net_score": -2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "兆易创新"
+            "name": "宁德时代"
         },
         {
-            "ticker": "1810.HK",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "300502.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
             "net_score": -2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "XIAOMI"
-        },
-        {
-            "ticker": "000066.SZ",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 2,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "中国长城"
+            "name": "新易盛"
         },
         {
             "ticker": "688347.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 2,
@@ -806,30 +883,8 @@
             "name": "华虹公司"
         },
         {
-            "ticker": "002475.SZ",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 2,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "立讯精密"
-        },
-        {
-            "ticker": "512930.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short",
-            "name": "人工智能ETF"
-        },
-        {
             "ticker": "159819.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -840,7 +895,7 @@
         },
         {
             "ticker": "000001.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -850,30 +905,19 @@
             "name": "上证指数"
         },
         {
-            "ticker": "000300.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "159837.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
             "net_score": -3,
             "final_action": "EXECUTE_SHORT",
             "reason": "Unanimous Consensus: Full Short",
-            "name": "沪深300"
-        },
-        {
-            "ticker": "588000.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short",
-            "name": "科创50ETF"
+            "name": "生物科技ETF"
         },
         {
             "ticker": "159915.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -884,7 +928,7 @@
         },
         {
             "ticker": "512480.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -894,19 +938,8 @@
             "name": "半导体ETF"
         },
         {
-            "ticker": "603083.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short",
-            "name": "剑桥科技"
-        },
-        {
             "ticker": "601985.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -916,30 +949,19 @@
             "name": "中国核电"
         },
         {
-            "ticker": "516020.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "512560.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
             "net_score": -3,
             "final_action": "EXECUTE_SHORT",
             "reason": "Unanimous Consensus: Full Short",
-            "name": "化工ETF"
-        },
-        {
-            "ticker": "159852.SZ",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short",
-            "name": "软件ETF"
+            "name": "军工ETF易方达"
         },
         {
             "ticker": "512660.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -949,30 +971,41 @@
             "name": "军工ETF"
         },
         {
-            "ticker": "159667.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "560700.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
             "net_score": -3,
             "final_action": "EXECUTE_SHORT",
             "reason": "Unanimous Consensus: Full Short",
-            "name": "工业母机ETF"
+            "name": "央企/国企红利ETF"
         },
         {
-            "ticker": "002085.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "301165.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
             "net_score": -3,
             "final_action": "EXECUTE_SHORT",
             "reason": "Unanimous Consensus: Full Short",
-            "name": "万丰奥威"
+            "name": "锐捷网络"
+        },
+        {
+            "ticker": "159852.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "软件ETF"
         },
         {
             "ticker": "159531.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -983,7 +1016,7 @@
         },
         {
             "ticker": "600150.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -993,8 +1026,19 @@
             "name": "中国船舶"
         },
         {
+            "ticker": "688981.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "中芯国际"
+        },
+        {
             "ticker": "510880.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -1004,41 +1048,30 @@
             "name": "红利ETF"
         },
         {
-            "ticker": "300763.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "600673.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
             "net_score": -3,
             "final_action": "EXECUTE_SHORT",
             "reason": "Unanimous Consensus: Full Short",
-            "name": "锦浪科技"
+            "name": "东阳光"
         },
         {
-            "ticker": "002594.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "515650.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
             "net_score": -3,
             "final_action": "EXECUTE_SHORT",
             "reason": "Unanimous Consensus: Full Short",
-            "name": "比亚迪"
-        },
-        {
-            "ticker": "2822.HK",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short",
-            "name": "A50ETF(港股)"
+            "name": "消费50ETF"
         },
         {
             "ticker": "600309.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -1048,19 +1081,19 @@
             "name": "万华化学"
         },
         {
-            "ticker": "300014.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "002594.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
             "net_score": -3,
             "final_action": "EXECUTE_SHORT",
             "reason": "Unanimous Consensus: Full Short",
-            "name": "亿纬锂能"
+            "name": "比亚迪"
         },
         {
             "ticker": "510500.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -1070,8 +1103,19 @@
             "name": "中证500ETF"
         },
         {
+            "ticker": "300763.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "锦浪科技"
+        },
+        {
             "ticker": "600118.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -1081,30 +1125,8 @@
             "name": "中国卫星"
         },
         {
-            "ticker": "159930.SZ",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short",
-            "name": "能源ETF"
-        },
-        {
-            "ticker": "159611.SZ",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short",
-            "name": "电力电网ETF"
-        },
-        {
             "ticker": "515220.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -1114,52 +1136,30 @@
             "name": "煤炭ETF"
         },
         {
-            "ticker": "600879.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "300014.SZ",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
             "net_score": -3,
             "final_action": "EXECUTE_SHORT",
             "reason": "Unanimous Consensus: Full Short",
-            "name": "航天电子"
+            "name": "亿纬锂能"
         },
         {
-            "ticker": "300308.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "600048.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
             "net_score": -3,
             "final_action": "EXECUTE_SHORT",
             "reason": "Unanimous Consensus: Full Short",
-            "name": "中际旭创"
-        },
-        {
-            "ticker": "688041.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short",
-            "name": "海光信息"
-        },
-        {
-            "ticker": "603019.SS",
-            "timestamp": "2026-04-28 21:52:56",
-            "total_runs": 3,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short",
-            "name": "中科曙光"
+            "name": "保利发展"
         },
         {
             "ticker": "6869.HK",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -1169,8 +1169,41 @@
             "name": "長飛光纖光纜"
         },
         {
+            "ticker": "1810.HK",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "XIAOMI"
+        },
+        {
+            "ticker": "300308.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode",
+            "name": "中际旭创"
+        },
+        {
+            "ticker": "0522.HK",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "ASMPT"
+        },
+        {
             "ticker": "688047.SS",
-            "timestamp": "2026-04-28 21:52:56",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
@@ -1180,15 +1213,70 @@
             "name": "龙芯中科"
         },
         {
-            "ticker": "300474.SZ",
-            "timestamp": "2026-04-28 21:52:56",
+            "ticker": "688041.SS",
+            "timestamp": "2026-04-29 21:56:27",
             "total_runs": 3,
             "long_votes": 0,
             "short_votes": 3,
             "net_score": -3,
             "final_action": "EXECUTE_SHORT",
             "reason": "Unanimous Consensus: Full Short",
-            "name": "景嘉微"
+            "name": "海光信息"
+        },
+        {
+            "ticker": "603986.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "兆易创新"
+        },
+        {
+            "ticker": "688048.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "长光华芯"
+        },
+        {
+            "ticker": "688498.SS",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "源杰科技"
+        },
+        {
+            "ticker": "000657.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "中钨高新"
+        },
+        {
+            "ticker": "300390.SZ",
+            "timestamp": "2026-04-29 21:56:27",
+            "total_runs": 3,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "天华新能"
         }
     ],
     "disclaimer": "Internal research only. Not financial advice."
