@@ -1,10 +1,10 @@
 {
     "timeframe": "1D",
-    "update_time": "2026-05-07 22:22:29",
+    "update_time": "2026-05-08 23:52:58",
     "signals": [
         {
             "ticker": "XPEV",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -14,7 +14,7 @@
         },
         {
             "ticker": "LEN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -24,7 +24,7 @@
         },
         {
             "ticker": "NFLX",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -34,7 +34,7 @@
         },
         {
             "ticker": "MSFT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -44,7 +44,7 @@
         },
         {
             "ticker": "XLB",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -54,7 +54,7 @@
         },
         {
             "ticker": "^VIX",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -64,7 +64,7 @@
         },
         {
             "ticker": "OPEN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -74,7 +74,7 @@
         },
         {
             "ticker": "ETSY",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -84,7 +84,7 @@
         },
         {
             "ticker": "META",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -94,7 +94,7 @@
         },
         {
             "ticker": "RSPF",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -104,7 +104,7 @@
         },
         {
             "ticker": "QBTS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -114,7 +114,7 @@
         },
         {
             "ticker": "BLDR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -124,7 +124,7 @@
         },
         {
             "ticker": "CRDO",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -134,7 +134,7 @@
         },
         {
             "ticker": "PHM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -144,7 +144,7 @@
         },
         {
             "ticker": "NAMI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -154,7 +154,7 @@
         },
         {
             "ticker": "RBLX",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 5,
             "short_votes": 0,
@@ -164,7 +164,7 @@
         },
         {
             "ticker": "PD",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 5,
             "short_votes": 0,
@@ -174,7 +174,7 @@
         },
         {
             "ticker": "IONQ",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 5,
             "short_votes": 0,
@@ -184,7 +184,7 @@
         },
         {
             "ticker": "RIVN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 5,
             "short_votes": 0,
@@ -194,7 +194,7 @@
         },
         {
             "ticker": "KTOS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 5,
             "short_votes": 0,
@@ -204,7 +204,7 @@
         },
         {
             "ticker": "FLNC",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 5,
             "short_votes": 0,
@@ -214,7 +214,7 @@
         },
         {
             "ticker": "XLF",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -224,7 +224,7 @@
         },
         {
             "ticker": "QUBT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 4,
             "short_votes": 0,
@@ -234,7 +234,7 @@
         },
         {
             "ticker": "GOOGL",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -244,7 +244,7 @@
         },
         {
             "ticker": "UBER",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 1,
@@ -254,7 +254,7 @@
         },
         {
             "ticker": "TLT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -264,7 +264,7 @@
         },
         {
             "ticker": "SHOP",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -274,7 +274,7 @@
         },
         {
             "ticker": "ITB",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 1,
@@ -284,7 +284,7 @@
         },
         {
             "ticker": "TEL",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 3,
             "short_votes": 0,
@@ -294,7 +294,7 @@
         },
         {
             "ticker": "RGTI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 3,
             "short_votes": 0,
@@ -304,7 +304,7 @@
         },
         {
             "ticker": "WULF",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 3,
             "short_votes": 0,
@@ -314,7 +314,7 @@
         },
         {
             "ticker": "NUE",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 4,
             "short_votes": 1,
@@ -324,7 +324,7 @@
         },
         {
             "ticker": "KEEL",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 3,
             "short_votes": 0,
@@ -334,7 +334,7 @@
         },
         {
             "ticker": "KBE",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 2,
@@ -344,7 +344,7 @@
         },
         {
             "ticker": "XLP",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -354,7 +354,7 @@
         },
         {
             "ticker": "PDD",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -365,7 +365,7 @@
         },
         {
             "ticker": "WDAY",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -375,7 +375,7 @@
         },
         {
             "ticker": "LCID",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 2,
             "short_votes": 0,
@@ -385,7 +385,7 @@
         },
         {
             "ticker": "DJT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 2,
             "short_votes": 0,
@@ -395,7 +395,7 @@
         },
         {
             "ticker": "HIMS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 2,
             "short_votes": 0,
@@ -405,7 +405,7 @@
         },
         {
             "ticker": "LAC",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 3,
             "short_votes": 1,
@@ -415,7 +415,7 @@
         },
         {
             "ticker": "ASML",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -425,7 +425,7 @@
         },
         {
             "ticker": "DQ",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -435,7 +435,7 @@
         },
         {
             "ticker": "U",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -445,7 +445,7 @@
         },
         {
             "ticker": "SERV",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 2,
@@ -455,7 +455,7 @@
         },
         {
             "ticker": "ANET",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 2,
@@ -465,7 +465,7 @@
         },
         {
             "ticker": "DKNG",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 3,
             "short_votes": 2,
@@ -475,7 +475,7 @@
         },
         {
             "ticker": "FLUT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 2,
             "short_votes": 1,
@@ -485,7 +485,7 @@
         },
         {
             "ticker": "SOFI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 0,
@@ -495,7 +495,7 @@
         },
         {
             "ticker": "RR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 2,
             "short_votes": 1,
@@ -505,7 +505,7 @@
         },
         {
             "ticker": "IGV",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 3,
@@ -515,7 +515,7 @@
         },
         {
             "ticker": "PLTR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -525,7 +525,7 @@
         },
         {
             "ticker": "SFIX",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -535,7 +535,7 @@
         },
         {
             "ticker": "ASTS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -545,7 +545,7 @@
         },
         {
             "ticker": "CHPT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -555,7 +555,7 @@
         },
         {
             "ticker": "SNOW",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -565,7 +565,7 @@
         },
         {
             "ticker": "VST",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -575,7 +575,7 @@
         },
         {
             "ticker": "HOOD",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -585,7 +585,7 @@
         },
         {
             "ticker": "ACHR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 2,
             "short_votes": 2,
@@ -595,7 +595,7 @@
         },
         {
             "ticker": "000660.KS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 1,
@@ -606,7 +606,7 @@
         },
         {
             "ticker": "XHB",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 2,
             "short_votes": 2,
@@ -616,7 +616,7 @@
         },
         {
             "ticker": "HUBB",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 2,
             "short_votes": 2,
@@ -626,7 +626,7 @@
         },
         {
             "ticker": "KRE",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -636,7 +636,7 @@
         },
         {
             "ticker": "TSLA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 3,
@@ -646,7 +646,7 @@
         },
         {
             "ticker": "RSP",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -656,7 +656,7 @@
         },
         {
             "ticker": "DUOL",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -666,7 +666,7 @@
         },
         {
             "ticker": "ONDS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -676,7 +676,7 @@
         },
         {
             "ticker": "BE",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -686,7 +686,7 @@
         },
         {
             "ticker": "OKLO",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 2,
@@ -696,7 +696,7 @@
         },
         {
             "ticker": "XOP",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 1,
@@ -706,7 +706,7 @@
         },
         {
             "ticker": "BAC",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 2,
@@ -716,7 +716,7 @@
         },
         {
             "ticker": "NVO",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 2,
@@ -726,7 +726,7 @@
         },
         {
             "ticker": "CEG",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 1,
@@ -736,7 +736,7 @@
         },
         {
             "ticker": "NVT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 2,
             "short_votes": 3,
@@ -746,7 +746,7 @@
         },
         {
             "ticker": "MAGS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 4,
@@ -756,7 +756,7 @@
         },
         {
             "ticker": "ZM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -766,7 +766,7 @@
         },
         {
             "ticker": "LIT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -776,7 +776,7 @@
         },
         {
             "ticker": "MP",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 2,
@@ -786,7 +786,7 @@
         },
         {
             "ticker": "MTSI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 2,
@@ -796,7 +796,7 @@
         },
         {
             "ticker": "APP",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 2,
@@ -806,7 +806,7 @@
         },
         {
             "ticker": "AMC",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 2,
@@ -816,7 +816,7 @@
         },
         {
             "ticker": "TE",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 3,
@@ -826,7 +826,7 @@
         },
         {
             "ticker": "SLNH",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 3,
@@ -836,7 +836,7 @@
         },
         {
             "ticker": "JETS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 2,
@@ -846,7 +846,7 @@
         },
         {
             "ticker": "HIVE",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 3,
@@ -856,7 +856,7 @@
         },
         {
             "ticker": "ITA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 3,
@@ -866,7 +866,7 @@
         },
         {
             "ticker": "STM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 2,
@@ -876,7 +876,7 @@
         },
         {
             "ticker": "ACLS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 2,
@@ -886,7 +886,7 @@
         },
         {
             "ticker": "RMBS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 2,
@@ -896,7 +896,7 @@
         },
         {
             "ticker": "APLD",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 2,
@@ -906,7 +906,7 @@
         },
         {
             "ticker": "MU",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 4,
@@ -916,7 +916,7 @@
         },
         {
             "ticker": "STX",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 4,
@@ -926,7 +926,7 @@
         },
         {
             "ticker": "RVLV",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -936,7 +936,7 @@
         },
         {
             "ticker": "ON",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -946,7 +946,7 @@
         },
         {
             "ticker": "9868.HK",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -957,7 +957,7 @@
         },
         {
             "ticker": "CAVA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 3,
@@ -967,7 +967,7 @@
         },
         {
             "ticker": "APH",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 3,
@@ -977,7 +977,7 @@
         },
         {
             "ticker": "005930.KS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 3,
@@ -988,7 +988,7 @@
         },
         {
             "ticker": "SOUN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 4,
@@ -998,7 +998,7 @@
         },
         {
             "ticker": "GRRR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 4,
@@ -1008,7 +1008,7 @@
         },
         {
             "ticker": "XLU",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 3,
@@ -1018,7 +1018,7 @@
         },
         {
             "ticker": "XLK",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 3,
@@ -1028,7 +1028,7 @@
         },
         {
             "ticker": "BBAI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 3,
@@ -1038,7 +1038,7 @@
         },
         {
             "ticker": "XLC",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 3,
@@ -1048,7 +1048,7 @@
         },
         {
             "ticker": "BABA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1059,7 +1059,7 @@
         },
         {
             "ticker": "KWEB",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -1070,7 +1070,7 @@
         },
         {
             "ticker": "XLV",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1080,7 +1080,7 @@
         },
         {
             "ticker": "^VXN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1090,7 +1090,7 @@
         },
         {
             "ticker": "COIN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1100,7 +1100,7 @@
         },
         {
             "ticker": "ORCL",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1110,7 +1110,7 @@
         },
         {
             "ticker": "EZA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1120,7 +1120,7 @@
         },
         {
             "ticker": "AIA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -1130,7 +1130,7 @@
         },
         {
             "ticker": "ENOR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -1140,7 +1140,7 @@
         },
         {
             "ticker": "RSPT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1150,7 +1150,7 @@
         },
         {
             "ticker": "EWJ",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -1160,7 +1160,7 @@
         },
         {
             "ticker": "SE",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1170,7 +1170,7 @@
         },
         {
             "ticker": "RELL",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1180,7 +1180,7 @@
         },
         {
             "ticker": "MSTR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1190,7 +1190,7 @@
         },
         {
             "ticker": "INTC",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1200,7 +1200,7 @@
         },
         {
             "ticker": "ONTO",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1210,7 +1210,7 @@
         },
         {
             "ticker": "MPWR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1220,7 +1220,7 @@
         },
         {
             "ticker": "DXYZ",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1230,7 +1230,7 @@
         },
         {
             "ticker": "CVNA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1240,7 +1240,7 @@
         },
         {
             "ticker": "MARA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1250,7 +1250,7 @@
         },
         {
             "ticker": "SEI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1260,7 +1260,7 @@
         },
         {
             "ticker": "CLS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1270,7 +1270,7 @@
         },
         {
             "ticker": "CLSK",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1280,7 +1280,7 @@
         },
         {
             "ticker": "AMPX",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1290,7 +1290,7 @@
         },
         {
             "ticker": "LLY",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1300,7 +1300,7 @@
         },
         {
             "ticker": "XLY",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1310,7 +1310,7 @@
         },
         {
             "ticker": "XLRE",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1320,7 +1320,7 @@
         },
         {
             "ticker": "STRL",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1330,7 +1330,7 @@
         },
         {
             "ticker": "BTDR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1340,7 +1340,7 @@
         },
         {
             "ticker": "AEIS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1350,7 +1350,7 @@
         },
         {
             "ticker": "MKSI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1360,7 +1360,7 @@
         },
         {
             "ticker": "COHU",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1370,7 +1370,7 @@
         },
         {
             "ticker": "WCC",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1380,7 +1380,7 @@
         },
         {
             "ticker": "POWL",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1390,7 +1390,7 @@
         },
         {
             "ticker": "EQIX",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 4,
@@ -1400,7 +1400,7 @@
         },
         {
             "ticker": "AAPL",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1410,7 +1410,7 @@
         },
         {
             "ticker": "SMH",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1420,7 +1420,7 @@
         },
         {
             "ticker": "NVDA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1430,7 +1430,7 @@
         },
         {
             "ticker": "XLE",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1440,7 +1440,7 @@
         },
         {
             "ticker": "ILF",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1450,7 +1450,7 @@
         },
         {
             "ticker": "RSPG",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1460,7 +1460,7 @@
         },
         {
             "ticker": "SLV",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1470,7 +1470,7 @@
         },
         {
             "ticker": "IBB",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1480,7 +1480,7 @@
         },
         {
             "ticker": "VNET",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1490,7 +1490,7 @@
         },
         {
             "ticker": "GFS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1500,7 +1500,7 @@
         },
         {
             "ticker": "NET",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1510,7 +1510,7 @@
         },
         {
             "ticker": "NOK",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1520,7 +1520,7 @@
         },
         {
             "ticker": "AEHR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1530,7 +1530,7 @@
         },
         {
             "ticker": "1810.HK",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1541,7 +1541,7 @@
         },
         {
             "ticker": "OIH",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1551,7 +1551,7 @@
         },
         {
             "ticker": "CAMT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1561,7 +1561,7 @@
         },
         {
             "ticker": "HWM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1571,7 +1571,7 @@
         },
         {
             "ticker": "BWXT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1581,7 +1581,7 @@
         },
         {
             "ticker": "ADM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1591,7 +1591,7 @@
         },
         {
             "ticker": "FIVE",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1601,7 +1601,7 @@
         },
         {
             "ticker": "PWR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1611,7 +1611,7 @@
         },
         {
             "ticker": "COP",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1621,7 +1621,7 @@
         },
         {
             "ticker": "DBA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1631,7 +1631,7 @@
         },
         {
             "ticker": "MRVL",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1641,7 +1641,7 @@
         },
         {
             "ticker": "VRT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1651,7 +1651,7 @@
         },
         {
             "ticker": "GLW",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1661,7 +1661,7 @@
         },
         {
             "ticker": "GEO",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1671,7 +1671,7 @@
         },
         {
             "ticker": "GME",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1681,7 +1681,7 @@
         },
         {
             "ticker": "SMCI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1691,7 +1691,7 @@
         },
         {
             "ticker": "QS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1701,7 +1701,7 @@
         },
         {
             "ticker": "RDDT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1711,7 +1711,7 @@
         },
         {
             "ticker": "RUM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1721,7 +1721,7 @@
         },
         {
             "ticker": "RIOT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1731,7 +1731,7 @@
         },
         {
             "ticker": "DGXX",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1741,7 +1741,7 @@
         },
         {
             "ticker": "CAT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1751,7 +1751,7 @@
         },
         {
             "ticker": "HUT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1761,7 +1761,7 @@
         },
         {
             "ticker": "PLAB",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1771,7 +1771,7 @@
         },
         {
             "ticker": "CARR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1781,7 +1781,7 @@
         },
         {
             "ticker": "MRNA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1791,7 +1791,7 @@
         },
         {
             "ticker": "QCOM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1801,7 +1801,7 @@
         },
         {
             "ticker": "FIX",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1811,7 +1811,7 @@
         },
         {
             "ticker": "UUUU",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1821,7 +1821,7 @@
         },
         {
             "ticker": "CORZ",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1831,7 +1831,7 @@
         },
         {
             "ticker": "BTBT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1841,7 +1841,7 @@
         },
         {
             "ticker": "CRM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1851,7 +1851,7 @@
         },
         {
             "ticker": "BIDU",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1862,7 +1862,7 @@
         },
         {
             "ticker": "GDS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1872,7 +1872,7 @@
         },
         {
             "ticker": "MCHP",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1882,7 +1882,7 @@
         },
         {
             "ticker": "ADI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1892,7 +1892,7 @@
         },
         {
             "ticker": "TXN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1902,7 +1902,7 @@
         },
         {
             "ticker": "LSCC",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1912,7 +1912,7 @@
         },
         {
             "ticker": "NXPI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1922,7 +1922,7 @@
         },
         {
             "ticker": "TLN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1932,7 +1932,7 @@
         },
         {
             "ticker": "ENTG",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -1942,7 +1942,7 @@
         },
         {
             "ticker": "XBI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -1952,7 +1952,7 @@
         },
         {
             "ticker": "AMD",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -1962,7 +1962,7 @@
         },
         {
             "ticker": "TSM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -1972,7 +1972,7 @@
         },
         {
             "ticker": "AMZN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -1982,7 +1982,7 @@
         },
         {
             "ticker": "XLI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -1992,7 +1992,7 @@
         },
         {
             "ticker": "ETN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2002,7 +2002,7 @@
         },
         {
             "ticker": "BTC-USD",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2012,7 +2012,7 @@
         },
         {
             "ticker": "SNDK",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2022,7 +2022,7 @@
         },
         {
             "ticker": "WDC",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2032,7 +2032,7 @@
         },
         {
             "ticker": "ETH-USD",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2042,7 +2042,7 @@
         },
         {
             "ticker": "SPY",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2052,7 +2052,7 @@
         },
         {
             "ticker": "EEM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2062,7 +2062,7 @@
         },
         {
             "ticker": "ASHR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2073,7 +2073,7 @@
         },
         {
             "ticker": "QQQ",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2083,7 +2083,7 @@
         },
         {
             "ticker": "TAN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2093,7 +2093,7 @@
         },
         {
             "ticker": "CL=F",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2103,7 +2103,7 @@
         },
         {
             "ticker": "COPX",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2113,7 +2113,7 @@
         },
         {
             "ticker": "CIFR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2123,7 +2123,7 @@
         },
         {
             "ticker": "CSCO",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2133,7 +2133,7 @@
         },
         {
             "ticker": "IWM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2143,7 +2143,7 @@
         },
         {
             "ticker": "AVGO",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2153,7 +2153,7 @@
         },
         {
             "ticker": "EWW",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2163,7 +2163,7 @@
         },
         {
             "ticker": "EWP",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2173,7 +2173,7 @@
         },
         {
             "ticker": "EWZ",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2183,7 +2183,7 @@
         },
         {
             "ticker": "EWI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2193,7 +2193,7 @@
         },
         {
             "ticker": "ECH",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2203,7 +2203,7 @@
         },
         {
             "ticker": "EWY",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2213,7 +2213,7 @@
         },
         {
             "ticker": "ASEA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2223,7 +2223,7 @@
         },
         {
             "ticker": "EWT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2233,7 +2233,7 @@
         },
         {
             "ticker": "EWG",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2243,7 +2243,7 @@
         },
         {
             "ticker": "KLAC",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2253,7 +2253,7 @@
         },
         {
             "ticker": "AMAT",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2263,7 +2263,7 @@
         },
         {
             "ticker": "LRCX",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2273,7 +2273,7 @@
         },
         {
             "ticker": "ROK",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2283,7 +2283,7 @@
         },
         {
             "ticker": "KC",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2293,7 +2293,7 @@
         },
         {
             "ticker": "RKLB",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2303,7 +2303,7 @@
         },
         {
             "ticker": "SWK",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2313,7 +2313,7 @@
         },
         {
             "ticker": "ENPH",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2323,7 +2323,7 @@
         },
         {
             "ticker": "DELL",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2333,7 +2333,7 @@
         },
         {
             "ticker": "IRM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2343,7 +2343,7 @@
         },
         {
             "ticker": "URA",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2353,7 +2353,7 @@
         },
         {
             "ticker": "CF",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2363,7 +2363,7 @@
         },
         {
             "ticker": "UI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2373,7 +2373,7 @@
         },
         {
             "ticker": "SATS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2383,7 +2383,7 @@
         },
         {
             "ticker": "NBIS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2393,7 +2393,7 @@
         },
         {
             "ticker": "DLR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2403,7 +2403,7 @@
         },
         {
             "ticker": "CRWV",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2413,7 +2413,7 @@
         },
         {
             "ticker": "DBB",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2423,7 +2423,7 @@
         },
         {
             "ticker": "CIEN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2433,7 +2433,7 @@
         },
         {
             "ticker": "LITE",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2443,7 +2443,7 @@
         },
         {
             "ticker": "COHR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2453,7 +2453,7 @@
         },
         {
             "ticker": "CSX",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2463,7 +2463,7 @@
         },
         {
             "ticker": "LWLG",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2473,7 +2473,7 @@
         },
         {
             "ticker": "ALAB",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2483,7 +2483,7 @@
         },
         {
             "ticker": "AAOI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2493,7 +2493,7 @@
         },
         {
             "ticker": "GEV",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2503,7 +2503,7 @@
         },
         {
             "ticker": "FN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2513,7 +2513,7 @@
         },
         {
             "ticker": "POET",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2523,7 +2523,7 @@
         },
         {
             "ticker": "IWC",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2533,7 +2533,7 @@
         },
         {
             "ticker": "TER",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2543,7 +2543,7 @@
         },
         {
             "ticker": "VECO",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2553,7 +2553,7 @@
         },
         {
             "ticker": "TSEM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2563,7 +2563,7 @@
         },
         {
             "ticker": "ARM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2573,7 +2573,7 @@
         },
         {
             "ticker": "FORM",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2583,7 +2583,7 @@
         },
         {
             "ticker": "SMR",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2593,7 +2593,7 @@
         },
         {
             "ticker": "KEYS",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2603,7 +2603,7 @@
         },
         {
             "ticker": "IREN",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2613,7 +2613,7 @@
         },
         {
             "ticker": "EOSE",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2623,7 +2623,7 @@
         },
         {
             "ticker": "AXTI",
-            "timestamp": "2026-05-07 22:22:29",
+            "timestamp": "2026-05-08 23:52:58",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
