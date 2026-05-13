@@ -1,10 +1,10 @@
 {
     "timeframe": "1D",
-    "update_time": "2026-05-12 23:03:06",
+    "update_time": "2026-05-13 19:09:41",
     "signals": [
         {
-            "ticker": "NFLX",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "XBI",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -14,7 +14,17 @@
         },
         {
             "ticker": "XPEV",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 6,
+            "short_votes": 0,
+            "net_score": 6,
+            "final_action": "EXECUTE_LONG",
+            "reason": "Unanimous Consensus: Full Long"
+        },
+        {
+            "ticker": "^VIX",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -24,7 +34,7 @@
         },
         {
             "ticker": "SERV",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -33,8 +43,8 @@
             "reason": "Unanimous Consensus: Full Long"
         },
         {
-            "ticker": "TLT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "ANET",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -43,8 +53,8 @@
             "reason": "Unanimous Consensus: Full Long"
         },
         {
-            "ticker": "ENPH",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "SHOP",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -53,48 +63,19 @@
             "reason": "Unanimous Consensus: Full Long"
         },
         {
-            "ticker": "ETSY",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "9868.HK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
             "net_score": 6,
             "final_action": "EXECUTE_LONG",
-            "reason": "Unanimous Consensus: Full Long"
-        },
-        {
-            "ticker": "ASTS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 6,
-            "short_votes": 0,
-            "net_score": 6,
-            "final_action": "EXECUTE_LONG",
-            "reason": "Unanimous Consensus: Full Long"
-        },
-        {
-            "ticker": "CHPT",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 6,
-            "short_votes": 0,
-            "net_score": 6,
-            "final_action": "EXECUTE_LONG",
-            "reason": "Unanimous Consensus: Full Long"
-        },
-        {
-            "ticker": "ONDS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 6,
-            "short_votes": 0,
-            "net_score": 6,
-            "final_action": "EXECUTE_LONG",
-            "reason": "Unanimous Consensus: Full Long"
+            "reason": "Unanimous Consensus: Full Long",
+            "name": "XPEV"
         },
         {
             "ticker": "NAMI",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -103,8 +84,8 @@
             "reason": "Unanimous Consensus: Full Long"
         },
         {
-            "ticker": "AMC",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "GME",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -113,28 +94,8 @@
             "reason": "Unanimous Consensus: Full Long"
         },
         {
-            "ticker": "DJT",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 6,
-            "short_votes": 0,
-            "net_score": 6,
-            "final_action": "EXECUTE_LONG",
-            "reason": "Unanimous Consensus: Full Long"
-        },
-        {
-            "ticker": "PD",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 6,
-            "short_votes": 0,
-            "net_score": 6,
-            "final_action": "EXECUTE_LONG",
-            "reason": "Unanimous Consensus: Full Long"
-        },
-        {
-            "ticker": "AMPX",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "CEG",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -144,7 +105,7 @@
         },
         {
             "ticker": "KTOS",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -153,19 +114,28 @@
             "reason": "Unanimous Consensus: Full Long"
         },
         {
-            "ticker": "000660.KS",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "XLC",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
             "net_score": 6,
             "final_action": "EXECUTE_LONG",
-            "reason": "Unanimous Consensus: Full Long",
-            "name": "SK海力士 (SK Hynix)"
+            "reason": "Unanimous Consensus: Full Long"
         },
         {
-            "ticker": "SPXU",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "XLRE",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 6,
+            "short_votes": 0,
+            "net_score": 6,
+            "final_action": "EXECUTE_LONG",
+            "reason": "Unanimous Consensus: Full Long"
+        },
+        {
+            "ticker": "SQQQ",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -175,7 +145,7 @@
         },
         {
             "ticker": "LABD",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -184,19 +154,28 @@
             "reason": "Unanimous Consensus: Full Long"
         },
         {
-            "ticker": "9626.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "NIO",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
             "net_score": 6,
             "final_action": "EXECUTE_LONG",
-            "reason": "Unanimous Consensus: Full Long",
-            "name": "BILIBILI-W"
+            "reason": "Unanimous Consensus: Full Long"
+        },
+        {
+            "ticker": "SPXU",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 6,
+            "short_votes": 0,
+            "net_score": 6,
+            "final_action": "EXECUTE_LONG",
+            "reason": "Unanimous Consensus: Full Long"
         },
         {
             "ticker": "9961.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -206,19 +185,41 @@
             "name": "TRIP.COM-S"
         },
         {
-            "ticker": "2391.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "BILI",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
             "net_score": 6,
             "final_action": "EXECUTE_LONG",
             "reason": "Unanimous Consensus: Full Long",
-            "name": "塗鴉智能－Ｗ"
+            "name": "哔哩哔哩"
         },
         {
-            "ticker": "TME",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "9688.HK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 6,
+            "short_votes": 0,
+            "net_score": 6,
+            "final_action": "EXECUTE_LONG",
+            "reason": "Unanimous Consensus: Full Long",
+            "name": "再鼎醫藥"
+        },
+        {
+            "ticker": "9898.HK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 6,
+            "short_votes": 0,
+            "net_score": 6,
+            "final_action": "EXECUTE_LONG",
+            "reason": "Unanimous Consensus: Full Long",
+            "name": "微博－ＳＷ"
+        },
+        {
+            "ticker": "ZH",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -227,8 +228,8 @@
             "reason": "Unanimous Consensus: Full Long"
         },
         {
-            "ticker": "PLTR",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "XLV",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -237,8 +238,8 @@
             "reason": "Wave Function Divergence (Net Score +5), Defensive Mode"
         },
         {
-            "ticker": "ECH",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "IBB",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -247,8 +248,8 @@
             "reason": "Wave Function Divergence (Net Score +5), Defensive Mode"
         },
         {
-            "ticker": "DQ",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "OKLO",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -257,8 +258,8 @@
             "reason": "Wave Function Divergence (Net Score +5), Defensive Mode"
         },
         {
-            "ticker": "COP",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "ACHR",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -267,8 +268,8 @@
             "reason": "Wave Function Divergence (Net Score +5), Defensive Mode"
         },
         {
-            "ticker": "BBAI",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "RR",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -277,8 +278,8 @@
             "reason": "Wave Function Divergence (Net Score +5), Defensive Mode"
         },
         {
-            "ticker": "UUUU",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "FLUT",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -287,8 +288,8 @@
             "reason": "Wave Function Divergence (Net Score +5), Defensive Mode"
         },
         {
-            "ticker": "CEG",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "FIVE",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -297,8 +298,8 @@
             "reason": "Wave Function Divergence (Net Score +5), Defensive Mode"
         },
         {
-            "ticker": "SOXS",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "XLU",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -307,8 +308,8 @@
             "reason": "Wave Function Divergence (Net Score +5), Defensive Mode"
         },
         {
-            "ticker": "NIO",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "LABU",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -317,8 +318,8 @@
             "reason": "Wave Function Divergence (Net Score +5), Defensive Mode"
         },
         {
-            "ticker": "SQQQ",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "SMTC",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -327,8 +328,8 @@
             "reason": "Wave Function Divergence (Net Score +5), Defensive Mode"
         },
         {
-            "ticker": "SRTY",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "TLN",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -337,112 +338,51 @@
             "reason": "Wave Function Divergence (Net Score +5), Defensive Mode"
         },
         {
-            "ticker": "1179.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "9866.HK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
             "net_score": 5,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +5), Defensive Mode",
-            "name": "華住集團－Ｓ"
+            "name": "蔚來－ＳＷ"
         },
         {
-            "ticker": "KWEB",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 0,
-            "net_score": 4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode",
-            "name": "中概互联网ETF"
-        },
-        {
-            "ticker": "EWZ",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "WB",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
-            "short_votes": 1,
-            "net_score": 4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
-        },
-        {
-            "ticker": "ASHR",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
             "short_votes": 0,
-            "net_score": 4,
+            "net_score": 5,
             "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode",
-            "name": "A股ETF(沪深300口径)"
+            "reason": "Wave Function Divergence (Net Score +5), Defensive Mode"
         },
         {
-            "ticker": "PDD",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 0,
-            "net_score": 4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode",
-            "name": "拼多多"
-        },
-        {
-            "ticker": "SE",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 0,
-            "net_score": 4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
-        },
-        {
-            "ticker": "SATS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 0,
-            "net_score": 4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
-        },
-        {
-            "ticker": "VST",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 0,
-            "net_score": 4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
-        },
-        {
-            "ticker": "HOOD",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 0,
-            "net_score": 4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
-        },
-        {
-            "ticker": "LCID",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "1698.HK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
-            "short_votes": 1,
-            "net_score": 4,
+            "short_votes": 0,
+            "net_score": 5,
             "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
+            "reason": "Wave Function Divergence (Net Score +5), Defensive Mode",
+            "name": "TME-SW"
         },
         {
-            "ticker": "MPWR",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "9987.HK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 5,
+            "short_votes": 0,
+            "net_score": 5,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +5), Defensive Mode",
+            "name": "YUM CHINA"
+        },
+        {
+            "ticker": "XLF",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -451,8 +391,8 @@
             "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
         },
         {
-            "ticker": "FIVE",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "IREN",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -461,8 +401,38 @@
             "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
         },
         {
-            "ticker": "FLUT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "CAVA",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 4,
+            "short_votes": 0,
+            "net_score": 4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
+        },
+        {
+            "ticker": "OIH",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 4,
+            "short_votes": 0,
+            "net_score": 4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
+        },
+        {
+            "ticker": "DKNG",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 4,
+            "short_votes": 0,
+            "net_score": 4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
+        },
+        {
+            "ticker": "SOUN",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -472,7 +442,7 @@
         },
         {
             "ticker": "GDS",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -481,18 +451,8 @@
             "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
         },
         {
-            "ticker": "POWL",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 5,
-            "short_votes": 1,
-            "net_score": 4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
-        },
-        {
-            "ticker": "UPRO",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "SRTY",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -501,41 +461,41 @@
             "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
         },
         {
-            "ticker": "9866.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "JD",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 1,
             "net_score": 4,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +4), Defensive Mode",
-            "name": "蔚來－ＳＷ"
+            "name": "京东"
         },
         {
-            "ticker": "9618.HK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 5,
-            "short_votes": 1,
-            "net_score": 4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode",
-            "name": "京東集團－ＳＷ"
-        },
-        {
-            "ticker": "BEKE",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "2391.HK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
             "net_score": 4,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +4), Defensive Mode",
-            "name": "贝壳"
+            "name": "塗鴉智能－Ｗ"
         },
         {
-            "ticker": "HTHT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "1179.HK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 4,
+            "short_votes": 0,
+            "net_score": 4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode",
+            "name": "華住集團－Ｓ"
+        },
+        {
+            "ticker": "HON",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -544,18 +504,38 @@
             "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
         },
         {
-            "ticker": "UI",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "V",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 4,
+            "short_votes": 0,
+            "net_score": 4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +4), Defensive Mode"
+        },
+        {
+            "ticker": "NFLX",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
+            "net_score": 3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
+        },
+        {
+            "ticker": "ECH",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 4,
+            "short_votes": 1,
             "net_score": 3,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
         },
         {
             "ticker": "DUOL",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -564,38 +544,8 @@
             "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
         },
         {
-            "ticker": "ON",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 1,
-            "net_score": 3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
-        },
-        {
-            "ticker": "URA",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 1,
-            "net_score": 3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
-        },
-        {
-            "ticker": "CAVA",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 1,
-            "net_score": 3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
-        },
-        {
-            "ticker": "RGTI",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "OPEN",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -604,81 +554,130 @@
             "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
         },
         {
-            "ticker": "APP",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 1,
-            "net_score": 3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
-        },
-        {
-            "ticker": "SOFI",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 3,
-            "short_votes": 0,
-            "net_score": 3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
-        },
-        {
-            "ticker": "ADI",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 1,
-            "net_score": 3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
-        },
-        {
-            "ticker": "9987.HK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 1,
-            "net_score": 3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode",
-            "name": "YUM CHINA"
-        },
-        {
-            "ticker": "SMTC",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 1,
-            "net_score": 3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
-        },
-        {
-            "ticker": "9999.HK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 4,
-            "short_votes": 1,
-            "net_score": 3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode",
-            "name": "網易－Ｓ"
-        },
-        {
-            "ticker": "BILI",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "1810.HK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
             "net_score": 3,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +3), Defensive Mode",
-            "name": "哔哩哔哩"
+            "name": "XIAOMI"
         },
         {
-            "ticker": "EZA",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "CVNA",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 3,
+            "short_votes": 0,
+            "net_score": 3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
+        },
+        {
+            "ticker": "APH",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 3,
+            "short_votes": 0,
+            "net_score": 3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
+        },
+        {
+            "ticker": "AMC",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 4,
+            "short_votes": 1,
+            "net_score": 3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
+        },
+        {
+            "ticker": "PD",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 4,
+            "short_votes": 1,
+            "net_score": 3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
+        },
+        {
+            "ticker": "BBAI",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 4,
+            "short_votes": 1,
+            "net_score": 3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
+        },
+        {
+            "ticker": "SOXS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 3,
+            "short_votes": 0,
+            "net_score": 3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
+        },
+        {
+            "ticker": "UPRO",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 3,
+            "short_votes": 0,
+            "net_score": 3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
+        },
+        {
+            "ticker": "2423.HK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 4,
+            "short_votes": 1,
+            "net_score": 3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode",
+            "name": "BEKE-W"
+        },
+        {
+            "ticker": "ZLAB",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 4,
+            "short_votes": 1,
+            "net_score": 3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
+        },
+        {
+            "ticker": "MA",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 3,
+            "short_votes": 0,
+            "net_score": 3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +3), Defensive Mode"
+        },
+        {
+            "ticker": "SPY",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 4,
+            "short_votes": 2,
+            "net_score": 2,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
+        },
+        {
+            "ticker": "EWW",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -687,8 +686,8 @@
             "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
         },
         {
-            "ticker": "^VIX",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "XLE",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -697,18 +696,8 @@
             "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
         },
         {
-            "ticker": "WDC",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 3,
-            "short_votes": 1,
-            "net_score": 2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
-        },
-        {
-            "ticker": "VNET",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "NET",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -717,8 +706,8 @@
             "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
         },
         {
-            "ticker": "ANET",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "ENPH",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -727,8 +716,18 @@
             "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
         },
         {
-            "ticker": "OIH",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "UI",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 3,
+            "short_votes": 1,
+            "net_score": 2,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
+        },
+        {
+            "ticker": "RBLX",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -737,8 +736,8 @@
             "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
         },
         {
-            "ticker": "GME",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "COP",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -747,8 +746,8 @@
             "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
         },
         {
-            "ticker": "MTSI",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "LCID",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -757,8 +756,8 @@
             "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
         },
         {
-            "ticker": "DKNG",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "HTHT",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -767,49 +766,19 @@
             "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
         },
         {
-            "ticker": "SEI",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 3,
-            "short_votes": 1,
-            "net_score": 2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
-        },
-        {
-            "ticker": "BZ",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 3,
-            "short_votes": 1,
-            "net_score": 2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
-        },
-        {
-            "ticker": "YUMC",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 2,
-            "short_votes": 0,
-            "net_score": 2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +2), Defensive Mode"
-        },
-        {
-            "ticker": "9898.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "2390.HK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
             "net_score": 2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score +2), Defensive Mode",
-            "name": "微博－ＳＷ"
+            "name": "知乎－Ｗ"
         },
         {
-            "ticker": "TSLA",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "CHPT",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -818,8 +787,8 @@
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode"
         },
         {
-            "ticker": "DBB",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "VST",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -828,18 +797,8 @@
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode"
         },
         {
-            "ticker": "QBTS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 2,
-            "short_votes": 1,
-            "net_score": 1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode"
-        },
-        {
-            "ticker": "QS",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "CLS",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 2,
@@ -848,8 +807,8 @@
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode"
         },
         {
-            "ticker": "XLU",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "BTDR",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -858,40 +817,113 @@
             "reason": "Wave Function Divergence (Net Score +1), Defensive Mode"
         },
         {
-            "ticker": "NTES",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "SLNH",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
             "net_score": 1,
             "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "网易"
+            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode"
         },
         {
-            "ticker": "9688.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "CQQQ",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
-            "long_votes": 2,
-            "short_votes": 1,
-            "net_score": 1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
-            "name": "再鼎醫藥"
-        },
-        {
-            "ticker": "AVGO",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 2,
+            "long_votes": 3,
             "short_votes": 2,
+            "net_score": 1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode"
+        },
+        {
+            "ticker": "9999.HK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 2,
+            "short_votes": 1,
+            "net_score": 1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
+            "name": "網易－Ｓ"
+        },
+        {
+            "ticker": "9988.HK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 2,
+            "short_votes": 1,
+            "net_score": 1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
+            "name": "阿里巴巴－Ｗ"
+        },
+        {
+            "ticker": "2076.HK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 0,
+            "net_score": 1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode",
+            "name": "ＢＯＳＳ直聘－Ｗ"
+        },
+        {
+            "ticker": "MNSO",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 2,
+            "short_votes": 1,
+            "net_score": 1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode"
+        },
+        {
+            "ticker": "ATHM",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 3,
+            "short_votes": 2,
+            "net_score": 1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score +1), Defensive Mode"
+        },
+        {
+            "ticker": "KWEB",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 0,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
+            "name": "中概互联网ETF"
+        },
+        {
+            "ticker": "BABA",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 0,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
+            "name": "阿里巴巴"
+        },
+        {
+            "ticker": "PLTR",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 0,
             "net_score": 0,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
         },
         {
-            "ticker": "SPY",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "MSFT",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -901,7 +933,48 @@
         },
         {
             "ticker": "META",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 2,
+            "short_votes": 2,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
+        },
+        {
+            "ticker": "ENOR",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 1,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
+        },
+        {
+            "ticker": "ASHR",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 0,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
+            "name": "A股ETF(沪深300口径)"
+        },
+        {
+            "ticker": "CIFR",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 1,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
+        },
+        {
+            "ticker": "TLT",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -910,18 +983,8 @@
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
         },
         {
-            "ticker": "TAN",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 0,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
-        },
-        {
-            "ticker": "UBER",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "DQ",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -931,7 +994,7 @@
         },
         {
             "ticker": "WDAY",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -940,99 +1003,48 @@
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
         },
         {
-            "ticker": "9868.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "UBER",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
             "net_score": 0,
             "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "XPEV"
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
         },
         {
-            "ticker": "RBLX",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "TER",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 3,
+            "short_votes": 3,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
+        },
+        {
+            "ticker": "VNET",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
+        },
+        {
+            "ticker": "RSPF",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 1,
             "net_score": 0,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
         },
         {
             "ticker": "SMR",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 2,
-            "short_votes": 2,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
-        },
-        {
-            "ticker": "EOSE",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 0,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
-        },
-        {
-            "ticker": "PHM",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 0,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
-        },
-        {
-            "ticker": "RR",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 2,
-            "short_votes": 2,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
-        },
-        {
-            "ticker": "APH",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 3,
-            "short_votes": 3,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
-        },
-        {
-            "ticker": "ACHR",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 3,
-            "short_votes": 3,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
-        },
-        {
-            "ticker": "CVNA",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 2,
-            "short_votes": 2,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
-        },
-        {
-            "ticker": "RIOT",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -1041,8 +1053,8 @@
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
         },
         {
-            "ticker": "SOUN",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "TEL",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -1051,18 +1063,8 @@
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
         },
         {
-            "ticker": "CLS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 0,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
-        },
-        {
-            "ticker": "HUT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "TE",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -1071,8 +1073,8 @@
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
         },
         {
-            "ticker": "EQIX",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "LAC",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -1081,39 +1083,70 @@
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
         },
         {
-            "ticker": "LABU",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 1,
-            "net_score": 0,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
-        },
-        {
-            "ticker": "JD",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "9618.HK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
             "net_score": 0,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
-            "name": "京东"
+            "name": "京東集團－ＳＷ"
         },
         {
-            "ticker": "AMD",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "TME",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
-            "long_votes": 0,
+            "long_votes": 1,
             "short_votes": 1,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
+        },
+        {
+            "ticker": "2057.HK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 1,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode",
+            "name": "ZTO EXPRESS-W"
+        },
+        {
+            "ticker": "UUUU",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 5,
+            "long_votes": 1,
+            "short_votes": 1,
+            "net_score": 0,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score 0), Defensive Mode"
+        },
+        {
+            "ticker": "EWZ",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 2,
             "net_score": -1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
         },
         {
-            "ticker": "EWW",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "EZA",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 2,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
+        },
+        {
+            "ticker": "IWM",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 2,
@@ -1122,8 +1155,18 @@
             "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
         },
         {
-            "ticker": "XLV",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "RVLV",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 2,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
+        },
+        {
+            "ticker": "APP",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 3,
@@ -1132,181 +1175,68 @@
             "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
         },
         {
-            "ticker": "RSPG",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "CORZ",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 2,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
+        },
+        {
+            "ticker": "QUBT",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 2,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
+        },
+        {
+            "ticker": "BTBT",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 2,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
+        },
+        {
+            "ticker": "STM",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 1,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
+        },
+        {
+            "ticker": "AEIS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 1,
+            "net_score": -1,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
+        },
+        {
+            "ticker": "WCC",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 3,
             "net_score": -1,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
-        },
-        {
-            "ticker": "RELL",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 2,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
-        },
-        {
-            "ticker": "CRWV",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 1,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
-        },
-        {
-            "ticker": "ALAB",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 2,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
-        },
-        {
-            "ticker": "AEHR",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 1,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
-        },
-        {
-            "ticker": "SLNH",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 1,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
-        },
-        {
-            "ticker": "NUE",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 1,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
-        },
-        {
-            "ticker": "CRM",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 1,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
-        },
-        {
-            "ticker": "CRWD",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 2,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
-        },
-        {
-            "ticker": "CQQQ",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 1,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
-        },
-        {
-            "ticker": "9988.HK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 2,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "阿里巴巴－Ｗ"
-        },
-        {
-            "ticker": "2390.HK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 1,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "知乎－Ｗ"
-        },
-        {
-            "ticker": "2057.HK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 1,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode",
-            "name": "ZTO EXPRESS-W"
-        },
-        {
-            "ticker": "ZH",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 2,
-            "net_score": -1,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -1), Defensive Mode"
-        },
-        {
-            "ticker": "IGV",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 3,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "XLF",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 3,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "IWM",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 3,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
         },
         {
             "ticker": "ETH-USD",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -1315,28 +1245,8 @@
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
         },
         {
-            "ticker": "RVLV",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 3,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "SNOW",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 3,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "SHOP",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "BTC-USD",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -1345,8 +1255,28 @@
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
         },
         {
-            "ticker": "MRVL",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "DBB",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 2,
+            "net_score": -2,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
+        },
+        {
+            "ticker": "CRWV",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 2,
+            "net_score": -2,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
+        },
+        {
+            "ticker": "MSTR",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -1356,27 +1286,7 @@
         },
         {
             "ticker": "BAC",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 5,
-            "long_votes": 1,
-            "short_votes": 3,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "HIMS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 3,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "RIVN",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -1385,8 +1295,8 @@
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
         },
         {
-            "ticker": "GEO",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "QS",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 4,
@@ -1395,8 +1305,8 @@
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
         },
         {
-            "ticker": "IONQ",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "HIMS",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -1405,8 +1315,38 @@
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
         },
         {
-            "ticker": "QUBT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "SMCI",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 2,
+            "net_score": -2,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
+        },
+        {
+            "ticker": "RIVN",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 2,
+            "net_score": -2,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
+        },
+        {
+            "ticker": "APLD",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 2,
+            "short_votes": 4,
+            "net_score": -2,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
+        },
+        {
+            "ticker": "CLSK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -1415,8 +1355,8 @@
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
         },
         {
-            "ticker": "FLNC",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "XLK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -1425,273 +1365,232 @@
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
         },
         {
-            "ticker": "BIDU",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "SOXL",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 3,
+            "net_score": -2,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
+        },
+        {
+            "ticker": "TCOM",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
             "net_score": -2,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
-            "name": "百度"
-        },
-        {
-            "ticker": "LAC",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 2,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "ACLS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 3,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "TQQQ",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 5,
-            "long_votes": 1,
-            "short_votes": 3,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "RMBS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 3,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "PANW",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 5,
-            "long_votes": 0,
-            "short_votes": 2,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "ZLAB",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 2,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "MNSO",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 2,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "WB",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 3,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "URTY",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 5,
-            "long_votes": 0,
-            "short_votes": 2,
-            "net_score": -2,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
-        },
-        {
-            "ticker": "CIFR",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 4,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
-        },
-        {
-            "ticker": "STX",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
-        },
-        {
-            "ticker": "IBB",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
-        },
-        {
-            "ticker": "CRDO",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
-        },
-        {
-            "ticker": "CSX",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
-        },
-        {
-            "ticker": "IWC",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
-        },
-        {
-            "ticker": "1810.HK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode",
-            "name": "XIAOMI"
-        },
-        {
-            "ticker": "TE",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
-        },
-        {
-            "ticker": "HIVE",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 4,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
-        },
-        {
-            "ticker": "MRNA",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
-        },
-        {
-            "ticker": "KEEL",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
-        },
-        {
-            "ticker": "DGXX",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 4,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
-        },
-        {
-            "ticker": "COHU",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
-        },
-        {
-            "ticker": "TCOM",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 1,
-            "short_votes": 4,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode",
             "name": "携程"
         },
         {
-            "ticker": "2518.HK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 3,
-            "net_score": -3,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode",
-            "name": "AUTOHOME-S"
-        },
-        {
             "ticker": "9896.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
-            "long_votes": 0,
+            "long_votes": 1,
             "short_votes": 3,
-            "net_score": -3,
+            "net_score": -2,
             "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode",
+            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
             "name": "MNSO"
         },
         {
-            "ticker": "XBI",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "NTES",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 2,
+            "net_score": -2,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode",
+            "name": "网易"
+        },
+        {
+            "ticker": "YUMC",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 2,
+            "net_score": -2,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -2), Defensive Mode"
+        },
+        {
+            "ticker": "TAN",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "RSPG",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "ARM",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 4,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "HOOD",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "MARA",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "IONQ",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 4,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "NUE",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "JETS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "CRM",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 4,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "AMPX",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 4,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "SITM",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 4,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "CRWD",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "SDOW",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 4,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "URTY",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "ACWI",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "TUYA",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 3,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode"
+        },
+        {
+            "ticker": "9901.HK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 4,
+            "net_score": -3,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -3), Defensive Mode",
+            "name": "NEW ORIENTAL-S"
+        },
+        {
+            "ticker": "WDC",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1700,108 +1599,8 @@
             "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
         },
         {
-            "ticker": "ORCL",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 4,
-            "net_score": -4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
-        },
-        {
-            "ticker": "EWP",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 4,
-            "net_score": -4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
-        },
-        {
-            "ticker": "BTC-USD",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 4,
-            "net_score": -4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
-        },
-        {
-            "ticker": "EEM",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 4,
-            "net_score": -4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
-        },
-        {
-            "ticker": "ROK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 4,
-            "net_score": -4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
-        },
-        {
-            "ticker": "LITE",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 4,
-            "net_score": -4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
-        },
-        {
-            "ticker": "BE",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 4,
-            "net_score": -4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
-        },
-        {
-            "ticker": "OKLO",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 4,
-            "net_score": -4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
-        },
-        {
-            "ticker": "RDDT",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 4,
-            "net_score": -4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
-        },
-        {
-            "ticker": "MP",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 4,
-            "net_score": -4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
-        },
-        {
-            "ticker": "CAT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "AVGO",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -1810,8 +1609,8 @@
             "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
         },
         {
-            "ticker": "QCOM",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "COIN",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1820,8 +1619,8 @@
             "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
         },
         {
-            "ticker": "STRL",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "TSM",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1830,8 +1629,18 @@
             "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
         },
         {
-            "ticker": "STM",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "SATS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 1,
+            "short_votes": 5,
+            "net_score": -4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
+        },
+        {
+            "ticker": "URA",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1840,19 +1649,109 @@
             "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
         },
         {
-            "ticker": "2076.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "AEHR",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 4,
+            "net_score": -4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
+        },
+        {
+            "ticker": "CSX",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 4,
+            "net_score": -4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
+        },
+        {
+            "ticker": "DXYZ",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 4,
+            "net_score": -4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
+        },
+        {
+            "ticker": "BWXT",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 4,
+            "net_score": -4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
+        },
+        {
+            "ticker": "DJT",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 4,
+            "net_score": -4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
+        },
+        {
+            "ticker": "MRNA",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 4,
+            "net_score": -4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
+        },
+        {
+            "ticker": "DGXX",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 4,
+            "net_score": -4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
+        },
+        {
+            "ticker": "HUT",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 4,
+            "net_score": -4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
+        },
+        {
+            "ticker": "HIVE",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 4,
+            "net_score": -4,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
+        },
+        {
+            "ticker": "BIDU",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
             "net_score": -4,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -4), Defensive Mode",
-            "name": "ＢＯＳＳ直聘－Ｗ"
+            "name": "百度"
         },
         {
-            "ticker": "APLD",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "XHB",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1861,8 +1760,8 @@
             "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
         },
         {
-            "ticker": "TXN",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "BZ",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -1871,48 +1770,30 @@
             "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
         },
         {
-            "ticker": "TLN",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "3896.HK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 4,
-            "net_score": -4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
-        },
-        {
-            "ticker": "SITM",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 4,
-            "net_score": -4,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode"
-        },
-        {
-            "ticker": "QQQ",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
+            "long_votes": 1,
             "short_votes": 5,
-            "net_score": -5,
+            "net_score": -4,
             "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
+            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode",
+            "name": "金山雲"
         },
         {
-            "ticker": "XLP",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "9626.HK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
-            "short_votes": 5,
-            "net_score": -5,
+            "short_votes": 4,
+            "net_score": -4,
             "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
+            "reason": "Wave Function Divergence (Net Score -4), Defensive Mode",
+            "name": "BILIBILI-W"
         },
         {
             "ticker": "CSCO",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1921,8 +1802,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "TSM",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "GOOGL",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1931,8 +1812,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "SMH",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "AMZN",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1941,8 +1822,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "RKLB",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "ORCL",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1951,8 +1832,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "SWK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "KBE",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1961,8 +1842,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "BLDR",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "ASEA",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1971,8 +1852,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "LIT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "CL=F",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1981,8 +1862,88 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "AAOI",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "QQQ",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 5,
+            "net_score": -5,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
+        },
+        {
+            "ticker": "AMD",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 5,
+            "net_score": -5,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
+        },
+        {
+            "ticker": "NVDA",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 5,
+            "net_score": -5,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
+        },
+        {
+            "ticker": "ROK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 5,
+            "net_score": -5,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
+        },
+        {
+            "ticker": "QBTS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 5,
+            "net_score": -5,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
+        },
+        {
+            "ticker": "KC",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 5,
+            "net_score": -5,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
+        },
+        {
+            "ticker": "CRDO",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 5,
+            "net_score": -5,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
+        },
+        {
+            "ticker": "PHM",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 5,
+            "long_votes": 0,
+            "short_votes": 5,
+            "net_score": -5,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "U",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -1992,7 +1953,7 @@
         },
         {
             "ticker": "FN",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2001,8 +1962,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "COHR",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "BE",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2011,8 +1972,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "NET",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "TSEM",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2021,8 +1982,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "LWLG",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "MP",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2031,8 +1992,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "VECO",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "EOSE",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2041,8 +2002,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "IREN",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "IWC",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2051,8 +2012,19 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "ONTO",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "000660.KS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 5,
+            "net_score": -5,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode",
+            "name": "SK海力士 (SK Hynix)"
+        },
+        {
+            "ticker": "MRVL",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2061,8 +2033,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "CAMT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "GEO",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2071,8 +2043,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "BWXT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "RDDT",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2082,88 +2054,7 @@
         },
         {
             "ticker": "RUM",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 5,
-            "net_score": -5,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
-        },
-        {
-            "ticker": "XLY",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 5,
-            "net_score": -5,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
-        },
-        {
-            "ticker": "DXYZ",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 5,
-            "net_score": -5,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
-        },
-        {
-            "ticker": "005930.KS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 5,
-            "net_score": -5,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode",
-            "name": "三星电子 (Samsung)"
-        },
-        {
-            "ticker": "GRRR",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 5,
-            "net_score": -5,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
-        },
-        {
-            "ticker": "XLC",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 5,
-            "net_score": -5,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
-        },
-        {
-            "ticker": "WULF",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 5,
-            "net_score": -5,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
-        },
-        {
-            "ticker": "CORZ",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 5,
-            "net_score": -5,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
-        },
-        {
-            "ticker": "CLSK",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2173,7 +2064,7 @@
         },
         {
             "ticker": "MCHP",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2182,8 +2073,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "XHB",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "RIOT",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2192,8 +2083,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "BTBT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "GRRR",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2202,8 +2093,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "LSCC",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "WULF",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2212,8 +2103,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "WCC",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "FIX",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2222,19 +2113,29 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "2015.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "PANW",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 5,
+            "net_score": -5,
+            "final_action": "VETO",
+            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
+        },
+        {
+            "ticker": "2518.HK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
             "net_score": -5,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode",
-            "name": "LI AUTO-W"
+            "name": "AUTOHOME-S"
         },
         {
-            "ticker": "LI",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "TQQQ",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2243,19 +2144,19 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "9888.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "BEKE",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
             "net_score": -5,
             "final_action": "VETO",
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode",
-            "name": "BIDU-SW"
+            "name": "贝壳"
         },
         {
-            "ticker": "ZTO",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "EDU",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -2264,262 +2165,8 @@
             "reason": "Wave Function Divergence (Net Score -5), Defensive Mode"
         },
         {
-            "ticker": "2423.HK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 5,
-            "net_score": -5,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode",
-            "name": "BEKE-W"
-        },
-        {
-            "ticker": "1698.HK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 5,
-            "net_score": -5,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode",
-            "name": "TME-SW"
-        },
-        {
-            "ticker": "9901.HK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 5,
-            "net_score": -5,
-            "final_action": "VETO",
-            "reason": "Wave Function Divergence (Net Score -5), Defensive Mode",
-            "name": "NEW ORIENTAL-S"
-        },
-        {
-            "ticker": "EWG",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "AAPL",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "BABA",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short",
-            "name": "阿里巴巴"
-        },
-        {
-            "ticker": "MU",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "NVDA",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "COPX",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "LEN",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "GOOGL",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "ETN",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "MSFT",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "^VXN",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "EWY",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "EWI",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "KRE",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "MAGS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "XLB",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "AMZN",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "ASEA",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "EWT",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "KBE",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "EWJ",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "CL=F",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "ILF",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "IGV",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2529,7 +2176,7 @@
         },
         {
             "ticker": "SNDK",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2538,8 +2185,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "RSPT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "EWP",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2548,8 +2195,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "XLE",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "EWY",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2558,8 +2205,98 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "COIN",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "^VXN",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "LEN",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "EWG",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "AAPL",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "ETN",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "MU",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "EWT",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "MAGS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "STX",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "XLB",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2569,7 +2306,7 @@
         },
         {
             "ticker": "XLI",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2578,8 +2315,88 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "AMAT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "EWJ",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "KRE",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "COPX",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "ILF",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "SMH",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "EEM",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "TSLA",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "XLP",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "RELL",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2589,7 +2406,17 @@
         },
         {
             "ticker": "ASML",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "RSPT",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2599,127 +2426,7 @@
         },
         {
             "ticker": "KLAC",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "RSP",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "RSPF",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "POET",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "DELL",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "OPEN",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "SLV",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "ENOR",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "GFS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "KC",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "U",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "IRM",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "DLR",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2729,7 +2436,7 @@
         },
         {
             "ticker": "LRCX",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2738,8 +2445,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "MSTR",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "ALAB",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2748,8 +2455,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "CF",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "AMAT",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2758,8 +2465,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "TSEM",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "EWI",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2768,8 +2475,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "NOK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "SLV",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2778,8 +2485,129 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "SFIX",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "RSP",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "GFS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "RKLB",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "BLDR",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "ON",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "DELL",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "IRM",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "SE",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "SWK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "ASTS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "PDD",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "拼多多"
+        },
+        {
+            "ticker": "SNOW",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "ETSY",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2789,7 +2617,27 @@
         },
         {
             "ticker": "NBIS",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "LWLG",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "CF",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2799,7 +2647,7 @@
         },
         {
             "ticker": "ZM",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2808,8 +2656,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "TER",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "DLR",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2818,8 +2666,58 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "VRT",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "ONDS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "LITE",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "SFIX",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "POET",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "NOK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "COHR",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2829,7 +2727,7 @@
         },
         {
             "ticker": "CIEN",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2838,8 +2736,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "GEV",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "VECO",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2848,58 +2746,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "ARM",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "FORM",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "KEYS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "ITB",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "AXTI",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "ADM",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "AAOI",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2909,7 +2757,7 @@
         },
         {
             "ticker": "INTC",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2918,8 +2766,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "HWM",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "GEV",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2928,8 +2776,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "DBA",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "FORM",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2938,8 +2786,18 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "XOP",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "ITB",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "KEYS",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2949,7 +2807,57 @@
         },
         {
             "ticker": "GLW",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "XOP",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "CAMT",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "ADM",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "ONTO",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "VRT",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2959,7 +2867,7 @@
         },
         {
             "ticker": "PWR",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2968,8 +2876,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "TEL",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "LIT",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2978,8 +2886,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "SMCI",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "MPWR",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2988,8 +2896,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "MARA",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "HWM",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -2998,8 +2906,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "NXPI",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "RGTI",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3008,8 +2916,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "NVO",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "MTSI",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3018,18 +2926,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "ITA",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "FIX",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "AXTI",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3039,7 +2937,7 @@
         },
         {
             "ticker": "CARR",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3048,8 +2946,19 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "HUBB",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "005930.KS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "三星电子 (Samsung)"
+        },
+        {
+            "ticker": "SOFI",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3058,8 +2967,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "LLY",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "SEI",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3068,8 +2977,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "XLRE",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "NVO",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3079,7 +2988,7 @@
         },
         {
             "ticker": "PLAB",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3088,8 +2997,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "AEIS",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "QCOM",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3098,8 +3007,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "SDOW",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "ITA",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3108,8 +3017,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "BTDR",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "FLNC",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3118,58 +3027,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "JETS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "MKSI",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "ENTG",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "XLK",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "CDNS",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
-            "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
-            "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
-        },
-        {
-            "ticker": "AIA",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "CAT",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3179,7 +3038,7 @@
         },
         {
             "ticker": "UDOW",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3188,8 +3047,169 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "TWLO",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "KEEL",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "XLY",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "NXPI",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "ENTG",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "STRL",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "RMBS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "LSCC",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "TXN",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "MKSI",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "ACLS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "LLY",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "LI",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "ADI",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "9888.HK",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "BIDU-SW"
+        },
+        {
+            "ticker": "COHU",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "HUBB",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "EQIX",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3199,7 +3219,7 @@
         },
         {
             "ticker": "NVT",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3208,8 +3228,8 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "SOXL",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "POWL",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3218,19 +3238,38 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "3896.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "AIA",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short",
-            "name": "金山雲"
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "TWLO",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
+        },
+        {
+            "ticker": "CDNS",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 6,
+            "long_votes": 0,
+            "short_votes": 6,
+            "net_score": -6,
+            "final_action": "EXECUTE_SHORT",
+            "reason": "Unanimous Consensus: Full Short"
         },
         {
             "ticker": "9698.HK",
-            "timestamp": "2026-05-12 23:03:06",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3240,8 +3279,8 @@
             "name": "萬國數據－ＳＷ"
         },
         {
-            "ticker": "TUYA",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "ZTO",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -3250,22 +3289,23 @@
             "reason": "Unanimous Consensus: Full Short"
         },
         {
-            "ticker": "ATHM",
-            "timestamp": "2026-05-12 23:03:06",
+            "ticker": "2015.HK",
+            "timestamp": "2026-05-13 19:09:41",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
             "net_score": -6,
             "final_action": "EXECUTE_SHORT",
-            "reason": "Unanimous Consensus: Full Short"
+            "reason": "Unanimous Consensus: Full Short",
+            "name": "LI AUTO-W"
         },
         {
-            "ticker": "EDU",
-            "timestamp": "2026-05-12 23:03:06",
-            "total_runs": 6,
+            "ticker": "DBA",
+            "timestamp": "2026-05-13 19:09:41",
+            "total_runs": 12,
             "long_votes": 0,
-            "short_votes": 6,
-            "net_score": -6,
+            "short_votes": 12,
+            "net_score": -12,
             "final_action": "EXECUTE_SHORT",
             "reason": "Unanimous Consensus: Full Short"
         }
