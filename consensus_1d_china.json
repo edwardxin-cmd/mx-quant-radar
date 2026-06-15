@@ -1,10 +1,10 @@
 {
     "timeframe": "1D",
-    "update_time": "2026-06-15 23:27:45",
+    "update_time": "2026-06-15 23:23:44",
     "signals": [
         {
             "ticker": "688220.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -15,7 +15,7 @@
         },
         {
             "ticker": "300122.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -26,7 +26,7 @@
         },
         {
             "ticker": "000591.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -37,7 +37,7 @@
         },
         {
             "ticker": "159566.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -48,7 +48,7 @@
         },
         {
             "ticker": "512660.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -59,7 +59,7 @@
         },
         {
             "ticker": "300354.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -70,7 +70,7 @@
         },
         {
             "ticker": "601865.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -81,7 +81,7 @@
         },
         {
             "ticker": "000400.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -92,7 +92,7 @@
         },
         {
             "ticker": "000001.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -103,7 +103,7 @@
         },
         {
             "ticker": "CN30Y-CN10Y",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -114,7 +114,7 @@
         },
         {
             "ticker": "002270.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -125,7 +125,7 @@
         },
         {
             "ticker": "688521.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -136,7 +136,7 @@
         },
         {
             "ticker": "159852.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -147,7 +147,7 @@
         },
         {
             "ticker": "300782.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -158,7 +158,7 @@
         },
         {
             "ticker": "^HSCC",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -169,7 +169,7 @@
         },
         {
             "ticker": "688227.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -180,7 +180,7 @@
         },
         {
             "ticker": "300776.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -191,7 +191,7 @@
         },
         {
             "ticker": "516290.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -202,7 +202,7 @@
         },
         {
             "ticker": "KC",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -213,7 +213,7 @@
         },
         {
             "ticker": "603915.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -224,7 +224,7 @@
         },
         {
             "ticker": "002335.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -235,7 +235,7 @@
         },
         {
             "ticker": "601179.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -246,7 +246,7 @@
         },
         {
             "ticker": "515650.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -257,7 +257,7 @@
         },
         {
             "ticker": "512980.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -268,7 +268,7 @@
         },
         {
             "ticker": "600360.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -279,7 +279,7 @@
         },
         {
             "ticker": "600028.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -290,7 +290,7 @@
         },
         {
             "ticker": "159873.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -301,7 +301,7 @@
         },
         {
             "ticker": "688126.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -312,7 +312,7 @@
         },
         {
             "ticker": "002241.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -323,7 +323,7 @@
         },
         {
             "ticker": "300347.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -334,7 +334,7 @@
         },
         {
             "ticker": "512720.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -345,7 +345,7 @@
         },
         {
             "ticker": "600151.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -356,7 +356,7 @@
         },
         {
             "ticker": "300474.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -367,7 +367,7 @@
         },
         {
             "ticker": "300442.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -378,7 +378,7 @@
         },
         {
             "ticker": "600863.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -389,7 +389,7 @@
         },
         {
             "ticker": "600456.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -400,7 +400,7 @@
         },
         {
             "ticker": "300699.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -411,7 +411,7 @@
         },
         {
             "ticker": "688099.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -422,7 +422,7 @@
         },
         {
             "ticker": "000878.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -433,7 +433,7 @@
         },
         {
             "ticker": "3896.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -444,7 +444,7 @@
         },
         {
             "ticker": "513580.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -455,7 +455,7 @@
         },
         {
             "ticker": "300979.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -466,7 +466,7 @@
         },
         {
             "ticker": "603185.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -477,7 +477,7 @@
         },
         {
             "ticker": "002389.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -488,7 +488,7 @@
         },
         {
             "ticker": "1816.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -499,7 +499,7 @@
         },
         {
             "ticker": "002518.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -510,7 +510,7 @@
         },
         {
             "ticker": "603806.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -521,7 +521,7 @@
         },
         {
             "ticker": "688213.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -532,7 +532,7 @@
         },
         {
             "ticker": "688458.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -543,7 +543,7 @@
         },
         {
             "ticker": "300373.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -554,7 +554,7 @@
         },
         {
             "ticker": "688503.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -565,7 +565,7 @@
         },
         {
             "ticker": "002685.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -576,7 +576,7 @@
         },
         {
             "ticker": "600673.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -587,7 +587,7 @@
         },
         {
             "ticker": "512690.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -598,7 +598,7 @@
         },
         {
             "ticker": "000875.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -609,7 +609,7 @@
         },
         {
             "ticker": "688235.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -620,7 +620,7 @@
         },
         {
             "ticker": "000063.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -631,7 +631,7 @@
         },
         {
             "ticker": "9626.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -642,7 +642,7 @@
         },
         {
             "ticker": "605099.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -653,7 +653,7 @@
         },
         {
             "ticker": "CJ.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -664,7 +664,7 @@
         },
         {
             "ticker": "IC.CFX",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -675,7 +675,7 @@
         },
         {
             "ticker": "2015.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -686,7 +686,7 @@
         },
         {
             "ticker": "603353.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -697,7 +697,7 @@
         },
         {
             "ticker": "600905.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -708,7 +708,7 @@
         },
         {
             "ticker": "516010.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -719,7 +719,7 @@
         },
         {
             "ticker": "603019.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -730,7 +730,7 @@
         },
         {
             "ticker": "300077.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -741,7 +741,7 @@
         },
         {
             "ticker": "159797.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -752,7 +752,7 @@
         },
         {
             "ticker": "688798.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -763,7 +763,7 @@
         },
         {
             "ticker": "600158.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -774,7 +774,7 @@
         },
         {
             "ticker": "688127.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -785,7 +785,7 @@
         },
         {
             "ticker": "301269.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -796,7 +796,7 @@
         },
         {
             "ticker": "600875.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -807,7 +807,7 @@
         },
         {
             "ticker": "932000.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -818,7 +818,7 @@
         },
         {
             "ticker": "600988.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -829,7 +829,7 @@
         },
         {
             "ticker": "688048.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -840,7 +840,7 @@
         },
         {
             "ticker": "002074.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -851,7 +851,7 @@
         },
         {
             "ticker": "600027.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -862,7 +862,7 @@
         },
         {
             "ticker": "TF.CFX",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -873,7 +873,7 @@
         },
         {
             "ticker": "000539.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -884,7 +884,7 @@
         },
         {
             "ticker": "BR.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -895,7 +895,7 @@
         },
         {
             "ticker": "399001.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -906,7 +906,7 @@
         },
         {
             "ticker": "3032.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -917,7 +917,7 @@
         },
         {
             "ticker": "300787.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -928,7 +928,7 @@
         },
         {
             "ticker": "CN2Y",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -939,7 +939,7 @@
         },
         {
             "ticker": "300496.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -950,7 +950,7 @@
         },
         {
             "ticker": "600406.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -961,7 +961,7 @@
         },
         {
             "ticker": "159208.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -972,7 +972,7 @@
         },
         {
             "ticker": "688063.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -983,7 +983,7 @@
         },
         {
             "ticker": "300014.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -994,7 +994,7 @@
         },
         {
             "ticker": "515790.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1005,7 +1005,7 @@
         },
         {
             "ticker": "000829.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1016,7 +1016,7 @@
         },
         {
             "ticker": "159825.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1027,7 +1027,7 @@
         },
         {
             "ticker": "CN10Y-CN2Y",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1038,7 +1038,7 @@
         },
         {
             "ticker": "000852.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1049,7 +1049,7 @@
         },
         {
             "ticker": "002843.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1060,7 +1060,7 @@
         },
         {
             "ticker": "301165.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1071,7 +1071,7 @@
         },
         {
             "ticker": "159531.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1082,7 +1082,7 @@
         },
         {
             "ticker": "002028.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1093,7 +1093,7 @@
         },
         {
             "ticker": "600312.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1104,7 +1104,7 @@
         },
         {
             "ticker": "ZN.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1115,7 +1115,7 @@
         },
         {
             "ticker": "159857.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1126,7 +1126,7 @@
         },
         {
             "ticker": "601877.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1137,7 +1137,7 @@
         },
         {
             "ticker": "2800.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1148,7 +1148,7 @@
         },
         {
             "ticker": "600343.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1159,7 +1159,7 @@
         },
         {
             "ticker": "600048.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1170,7 +1170,7 @@
         },
         {
             "ticker": "300007.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1181,7 +1181,7 @@
         },
         {
             "ticker": "002865.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1192,7 +1192,7 @@
         },
         {
             "ticker": "688608.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1203,7 +1203,7 @@
         },
         {
             "ticker": "002837.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1214,7 +1214,7 @@
         },
         {
             "ticker": "0148.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1225,7 +1225,7 @@
         },
         {
             "ticker": "600501.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1236,7 +1236,7 @@
         },
         {
             "ticker": "9868.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1247,7 +1247,7 @@
         },
         {
             "ticker": "300207.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1258,7 +1258,7 @@
         },
         {
             "ticker": "M.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1269,7 +1269,7 @@
         },
         {
             "ticker": "600745.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1280,7 +1280,7 @@
         },
         {
             "ticker": "601016.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1291,7 +1291,7 @@
         },
         {
             "ticker": "688032.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1302,7 +1302,7 @@
         },
         {
             "ticker": "300458.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1313,7 +1313,7 @@
         },
         {
             "ticker": "600821.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1324,7 +1324,7 @@
         },
         {
             "ticker": "XPEV",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1335,7 +1335,7 @@
         },
         {
             "ticker": "000905.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1346,7 +1346,7 @@
         },
         {
             "ticker": "688165.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1357,7 +1357,7 @@
         },
         {
             "ticker": "AP.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1368,7 +1368,7 @@
         },
         {
             "ticker": "688538.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1379,7 +1379,7 @@
         },
         {
             "ticker": "603893.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1390,7 +1390,7 @@
         },
         {
             "ticker": "300450.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1401,7 +1401,7 @@
         },
         {
             "ticker": "002902.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1412,7 +1412,7 @@
         },
         {
             "ticker": "SN.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1423,7 +1423,7 @@
         },
         {
             "ticker": "300672.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1434,7 +1434,7 @@
         },
         {
             "ticker": "002031.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1445,7 +1445,7 @@
         },
         {
             "ticker": "688230.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1456,7 +1456,7 @@
         },
         {
             "ticker": "688486.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1467,7 +1467,7 @@
         },
         {
             "ticker": "688153.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1478,7 +1478,7 @@
         },
         {
             "ticker": "000938.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1489,7 +1489,7 @@
         },
         {
             "ticker": "603160.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1500,7 +1500,7 @@
         },
         {
             "ticker": "603009.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1511,7 +1511,7 @@
         },
         {
             "ticker": "510500.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1522,7 +1522,7 @@
         },
         {
             "ticker": "603687.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1533,7 +1533,7 @@
         },
         {
             "ticker": "300327.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1544,7 +1544,7 @@
         },
         {
             "ticker": "605258.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1555,7 +1555,7 @@
         },
         {
             "ticker": "688562.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1566,7 +1566,7 @@
         },
         {
             "ticker": "301369.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1577,7 +1577,7 @@
         },
         {
             "ticker": "RM.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1588,7 +1588,7 @@
         },
         {
             "ticker": "560700.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 6,
             "short_votes": 0,
@@ -1599,7 +1599,7 @@
         },
         {
             "ticker": "NI.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1610,7 +1610,7 @@
         },
         {
             "ticker": "C.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1621,7 +1621,7 @@
         },
         {
             "ticker": "688271.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1632,7 +1632,7 @@
         },
         {
             "ticker": "517990.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1643,7 +1643,7 @@
         },
         {
             "ticker": "605299.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1654,7 +1654,7 @@
         },
         {
             "ticker": "512560.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1665,7 +1665,7 @@
         },
         {
             "ticker": "1798.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1676,7 +1676,7 @@
         },
         {
             "ticker": "YUMC",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1687,7 +1687,7 @@
         },
         {
             "ticker": "300498.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1698,7 +1698,7 @@
         },
         {
             "ticker": "603501.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1709,7 +1709,7 @@
         },
         {
             "ticker": "600436.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1720,7 +1720,7 @@
         },
         {
             "ticker": "600309.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1731,7 +1731,7 @@
         },
         {
             "ticker": "688385.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1742,7 +1742,7 @@
         },
         {
             "ticker": "300274.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1753,7 +1753,7 @@
         },
         {
             "ticker": "688295.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1764,7 +1764,7 @@
         },
         {
             "ticker": "603628.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1775,7 +1775,7 @@
         },
         {
             "ticker": "300693.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1786,7 +1786,7 @@
         },
         {
             "ticker": "WB",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1797,7 +1797,7 @@
         },
         {
             "ticker": "002428.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1808,7 +1808,7 @@
         },
         {
             "ticker": "T.CFX",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1819,7 +1819,7 @@
         },
         {
             "ticker": "300454.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1830,7 +1830,7 @@
         },
         {
             "ticker": "601778.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1841,7 +1841,7 @@
         },
         {
             "ticker": "159755.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1852,7 +1852,7 @@
         },
         {
             "ticker": "002230.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1863,7 +1863,7 @@
         },
         {
             "ticker": "688303.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1874,7 +1874,7 @@
         },
         {
             "ticker": "516020.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1885,7 +1885,7 @@
         },
         {
             "ticker": "EDU",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1896,7 +1896,7 @@
         },
         {
             "ticker": "688173.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1907,7 +1907,7 @@
         },
         {
             "ticker": "6869.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1918,7 +1918,7 @@
         },
         {
             "ticker": "IM.CFX",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1929,7 +1929,7 @@
         },
         {
             "ticker": "688515.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1940,7 +1940,7 @@
         },
         {
             "ticker": "601088.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1951,7 +1951,7 @@
         },
         {
             "ticker": "688698.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1962,7 +1962,7 @@
         },
         {
             "ticker": "002938.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1973,7 +1973,7 @@
         },
         {
             "ticker": "688135.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1984,7 +1984,7 @@
         },
         {
             "ticker": "SM.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -1995,7 +1995,7 @@
         },
         {
             "ticker": "HTHT",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -2006,7 +2006,7 @@
         },
         {
             "ticker": "600392.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -2017,7 +2017,7 @@
         },
         {
             "ticker": "002185.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -2028,7 +2028,7 @@
         },
         {
             "ticker": "9961.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 0,
@@ -2039,7 +2039,7 @@
         },
         {
             "ticker": "688506.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 5,
             "long_votes": 5,
             "short_votes": 0,
@@ -2050,7 +2050,7 @@
         },
         {
             "ticker": "300582.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 5,
             "long_votes": 5,
             "short_votes": 0,
@@ -2061,7 +2061,7 @@
         },
         {
             "ticker": "688195.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2072,7 +2072,7 @@
         },
         {
             "ticker": "002222.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2083,7 +2083,7 @@
         },
         {
             "ticker": "000977.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2094,7 +2094,7 @@
         },
         {
             "ticker": "603087.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 1,
@@ -2105,7 +2105,7 @@
         },
         {
             "ticker": "9618.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2116,7 +2116,7 @@
         },
         {
             "ticker": "000002.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2127,7 +2127,7 @@
         },
         {
             "ticker": "600938.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2138,7 +2138,7 @@
         },
         {
             "ticker": "512950.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2149,7 +2149,7 @@
         },
         {
             "ticker": "002008.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2160,7 +2160,7 @@
         },
         {
             "ticker": "688107.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 5,
             "short_votes": 1,
@@ -2171,7 +2171,7 @@
         },
         {
             "ticker": "603688.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2182,7 +2182,7 @@
         },
         {
             "ticker": "600549.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2193,7 +2193,7 @@
         },
         {
             "ticker": "002475.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2204,7 +2204,7 @@
         },
         {
             "ticker": "512930.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2215,7 +2215,7 @@
         },
         {
             "ticker": "688368.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2226,7 +2226,7 @@
         },
         {
             "ticker": "000858.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2237,7 +2237,7 @@
         },
         {
             "ticker": "159928.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2248,7 +2248,7 @@
         },
         {
             "ticker": "159915.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2259,7 +2259,7 @@
         },
         {
             "ticker": "600519.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2270,7 +2270,7 @@
         },
         {
             "ticker": "300607.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2281,7 +2281,7 @@
         },
         {
             "ticker": "515210.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2292,7 +2292,7 @@
         },
         {
             "ticker": "688686.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2303,7 +2303,7 @@
         },
         {
             "ticker": "300476.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2314,7 +2314,7 @@
         },
         {
             "ticker": "399006.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2325,7 +2325,7 @@
         },
         {
             "ticker": "600259.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2336,7 +2336,7 @@
         },
         {
             "ticker": "001309.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2347,7 +2347,7 @@
         },
         {
             "ticker": "688150.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2358,7 +2358,7 @@
         },
         {
             "ticker": "688160.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2369,7 +2369,7 @@
         },
         {
             "ticker": "688252.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2380,7 +2380,7 @@
         },
         {
             "ticker": "002387.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2391,7 +2391,7 @@
         },
         {
             "ticker": "002460.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2402,7 +2402,7 @@
         },
         {
             "ticker": "000050.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2413,7 +2413,7 @@
         },
         {
             "ticker": "TS.CFX",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2424,7 +2424,7 @@
         },
         {
             "ticker": "600171.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 0,
@@ -2435,7 +2435,7 @@
         },
         {
             "ticker": "600019.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 1,
@@ -2446,7 +2446,7 @@
         },
         {
             "ticker": "688320.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2457,7 +2457,7 @@
         },
         {
             "ticker": "300034.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2468,7 +2468,7 @@
         },
         {
             "ticker": "A.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 1,
@@ -2479,7 +2479,7 @@
         },
         {
             "ticker": "0916.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2490,7 +2490,7 @@
         },
         {
             "ticker": "601012.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2501,7 +2501,7 @@
         },
         {
             "ticker": "688800.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 1,
@@ -2512,7 +2512,7 @@
         },
         {
             "ticker": "ZTO",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2523,7 +2523,7 @@
         },
         {
             "ticker": "512400.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2534,7 +2534,7 @@
         },
         {
             "ticker": "002281.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2545,7 +2545,7 @@
         },
         {
             "ticker": "600089.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2556,7 +2556,7 @@
         },
         {
             "ticker": "159949.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2567,7 +2567,7 @@
         },
         {
             "ticker": "600879.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2578,7 +2578,7 @@
         },
         {
             "ticker": "600770.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2589,7 +2589,7 @@
         },
         {
             "ticker": "600021.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2600,7 +2600,7 @@
         },
         {
             "ticker": "301306.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2611,7 +2611,7 @@
         },
         {
             "ticker": "562500.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 1,
@@ -2622,7 +2622,7 @@
         },
         {
             "ticker": "688484.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2633,7 +2633,7 @@
         },
         {
             "ticker": "000932.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 1,
@@ -2644,7 +2644,7 @@
         },
         {
             "ticker": "9880.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2655,7 +2655,7 @@
         },
         {
             "ticker": "300655.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 0,
@@ -2666,7 +2666,7 @@
         },
         {
             "ticker": "IF.CFX",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 1,
@@ -2677,7 +2677,7 @@
         },
         {
             "ticker": "688233.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 1,
@@ -2688,7 +2688,7 @@
         },
         {
             "ticker": "002594.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 4,
             "long_votes": 3,
             "short_votes": 0,
@@ -2699,7 +2699,7 @@
         },
         {
             "ticker": "600956.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2710,7 +2710,7 @@
         },
         {
             "ticker": "516150.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2721,7 +2721,7 @@
         },
         {
             "ticker": "300745.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2732,7 +2732,7 @@
         },
         {
             "ticker": "0956.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -2743,7 +2743,7 @@
         },
         {
             "ticker": "000066.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -2754,7 +2754,7 @@
         },
         {
             "ticker": "603386.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2765,7 +2765,7 @@
         },
         {
             "ticker": "512200.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2776,7 +2776,7 @@
         },
         {
             "ticker": "601668.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2787,7 +2787,7 @@
         },
         {
             "ticker": "2057.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2798,7 +2798,7 @@
         },
         {
             "ticker": "600893.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2809,7 +2809,7 @@
         },
         {
             "ticker": "0902.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -2820,7 +2820,7 @@
         },
         {
             "ticker": "JD",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2831,7 +2831,7 @@
         },
         {
             "ticker": "159779.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2842,7 +2842,7 @@
         },
         {
             "ticker": "002297.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2853,7 +2853,7 @@
         },
         {
             "ticker": "688206.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2864,7 +2864,7 @@
         },
         {
             "ticker": "002466.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -2875,7 +2875,7 @@
         },
         {
             "ticker": "600584.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 2,
@@ -2886,7 +2886,7 @@
         },
         {
             "ticker": "600271.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2897,7 +2897,7 @@
         },
         {
             "ticker": "9698.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2908,7 +2908,7 @@
         },
         {
             "ticker": "601390.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2919,7 +2919,7 @@
         },
         {
             "ticker": "688111.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -2930,7 +2930,7 @@
         },
         {
             "ticker": "GDS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2941,7 +2941,7 @@
         },
         {
             "ticker": "003031.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2952,7 +2952,7 @@
         },
         {
             "ticker": "300757.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2963,7 +2963,7 @@
         },
         {
             "ticker": "515220.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -2974,7 +2974,7 @@
         },
         {
             "ticker": "300628.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2985,7 +2985,7 @@
         },
         {
             "ticker": "600150.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -2996,7 +2996,7 @@
         },
         {
             "ticker": "515980.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -3007,7 +3007,7 @@
         },
         {
             "ticker": "300661.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -3018,7 +3018,7 @@
         },
         {
             "ticker": "002459.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -3029,7 +3029,7 @@
         },
         {
             "ticker": "600219.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -3040,7 +3040,7 @@
         },
         {
             "ticker": "MNSO",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -3051,7 +3051,7 @@
         },
         {
             "ticker": "688556.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -3062,7 +3062,7 @@
         },
         {
             "ticker": "600438.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -3073,7 +3073,7 @@
         },
         {
             "ticker": "1179.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -3084,7 +3084,7 @@
         },
         {
             "ticker": "002290.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -3095,7 +3095,7 @@
         },
         {
             "ticker": "002414.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -3106,7 +3106,7 @@
         },
         {
             "ticker": "605358.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -3117,7 +3117,7 @@
         },
         {
             "ticker": "002155.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -3128,7 +3128,7 @@
         },
         {
             "ticker": "002815.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -3139,7 +3139,7 @@
         },
         {
             "ticker": "SR.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -3150,7 +3150,7 @@
         },
         {
             "ticker": "688512.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -3161,7 +3161,7 @@
         },
         {
             "ticker": "688123.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 4,
             "short_votes": 2,
@@ -3172,7 +3172,7 @@
         },
         {
             "ticker": "Y.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -3183,7 +3183,7 @@
         },
         {
             "ticker": "TL0.CFX",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -3194,7 +3194,7 @@
         },
         {
             "ticker": "688519.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 1,
@@ -3205,7 +3205,7 @@
         },
         {
             "ticker": "600855.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 0,
@@ -3216,7 +3216,7 @@
         },
         {
             "ticker": "600330.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 4,
             "long_votes": 3,
             "short_votes": 1,
@@ -3227,7 +3227,7 @@
         },
         {
             "ticker": "SA.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3238,7 +3238,7 @@
         },
         {
             "ticker": "^HSI",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3249,7 +3249,7 @@
         },
         {
             "ticker": "688120.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 2,
@@ -3260,7 +3260,7 @@
         },
         {
             "ticker": "002553.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3271,7 +3271,7 @@
         },
         {
             "ticker": "002922.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3282,7 +3282,7 @@
         },
         {
             "ticker": "SP.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 2,
@@ -3293,7 +3293,7 @@
         },
         {
             "ticker": "HC.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3304,7 +3304,7 @@
         },
         {
             "ticker": "9688.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3315,7 +3315,7 @@
         },
         {
             "ticker": "000837.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3326,7 +3326,7 @@
         },
         {
             "ticker": "515030.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3337,7 +3337,7 @@
         },
         {
             "ticker": "000975.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3348,7 +3348,7 @@
         },
         {
             "ticker": "300900.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3359,7 +3359,7 @@
         },
         {
             "ticker": "159819.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3370,7 +3370,7 @@
         },
         {
             "ticker": "002623.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3381,7 +3381,7 @@
         },
         {
             "ticker": "600489.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3392,7 +3392,7 @@
         },
         {
             "ticker": "^HSCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3403,7 +3403,7 @@
         },
         {
             "ticker": "002493.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3414,7 +3414,7 @@
         },
         {
             "ticker": "9988.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3425,7 +3425,7 @@
         },
         {
             "ticker": "688381.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 2,
@@ -3436,7 +3436,7 @@
         },
         {
             "ticker": "001289.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3447,7 +3447,7 @@
         },
         {
             "ticker": "300455.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3458,7 +3458,7 @@
         },
         {
             "ticker": "9896.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3469,7 +3469,7 @@
         },
         {
             "ticker": "000963.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3480,7 +3480,7 @@
         },
         {
             "ticker": "159530.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3491,7 +3491,7 @@
         },
         {
             "ticker": "688167.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3502,7 +3502,7 @@
         },
         {
             "ticker": "688047.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3513,7 +3513,7 @@
         },
         {
             "ticker": "300308.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 2,
@@ -3524,7 +3524,7 @@
         },
         {
             "ticker": "603690.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 2,
@@ -3535,7 +3535,7 @@
         },
         {
             "ticker": "688216.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3546,7 +3546,7 @@
         },
         {
             "ticker": "002636.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 2,
@@ -3557,7 +3557,7 @@
         },
         {
             "ticker": "399673.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3568,7 +3568,7 @@
         },
         {
             "ticker": "002979.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 2,
@@ -3579,7 +3579,7 @@
         },
         {
             "ticker": "301368.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3590,7 +3590,7 @@
         },
         {
             "ticker": "002698.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3601,7 +3601,7 @@
         },
         {
             "ticker": "301413.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3612,7 +3612,7 @@
         },
         {
             "ticker": "300580.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3623,7 +3623,7 @@
         },
         {
             "ticker": "159770.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3634,7 +3634,7 @@
         },
         {
             "ticker": "V.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3645,7 +3645,7 @@
         },
         {
             "ticker": "688106.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3656,7 +3656,7 @@
         },
         {
             "ticker": "600183.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3667,7 +3667,7 @@
         },
         {
             "ticker": "300660.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 0,
@@ -3678,7 +3678,7 @@
         },
         {
             "ticker": "688037.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 1,
@@ -3689,7 +3689,7 @@
         },
         {
             "ticker": "2390.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 2,
@@ -3700,7 +3700,7 @@
         },
         {
             "ticker": "600036.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 0,
@@ -3711,7 +3711,7 @@
         },
         {
             "ticker": "601898.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -3722,7 +3722,7 @@
         },
         {
             "ticker": "688187.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -3733,7 +3733,7 @@
         },
         {
             "ticker": "SH.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3744,7 +3744,7 @@
         },
         {
             "ticker": "BEKE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -3755,7 +3755,7 @@
         },
         {
             "ticker": "IH.CFX",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3766,7 +3766,7 @@
         },
         {
             "ticker": "688598.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -3777,7 +3777,7 @@
         },
         {
             "ticker": "688018.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3788,7 +3788,7 @@
         },
         {
             "ticker": "SC.INE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3799,7 +3799,7 @@
         },
         {
             "ticker": "002149.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -3810,7 +3810,7 @@
         },
         {
             "ticker": "TCOM",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3821,7 +3821,7 @@
         },
         {
             "ticker": "600111.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3832,7 +3832,7 @@
         },
         {
             "ticker": "688036.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -3843,7 +3843,7 @@
         },
         {
             "ticker": "603920.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3854,7 +3854,7 @@
         },
         {
             "ticker": "AG.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -3865,7 +3865,7 @@
         },
         {
             "ticker": "300015.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -3876,7 +3876,7 @@
         },
         {
             "ticker": "002119.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -3887,7 +3887,7 @@
         },
         {
             "ticker": "300520.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3898,7 +3898,7 @@
         },
         {
             "ticker": "1810.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -3909,7 +3909,7 @@
         },
         {
             "ticker": "300759.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3920,7 +3920,7 @@
         },
         {
             "ticker": "300024.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -3931,7 +3931,7 @@
         },
         {
             "ticker": "688008.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3942,7 +3942,7 @@
         },
         {
             "ticker": "300623.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -3953,7 +3953,7 @@
         },
         {
             "ticker": "603486.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -3964,7 +3964,7 @@
         },
         {
             "ticker": "2380.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3975,7 +3975,7 @@
         },
         {
             "ticker": "300570.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3986,7 +3986,7 @@
         },
         {
             "ticker": "601857.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -3997,7 +3997,7 @@
         },
         {
             "ticker": "9866.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -4008,7 +4008,7 @@
         },
         {
             "ticker": "300042.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -4019,7 +4019,7 @@
         },
         {
             "ticker": "UR.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -4030,7 +4030,7 @@
         },
         {
             "ticker": "600732.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -4041,7 +4041,7 @@
         },
         {
             "ticker": "I.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 0,
@@ -4052,7 +4052,7 @@
         },
         {
             "ticker": "LH.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 3,
             "short_votes": 3,
@@ -4063,7 +4063,7 @@
         },
         {
             "ticker": "000725.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -4074,7 +4074,7 @@
         },
         {
             "ticker": "AL.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -4085,7 +4085,7 @@
         },
         {
             "ticker": "300480.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -4096,7 +4096,7 @@
         },
         {
             "ticker": "688347.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -4107,7 +4107,7 @@
         },
         {
             "ticker": "601138.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -4118,7 +4118,7 @@
         },
         {
             "ticker": "300666.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -4129,7 +4129,7 @@
         },
         {
             "ticker": "688001.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 1,
@@ -4140,7 +4140,7 @@
         },
         {
             "ticker": "FG.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -4151,7 +4151,7 @@
         },
         {
             "ticker": "300769.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 2,
@@ -4162,7 +4162,7 @@
         },
         {
             "ticker": "688390.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 5,
             "long_votes": 2,
             "short_votes": 2,
@@ -4173,7 +4173,7 @@
         },
         {
             "ticker": "EB.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 3,
@@ -4184,7 +4184,7 @@
         },
         {
             "ticker": "603728.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4195,7 +4195,7 @@
         },
         {
             "ticker": "1698.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4206,7 +4206,7 @@
         },
         {
             "ticker": "688169.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4217,7 +4217,7 @@
         },
         {
             "ticker": "002463.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4228,7 +4228,7 @@
         },
         {
             "ticker": "603005.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4239,7 +4239,7 @@
         },
         {
             "ticker": "000807.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4250,7 +4250,7 @@
         },
         {
             "ticker": "688122.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 3,
@@ -4261,7 +4261,7 @@
         },
         {
             "ticker": "9888.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4272,7 +4272,7 @@
         },
         {
             "ticker": "688027.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4283,7 +4283,7 @@
         },
         {
             "ticker": "300777.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4294,7 +4294,7 @@
         },
         {
             "ticker": "002625.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4305,7 +4305,7 @@
         },
         {
             "ticker": "BABA",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4316,7 +4316,7 @@
         },
         {
             "ticker": "002050.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4327,7 +4327,7 @@
         },
         {
             "ticker": "301328.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4338,7 +4338,7 @@
         },
         {
             "ticker": "512480.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4349,7 +4349,7 @@
         },
         {
             "ticker": "002714.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4360,7 +4360,7 @@
         },
         {
             "ticker": "159667.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4371,7 +4371,7 @@
         },
         {
             "ticker": "LI",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4382,7 +4382,7 @@
         },
         {
             "ticker": "300763.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4393,7 +4393,7 @@
         },
         {
             "ticker": "9901.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4404,7 +4404,7 @@
         },
         {
             "ticker": "300124.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4415,7 +4415,7 @@
         },
         {
             "ticker": "002130.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4426,7 +4426,7 @@
         },
         {
             "ticker": "688262.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4437,7 +4437,7 @@
         },
         {
             "ticker": "601888.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 3,
@@ -4448,7 +4448,7 @@
         },
         {
             "ticker": "601166.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4459,7 +4459,7 @@
         },
         {
             "ticker": "688223.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4470,7 +4470,7 @@
         },
         {
             "ticker": "000831.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4481,7 +4481,7 @@
         },
         {
             "ticker": "301366.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4492,7 +4492,7 @@
         },
         {
             "ticker": "002085.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4503,7 +4503,7 @@
         },
         {
             "ticker": "CF.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4514,7 +4514,7 @@
         },
         {
             "ticker": "688049.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4525,7 +4525,7 @@
         },
         {
             "ticker": "688045.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4536,7 +4536,7 @@
         },
         {
             "ticker": "603283.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 1,
@@ -4547,7 +4547,7 @@
         },
         {
             "ticker": "002552.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 2,
@@ -4558,7 +4558,7 @@
         },
         {
             "ticker": "002532.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4569,7 +4569,7 @@
         },
         {
             "ticker": "300751.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4580,7 +4580,7 @@
         },
         {
             "ticker": "515880.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4591,7 +4591,7 @@
         },
         {
             "ticker": "9987.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4602,7 +4602,7 @@
         },
         {
             "ticker": "002436.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4613,7 +4613,7 @@
         },
         {
             "ticker": "300059.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4624,7 +4624,7 @@
         },
         {
             "ticker": "600011.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4635,7 +4635,7 @@
         },
         {
             "ticker": "002156.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4646,7 +4646,7 @@
         },
         {
             "ticker": "2076.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4657,7 +4657,7 @@
         },
         {
             "ticker": "159837.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4668,7 +4668,7 @@
         },
         {
             "ticker": "603031.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4679,7 +4679,7 @@
         },
         {
             "ticker": "NIO",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4690,7 +4690,7 @@
         },
         {
             "ticker": "600547.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4701,7 +4701,7 @@
         },
         {
             "ticker": "601689.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4712,7 +4712,7 @@
         },
         {
             "ticker": "560090.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4723,7 +4723,7 @@
         },
         {
             "ticker": "688599.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4734,7 +4734,7 @@
         },
         {
             "ticker": "600256.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4745,7 +4745,7 @@
         },
         {
             "ticker": "300750.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4756,7 +4756,7 @@
         },
         {
             "ticker": "688388.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4767,7 +4767,7 @@
         },
         {
             "ticker": "AU.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4778,7 +4778,7 @@
         },
         {
             "ticker": "603799.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4789,7 +4789,7 @@
         },
         {
             "ticker": "9898.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4800,7 +4800,7 @@
         },
         {
             "ticker": "2518.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4811,7 +4811,7 @@
         },
         {
             "ticker": "EG.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4822,7 +4822,7 @@
         },
         {
             "ticker": "000698.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 2,
             "short_votes": 4,
@@ -4833,7 +4833,7 @@
         },
         {
             "ticker": "300604.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4844,7 +4844,7 @@
         },
         {
             "ticker": "002527.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 2,
@@ -4855,7 +4855,7 @@
         },
         {
             "ticker": "002409.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4866,7 +4866,7 @@
         },
         {
             "ticker": "600188.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 3,
@@ -4877,7 +4877,7 @@
         },
         {
             "ticker": "000547.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 5,
             "long_votes": 1,
             "short_votes": 3,
@@ -4888,7 +4888,7 @@
         },
         {
             "ticker": "600246.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 2,
@@ -4899,7 +4899,7 @@
         },
         {
             "ticker": "NR.INE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -4910,7 +4910,7 @@
         },
         {
             "ticker": "600703.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -4921,7 +4921,7 @@
         },
         {
             "ticker": "1071.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -4932,7 +4932,7 @@
         },
         {
             "ticker": "600481.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -4943,7 +4943,7 @@
         },
         {
             "ticker": "BILI",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 4,
@@ -4954,7 +4954,7 @@
         },
         {
             "ticker": "688408.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -4965,7 +4965,7 @@
         },
         {
             "ticker": "2391.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -4976,7 +4976,7 @@
         },
         {
             "ticker": "002583.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 4,
@@ -4987,7 +4987,7 @@
         },
         {
             "ticker": "688052.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -4998,7 +4998,7 @@
         },
         {
             "ticker": "601698.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5009,7 +5009,7 @@
         },
         {
             "ticker": "TME",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5020,7 +5020,7 @@
         },
         {
             "ticker": "512170.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5031,7 +5031,7 @@
         },
         {
             "ticker": "688261.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5042,7 +5042,7 @@
         },
         {
             "ticker": "301308.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5053,7 +5053,7 @@
         },
         {
             "ticker": "300499.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5064,7 +5064,7 @@
         },
         {
             "ticker": "605111.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5075,7 +5075,7 @@
         },
         {
             "ticker": "688777.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 4,
@@ -5086,7 +5086,7 @@
         },
         {
             "ticker": "ZH",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5097,7 +5097,7 @@
         },
         {
             "ticker": "BZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 4,
@@ -5108,7 +5108,7 @@
         },
         {
             "ticker": "601899.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 4,
@@ -5119,7 +5119,7 @@
         },
         {
             "ticker": "688409.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 4,
@@ -5130,7 +5130,7 @@
         },
         {
             "ticker": "688601.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5141,7 +5141,7 @@
         },
         {
             "ticker": "688270.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 4,
@@ -5152,7 +5152,7 @@
         },
         {
             "ticker": "SS.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5163,7 +5163,7 @@
         },
         {
             "ticker": "688578.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5174,7 +5174,7 @@
         },
         {
             "ticker": "600276.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5185,7 +5185,7 @@
         },
         {
             "ticker": "300724.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5196,7 +5196,7 @@
         },
         {
             "ticker": "159992.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5207,7 +5207,7 @@
         },
         {
             "ticker": "LU.INE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5218,7 +5218,7 @@
         },
         {
             "ticker": "688082.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5229,7 +5229,7 @@
         },
         {
             "ticker": "CU.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5240,7 +5240,7 @@
         },
         {
             "ticker": "FU.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5251,7 +5251,7 @@
         },
         {
             "ticker": "603186.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5262,7 +5262,7 @@
         },
         {
             "ticker": "PF.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5273,7 +5273,7 @@
         },
         {
             "ticker": "688002.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5284,7 +5284,7 @@
         },
         {
             "ticker": "688138.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5295,7 +5295,7 @@
         },
         {
             "ticker": "688055.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5306,7 +5306,7 @@
         },
         {
             "ticker": "688549.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5317,7 +5317,7 @@
         },
         {
             "ticker": "002896.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 3,
@@ -5328,7 +5328,7 @@
         },
         {
             "ticker": "PX.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5339,7 +5339,7 @@
         },
         {
             "ticker": "000016.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5350,7 +5350,7 @@
         },
         {
             "ticker": "300896.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5361,7 +5361,7 @@
         },
         {
             "ticker": "601600.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5372,7 +5372,7 @@
         },
         {
             "ticker": "000960.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5383,7 +5383,7 @@
         },
         {
             "ticker": "603259.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5394,7 +5394,7 @@
         },
         {
             "ticker": "688072.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5405,7 +5405,7 @@
         },
         {
             "ticker": "300316.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5416,7 +5416,7 @@
         },
         {
             "ticker": "1385.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5427,7 +5427,7 @@
         },
         {
             "ticker": "688676.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5438,7 +5438,7 @@
         },
         {
             "ticker": "600362.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5449,7 +5449,7 @@
         },
         {
             "ticker": "600862.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5460,7 +5460,7 @@
         },
         {
             "ticker": "300408.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -5471,7 +5471,7 @@
         },
         {
             "ticker": "601991.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5482,7 +5482,7 @@
         },
         {
             "ticker": "002648.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5493,7 +5493,7 @@
         },
         {
             "ticker": "CN5Y",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5504,7 +5504,7 @@
         },
         {
             "ticker": "JD.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -5515,7 +5515,7 @@
         },
         {
             "ticker": "688110.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -5526,7 +5526,7 @@
         },
         {
             "ticker": "300760.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5537,7 +5537,7 @@
         },
         {
             "ticker": "159865.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5548,7 +5548,7 @@
         },
         {
             "ticker": "ATHM",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5559,7 +5559,7 @@
         },
         {
             "ticker": "603123.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5570,7 +5570,7 @@
         },
         {
             "ticker": "688498.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5581,7 +5581,7 @@
         },
         {
             "ticker": "BIDU",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5592,7 +5592,7 @@
         },
         {
             "ticker": "601225.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -5603,7 +5603,7 @@
         },
         {
             "ticker": "300739.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5614,7 +5614,7 @@
         },
         {
             "ticker": "002916.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5625,7 +5625,7 @@
         },
         {
             "ticker": "603667.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5636,7 +5636,7 @@
         },
         {
             "ticker": "601985.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5647,7 +5647,7 @@
         },
         {
             "ticker": "688595.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -5658,7 +5658,7 @@
         },
         {
             "ticker": "002747.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -5669,7 +5669,7 @@
         },
         {
             "ticker": "PS.GFE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5680,7 +5680,7 @@
         },
         {
             "ticker": "300118.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5691,7 +5691,7 @@
         },
         {
             "ticker": "300545.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5702,7 +5702,7 @@
         },
         {
             "ticker": "SF.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -5713,7 +5713,7 @@
         },
         {
             "ticker": "600707.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5724,7 +5724,7 @@
         },
         {
             "ticker": "002851.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5735,7 +5735,7 @@
         },
         {
             "ticker": "NTES",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5746,7 +5746,7 @@
         },
         {
             "ticker": "688603.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5757,7 +5757,7 @@
         },
         {
             "ticker": "BC.INE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5768,7 +5768,7 @@
         },
         {
             "ticker": "000630.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5779,7 +5779,7 @@
         },
         {
             "ticker": "000688.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 1,
             "short_votes": 5,
@@ -5790,7 +5790,7 @@
         },
         {
             "ticker": "TUYA",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 4,
@@ -5801,7 +5801,7 @@
         },
         {
             "ticker": "002056.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5812,7 +5812,7 @@
         },
         {
             "ticker": "603662.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5823,7 +5823,7 @@
         },
         {
             "ticker": "516350.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5834,7 +5834,7 @@
         },
         {
             "ticker": "601919.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5845,7 +5845,7 @@
         },
         {
             "ticker": "002272.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5856,7 +5856,7 @@
         },
         {
             "ticker": "CN10Y",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5867,7 +5867,7 @@
         },
         {
             "ticker": "RB.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5878,7 +5878,7 @@
         },
         {
             "ticker": "159930.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5889,7 +5889,7 @@
         },
         {
             "ticker": "600118.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5900,7 +5900,7 @@
         },
         {
             "ticker": "510880.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5911,7 +5911,7 @@
         },
         {
             "ticker": "3750.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5922,7 +5922,7 @@
         },
         {
             "ticker": "688313.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5933,7 +5933,7 @@
         },
         {
             "ticker": "688012.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5944,7 +5944,7 @@
         },
         {
             "ticker": "002472.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5955,7 +5955,7 @@
         },
         {
             "ticker": "688102.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5966,7 +5966,7 @@
         },
         {
             "ticker": "301005.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5977,7 +5977,7 @@
         },
         {
             "ticker": "301217.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5988,7 +5988,7 @@
         },
         {
             "ticker": "688981.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -5999,7 +5999,7 @@
         },
         {
             "ticker": "601318.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6010,7 +6010,7 @@
         },
         {
             "ticker": "302132.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6021,7 +6021,7 @@
         },
         {
             "ticker": "510310.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6032,7 +6032,7 @@
         },
         {
             "ticker": "002352.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6043,7 +6043,7 @@
         },
         {
             "ticker": "300502.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6054,7 +6054,7 @@
         },
         {
             "ticker": "603290.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6065,7 +6065,7 @@
         },
         {
             "ticker": "2423.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6076,7 +6076,7 @@
         },
         {
             "ticker": "603396.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6087,7 +6087,7 @@
         },
         {
             "ticker": "159611.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6098,7 +6098,7 @@
         },
         {
             "ticker": "000901.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6109,7 +6109,7 @@
         },
         {
             "ticker": "300398.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6120,7 +6120,7 @@
         },
         {
             "ticker": "512880.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6131,7 +6131,7 @@
         },
         {
             "ticker": "688234.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6142,7 +6142,7 @@
         },
         {
             "ticker": "603083.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6153,7 +6153,7 @@
         },
         {
             "ticker": "J.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6164,7 +6164,7 @@
         },
         {
             "ticker": "300843.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6175,7 +6175,7 @@
         },
         {
             "ticker": "688378.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6186,7 +6186,7 @@
         },
         {
             "ticker": "600641.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6197,7 +6197,7 @@
         },
         {
             "ticker": "605058.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6208,7 +6208,7 @@
         },
         {
             "ticker": "P.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6219,7 +6219,7 @@
         },
         {
             "ticker": "688322.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6230,7 +6230,7 @@
         },
         {
             "ticker": "300567.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6241,7 +6241,7 @@
         },
         {
             "ticker": "301251.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6252,7 +6252,7 @@
         },
         {
             "ticker": "PK.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 5,
@@ -6263,7 +6263,7 @@
         },
         {
             "ticker": "000883.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 5,
             "long_votes": 0,
             "short_votes": 5,
@@ -6274,7 +6274,7 @@
         },
         {
             "ticker": "AO.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6285,7 +6285,7 @@
         },
         {
             "ticker": "688772.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6296,7 +6296,7 @@
         },
         {
             "ticker": "PG.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6307,7 +6307,7 @@
         },
         {
             "ticker": "000300.SS/000852.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6318,7 +6318,7 @@
         },
         {
             "ticker": "688396.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6329,7 +6329,7 @@
         },
         {
             "ticker": "003009.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6340,7 +6340,7 @@
         },
         {
             "ticker": "0991.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6351,7 +6351,7 @@
         },
         {
             "ticker": "688183.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6362,7 +6362,7 @@
         },
         {
             "ticker": "603256.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6373,7 +6373,7 @@
         },
         {
             "ticker": "300054.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6384,7 +6384,7 @@
         },
         {
             "ticker": "688017.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6395,7 +6395,7 @@
         },
         {
             "ticker": "300394.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6406,7 +6406,7 @@
         },
         {
             "ticker": "002384.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6417,7 +6417,7 @@
         },
         {
             "ticker": "588080.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6428,7 +6428,7 @@
         },
         {
             "ticker": "301511.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6439,7 +6439,7 @@
         },
         {
             "ticker": "000988.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6450,7 +6450,7 @@
         },
         {
             "ticker": "601869.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6461,7 +6461,7 @@
         },
         {
             "ticker": "588200.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6472,7 +6472,7 @@
         },
         {
             "ticker": "600886.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6483,7 +6483,7 @@
         },
         {
             "ticker": "688630.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6494,7 +6494,7 @@
         },
         {
             "ticker": "300548.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6505,7 +6505,7 @@
         },
         {
             "ticker": "688256.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6516,7 +6516,7 @@
         },
         {
             "ticker": "000657.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6527,7 +6527,7 @@
         },
         {
             "ticker": "9999.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6538,7 +6538,7 @@
         },
         {
             "ticker": "LC.GFE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6549,7 +6549,7 @@
         },
         {
             "ticker": "600487.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6560,7 +6560,7 @@
         },
         {
             "ticker": "300353.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6571,7 +6571,7 @@
         },
         {
             "ticker": "600522.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6582,7 +6582,7 @@
         },
         {
             "ticker": "600795.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6593,7 +6593,7 @@
         },
         {
             "ticker": "603936.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6604,7 +6604,7 @@
         },
         {
             "ticker": "588000.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6615,7 +6615,7 @@
         },
         {
             "ticker": "600642.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6626,7 +6626,7 @@
         },
         {
             "ticker": "601958.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6637,7 +6637,7 @@
         },
         {
             "ticker": "000660.KS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6648,7 +6648,7 @@
         },
         {
             "ticker": "300395.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6659,7 +6659,7 @@
         },
         {
             "ticker": "688668.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6670,7 +6670,7 @@
         },
         {
             "ticker": "300852.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6681,7 +6681,7 @@
         },
         {
             "ticker": "159601.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6692,7 +6692,7 @@
         },
         {
             "ticker": "002506.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6703,7 +6703,7 @@
         },
         {
             "ticker": "688691.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6714,7 +6714,7 @@
         },
         {
             "ticker": "688362.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6725,7 +6725,7 @@
         },
         {
             "ticker": "EC.INE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6736,7 +6736,7 @@
         },
         {
             "ticker": "688372.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6747,7 +6747,7 @@
         },
         {
             "ticker": "301095.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6758,7 +6758,7 @@
         },
         {
             "ticker": "688508.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6769,7 +6769,7 @@
         },
         {
             "ticker": "603986.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6780,7 +6780,7 @@
         },
         {
             "ticker": "688629.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6791,7 +6791,7 @@
         },
         {
             "ticker": "688536.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6802,7 +6802,7 @@
         },
         {
             "ticker": "300433.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6813,7 +6813,7 @@
         },
         {
             "ticker": "510050.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6824,7 +6824,7 @@
         },
         {
             "ticker": "CN30Y",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6835,7 +6835,7 @@
         },
         {
             "ticker": "605117.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6846,7 +6846,7 @@
         },
         {
             "ticker": "601168.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6857,7 +6857,7 @@
         },
         {
             "ticker": "300390.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6868,7 +6868,7 @@
         },
         {
             "ticker": "601208.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6879,7 +6879,7 @@
         },
         {
             "ticker": "688200.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6890,7 +6890,7 @@
         },
         {
             "ticker": "000300.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6901,7 +6901,7 @@
         },
         {
             "ticker": "0981.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6912,7 +6912,7 @@
         },
         {
             "ticker": "2823.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6923,7 +6923,7 @@
         },
         {
             "ticker": "600030.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6934,7 +6934,7 @@
         },
         {
             "ticker": "RU.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6945,7 +6945,7 @@
         },
         {
             "ticker": "688525.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6956,7 +6956,7 @@
         },
         {
             "ticker": "688559.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6967,7 +6967,7 @@
         },
         {
             "ticker": "300037.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6978,7 +6978,7 @@
         },
         {
             "ticker": "301205.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -6989,7 +6989,7 @@
         },
         {
             "ticker": "688469.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7000,7 +7000,7 @@
         },
         {
             "ticker": "688702.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7011,7 +7011,7 @@
         },
         {
             "ticker": "688172.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7022,7 +7022,7 @@
         },
         {
             "ticker": "300236.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7033,7 +7033,7 @@
         },
         {
             "ticker": "002935.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7044,7 +7044,7 @@
         },
         {
             "ticker": "688361.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7055,7 +7055,7 @@
         },
         {
             "ticker": "600498.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7066,7 +7066,7 @@
         },
         {
             "ticker": "002371.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7077,7 +7077,7 @@
         },
         {
             "ticker": "002129.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7088,7 +7088,7 @@
         },
         {
             "ticker": "600460.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7099,7 +7099,7 @@
         },
         {
             "ticker": "603212.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7110,7 +7110,7 @@
         },
         {
             "ticker": "300346.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7121,7 +7121,7 @@
         },
         {
             "ticker": "688019.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7132,7 +7132,7 @@
         },
         {
             "ticker": "002913.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7143,7 +7143,7 @@
         },
         {
             "ticker": "603061.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7154,7 +7154,7 @@
         },
         {
             "ticker": "002025.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7165,7 +7165,7 @@
         },
         {
             "ticker": "600023.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7176,7 +7176,7 @@
         },
         {
             "ticker": "300033.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7187,7 +7187,7 @@
         },
         {
             "ticker": "0522.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7198,7 +7198,7 @@
         },
         {
             "ticker": "003816.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7209,7 +7209,7 @@
         },
         {
             "ticker": "JM.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7220,7 +7220,7 @@
         },
         {
             "ticker": "003026.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7231,7 +7231,7 @@
         },
         {
             "ticker": "002515.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7242,7 +7242,7 @@
         },
         {
             "ticker": "688268.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7253,7 +7253,7 @@
         },
         {
             "ticker": "TA.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7264,7 +7264,7 @@
         },
         {
             "ticker": "ZLAB",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7275,7 +7275,7 @@
         },
         {
             "ticker": "603993.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7286,7 +7286,7 @@
         },
         {
             "ticker": "600900.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7297,7 +7297,7 @@
         },
         {
             "ticker": "0836.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7308,7 +7308,7 @@
         },
         {
             "ticker": "L.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7319,7 +7319,7 @@
         },
         {
             "ticker": "000933.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7330,7 +7330,7 @@
         },
         {
             "ticker": "A50.SG",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7341,7 +7341,7 @@
         },
         {
             "ticker": "688141.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7352,7 +7352,7 @@
         },
         {
             "ticker": "603078.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7363,7 +7363,7 @@
         },
         {
             "ticker": "300537.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7374,7 +7374,7 @@
         },
         {
             "ticker": "300706.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7385,7 +7385,7 @@
         },
         {
             "ticker": "688143.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7396,7 +7396,7 @@
         },
         {
             "ticker": "2822.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7407,7 +7407,7 @@
         },
         {
             "ticker": "300620.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7418,7 +7418,7 @@
         },
         {
             "ticker": "600674.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7429,7 +7429,7 @@
         },
         {
             "ticker": "603124.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7440,7 +7440,7 @@
         },
         {
             "ticker": "603324.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7451,7 +7451,7 @@
         },
         {
             "ticker": "BU.SHF",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7462,7 +7462,7 @@
         },
         {
             "ticker": "300223.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7473,7 +7473,7 @@
         },
         {
             "ticker": "1347.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7484,7 +7484,7 @@
         },
         {
             "ticker": "688035.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7495,7 +7495,7 @@
         },
         {
             "ticker": "005930.KS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7506,7 +7506,7 @@
         },
         {
             "ticker": "600176.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7517,7 +7517,7 @@
         },
         {
             "ticker": "SI.GFE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7528,7 +7528,7 @@
         },
         {
             "ticker": "688548.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7539,7 +7539,7 @@
         },
         {
             "ticker": "300260.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7550,7 +7550,7 @@
         },
         {
             "ticker": "000100.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7561,7 +7561,7 @@
         },
         {
             "ticker": "688432.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7572,7 +7572,7 @@
         },
         {
             "ticker": "688020.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7583,7 +7583,7 @@
         },
         {
             "ticker": "603040.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7594,7 +7594,7 @@
         },
         {
             "ticker": "688596.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7605,7 +7605,7 @@
         },
         {
             "ticker": "688711.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7616,7 +7616,7 @@
         },
         {
             "ticker": "MA.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7627,7 +7627,7 @@
         },
         {
             "ticker": "300576.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7638,7 +7638,7 @@
         },
         {
             "ticker": "OI.ZCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7649,7 +7649,7 @@
         },
         {
             "ticker": "688766.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7660,7 +7660,7 @@
         },
         {
             "ticker": "002876.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7671,7 +7671,7 @@
         },
         {
             "ticker": "300429.SZ",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7682,7 +7682,7 @@
         },
         {
             "ticker": "1888.HK",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7693,7 +7693,7 @@
         },
         {
             "ticker": "688403.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7704,7 +7704,7 @@
         },
         {
             "ticker": "603228.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7715,7 +7715,7 @@
         },
         {
             "ticker": "603650.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7726,7 +7726,7 @@
         },
         {
             "ticker": "688205.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7737,7 +7737,7 @@
         },
         {
             "ticker": "688041.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7748,7 +7748,7 @@
         },
         {
             "ticker": "PP.DCE",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
@@ -7759,7 +7759,7 @@
         },
         {
             "ticker": "688401.SS",
-            "timestamp": "2026-06-15 23:27:45",
+            "timestamp": "2026-06-15 23:23:44",
             "total_runs": 6,
             "long_votes": 0,
             "short_votes": 6,
