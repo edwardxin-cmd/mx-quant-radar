@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MX-Unified Dynamics | Faceted Area Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --panel-bg: #161b22;
+            --text-color: #c9d1d9;
+            --border-color: #30363d;
+            --accent: #58a6ff;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+        }
+        h1 { margin: 0; font-size: 1.5rem; }
+        .controls input[type="file"] {
+            background: var(--bg-color);
+            color: var(--text-color);
+            padding: 8px;
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .file-section {
+            margin-bottom: 40px;
+        }
+        .file-title {
+            color: var(--accent);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        /* 每一个独立资产的图表轨道 */
+        .chart-track {
+            background: var(--panel-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 15px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .asset-label {
+            width: 150px;
+            font-weight: bold;
+            font-size: 14px;
+            text-align: right;
+            padding-right: 20px;
+            word-wrap: break-word;
+        }
+        .canvas-container {
+            flex-grow: 1;
+            height: 120px; /* 控制每个轨道的高度 */
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>🌊 MX-Unified Dynamics | 分面动能波浪图</h1>
+        <div class="controls">
+            <label for="fileInput" style="margin-right:10px; font-weight:bold;">加载 JSON 文件:</label>
+            <input type="file" id="fileInput" accept=".json" multiple>
+        </div>
+    </div>
+
+    <div id="charts-container"></div>
+
+    <script>
+        document.getElementById('fileInput').addEventListener('change', handleFileSelect);
+
+function handleFileSelect(event) {
+    const files = event.target.files;
+    const container = document.getElementById('charts-container');
+    container.innerHTML = ''; 
+
+    for (let i = 0; i < files.length; i++) {
+        const file = files[i];
+        const reader = new FileReader();
+        reader.onload = (function(f) {
+            return function(e) {
+                try {
+                    const rawData = JSON.parse(e.target.result);
+                    renderFacetedCharts(f.name, rawData);
+                } catch (err) {
+                    alert('无法解析文件 ' + f.name + ': ' + err);
+                }
+            };
+        })(file);
+        reader.readAsText(file);
+    }
+}
+
+function calculateSurgeScore(row, timeCols) {
+    let score = 0;
+    const weights = [1000, 100, 10, 1]; // 最近的一天权重极高
+    for (let i = 0; i < Math.min(timeCols.length, weights.length); i++) {
+        let val = parseFloat(row[timeCols[i]]);
+        if (!isNaN(val)) score += val * weights[i];
+    }
+    return score;
+}
+
+function renderFacetedCharts(fileName, rawData) {
+    // 【防御逻辑 1】自动寻找真正的数组数据
+    let data = Array.isArray(rawData) ? rawData : 
+              (rawData.data || rawData.records || Object.values(rawData).find(v => Array.isArray(v)));
+              
+    if (!data || !Array.isArray(data) || data.length === 0) {
+        console.error("未能识别出数据数组", rawData);
+        alert(`文件 ${fileName} 格式不符合预期，请按F12查看控制台。`);
+        return;
+    }
+
+    // 【防御逻辑 2】兼容 D-0 或者 日期格式的列名
+    const allKeys = Object.keys(data[0]);
+    let tCols = allKeys.filter(k => k.match(/D[-_]?\d+/i) || k.match(/\d{4}[-/]\d{2}[-/]\d{2}/));
+    
+    if (tCols.length === 0) {
+        alert(`文件 ${fileName} 中没有找到时间序列列(如 D-0, D-1 或 2026-05-20)。`);
+        return;
+    }
+
+    // 默认按照字典序/数字序排列时间列 (确保从老到新)
+    tCols.sort((a, b) => {
+        let numA = parseInt(a.match(/\d+/) ? a.match(/\d+/)[0] : 0);
+        let numB = parseInt(b.match(/\d+/) ? b.match(/\d+/)[0] : 0);
+        if (a.includes('D-')) return numB - numA; // D-27 排前面
+        return a.localeCompare(b); // 日期老的时间排前面
+    });
+
+    // 计算冲顶分数并倒序排列
+    let tColsReverse = [...tCols].reverse(); 
+    data.forEach(row => {
+        row._surgeScore = calculateSurgeScore(row, tColsReverse);
+    });
+    data.sort((a, b) => b._surgeScore - a._surgeScore);
+
+    const section = document.createElement('div');
+    section.className = 'file-section';
+    const title = document.createElement('h2');
+    title.className = 'file-title';
+    title.textContent = `📄 ${fileName} (已解析 ${data.length} 条记录)`;
+    section.appendChild(title);
+
+    // 取最强的前 50 只标的和最弱的 10 只
+    const displayData = data.slice(0, 50).concat(data.slice(-10));
+
+    displayData.forEach((row, index) => {
+        let assetName = row['Asset (资产)'] || row['Asset'] || row['Symbol'] || Object.values(row)[0];
+        
+        let chartData = tCols.map(col => {
+            let val = row[col];
+            return (val === null || val === undefined || val === '-' || val === '') ? null : parseFloat(val);
+        });
+
+        if (chartData.every(val => val === null)) return;
+
+        const track = document.createElement('div');
+        track.className = 'chart-track';
+        
+        const label = document.createElement('div');
+        label.className = 'asset-label';
+        label.textContent = assetName;
+        track.appendChild(label);
+
+        const canvasWrap = document.createElement('div');
+        canvasWrap.className = 'canvas-container';
+        const canvas = document.createElement('canvas');
+        canvasWrap.appendChild(canvas);
+        track.appendChild(canvasWrap);
+        section.appendChild(track);
+
+        const ctx = canvas.getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: tCols,
+                datasets: [{
+                    label: assetName,
+                    data: chartData,
+                    borderColor: '#888',
+                    borderWidth: 2,
+                    pointRadius: 0,
+                    pointHoverRadius: 4,
+                    fill: true,
+                    tension: 0.4,
+                    spanGaps: true,
+                    segment: {
+                        backgroundColor: ctx => ctx.p1DataPoint.parsed.y >= 0 ? 'rgba(46, 160, 67, 0.4)' : 'rgba(215, 58, 73, 0.4)',
+                        borderColor: ctx => ctx.p1DataPoint.parsed.y >= 0 ? '#2ea043' : '#d73a49'
+                    }
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: { intersect: false, mode: 'index' },
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { display: index === displayData.length - 1, grid: { color: '#30363d' } },
+                    y: { min: -6.5, max: 6.5, ticks: { stepSize: 3, color: '#8b949e' }, grid: { color: ctx => ctx.tick.value === 0 ? '#8b949e' : '#30363d', lineWidth: ctx => ctx.tick.value === 0 ? 1.5 : 1 } }
+                }
+            }
+        });
+    });
+
+    document.getElementById('charts-container').appendChild(section);
+}
+    </script>
+</body>
+</html>
