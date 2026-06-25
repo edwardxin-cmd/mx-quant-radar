@@ -184612,16 +184612,6 @@
         "timestamp": "2026-06-25 09:57:57",
         "signals": [
             {
-                "ticker": "GILD",
-                "timestamp": "2026-06-25 09:57:57",
-                "total_runs": 12,
-                "long_votes": 8,
-                "short_votes": 1,
-                "net_score": 7,
-                "final_action": "VETO",
-                "reason": "Wave Function Divergence (Net Score +7), Defensive Mode"
-            },
-            {
                 "ticker": "SI=F",
                 "timestamp": "2026-06-25 09:57:57",
                 "total_runs": 6,
