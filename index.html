@@ -50,13 +50,13 @@
                 </h1>
                 <div class="mt-4 text-xs text-[#8b949e]">
                     🌞 1D Macro: <span id="time-1d" class="text-[#58a6ff]">Scanning...</span> | 
-                    ⚡ 1H Intraday: <span id="time-1h" class="text-[#58a6ff]">Scanning...</span> | 
+                    🌲 1W Weekly: <span id="time-1w" class="text-[#58a6ff]">Scanning...</span> | 
                     🐼 1D China: <span id="time-1d_china" class="text-[#58a6ff]">Scanning...</span>
                 </div>
             </div>
             <div class="flex gap-2">
                 <button id="btn-1d" class="tab-btn active" onclick="loadData('1d')">1D Macro</button>
-                <button id="btn-1h" class="tab-btn" onclick="loadData('1h')">1H Intraday</button>
+                <button id="btn-1w" class="tab-btn" onclick="loadData('1w')">1W Weekly</button>
                 
                 <div class="w-px bg-[#30363d] mx-1"></div>
                 
@@ -238,8 +238,9 @@
 
         async function fetchGlobalTimestamps() {
             const bust = new Date().getTime();
-            // 👇 增加了 '1d_china'
-            for (const tf of ['1d', '1d_china', '1h']) {
+            
+            // 1. 抓取日线时间戳
+            for (const tf of ['1d', '1d_china']) {
                 try {
                     const res = await fetch(`consensus_${tf}.json?t=${bust}`);
                     if (res.ok) {
@@ -254,7 +255,18 @@
                     }
                 } catch(e) { }
             }
+            
+            // 2. 抓取独立 Weekly 时间戳 (必须在函数大括号内部！)
+            try {
+                const resW = await fetch(`weekly.json?t=${bust}`);
+                if (resW.ok) {
+                    const dataW = await resW.json();
+                    const timeElW = document.getElementById('time-1w');
+                    if(timeElW && dataW.update_time) timeElW.innerHTML = `🌲 1W Sync: <strong class="text-[#58a6ff]">${dataW.update_time}</strong>`;
+                }
+            } catch(e) { }
         }
+
 
         function cleanStatus(val) {
             if (!val || val.includes('✅')) return '<span class="text-[#3fb950]">OK</span>';
@@ -274,11 +286,29 @@
             currentTF = timeframe; // 👈 新增：更新全局维度
             document.getElementById('btn-1d').classList.toggle('active', timeframe === '1d');
             document.getElementById('btn-1d_china').classList.toggle('active', timeframe === '1d_china');
-            document.getElementById('btn-1h').classList.toggle('active', timeframe === '1h');
+            document.getElementById('btn-1w').classList.toggle('active', timeframe === '1w');
             
             const bust = new Date().getTime();
             const thead = document.getElementById('table-head');
             const tbody = document.getElementById('table-body');
+            // === 👇 插入点：拦截 1w 专属极简渲染 👇 ===
+            if (timeframe === '1w') {
+                document.getElementById('rotation-container').classList.add('hidden');
+                thead.innerHTML = `<tr><th>Market (核心风向)</th><th class="long">🌲 Weekly LONG (周线绝对多头)</th><th class="short">🩸 Weekly SHORT (周线绝对空头)</th></tr>`;
+                tbody.innerHTML = `<tr><td colspan="3" class="text-center py-8">📡 Fetching Weekly Signals...</td></tr>`;
+                
+                fetch(`weekly.json?t=${bust}`).then(res => res.json()).then(data => {
+                    const formatList = (arr) => arr && arr.length > 0 ? arr.join(', ') : '<span class="text-[#8b949e]">无信号 (Standby)</span>';
+                    tbody.innerHTML = `
+                        <tr><td class="font-bold text-white text-base">🇺🇸 美股 (US Core)</td><td class="long text-base tracking-wide">${formatList(data.US_WEEKLY.LONG)}</td><td class="short text-base tracking-wide">${formatList(data.US_WEEKLY.SHORT)}</td></tr>
+                        <tr><td class="font-bold text-white text-base">🇨🇳 中国 (CN Core)</td><td class="long text-base tracking-wide">${formatList(data.CN_WEEKLY.LONG)}</td><td class="short text-base tracking-wide">${formatList(data.CN_WEEKLY.SHORT)}</td></tr>
+                    `;
+                }).catch(e => {
+                    tbody.innerHTML = `<tr><td colspan="3" class="text-center py-8 text-[#f85149]">Weekly Offline | 未提取到底层 weekly.json</td></tr>`;
+                });
+                return; // 拦截结束，强制退出，不执行下方 1D 和 1H 的废弃代码
+            }
+            // === 👆 插入点结束 👆 ===
 
             // 2. 渲染表头：1d 和 1d_china 共享同一种表头格式
             if (timeframe === '1d' || timeframe === '1d_china') {
