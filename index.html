@@ -109,13 +109,8 @@
             // 1. 确保快照按时间顺序排列 (不再切掉具体时间)
             let snapshots = currentHistoryData.sort((a, b) => new Date(a.timestamp.replace(/-/g, '/')) - new Date(b.timestamp.replace(/-/g, '/')));
             
-            // 🏆 核心修改：如果当前是 1h 维度，截取最近 35 期 (对应 5 天的 1h 周期)
-            if (currentTF === '1h') {
-                snapshots = snapshots.slice(-35); 
-            } else if (currentTF === '1d' || currentTF === '1d_china') {
-                // 限制 1D Macro 和 1D China 仅显示最近 40 天的数据
-                snapshots = snapshots.slice(-40);
-            }
+            // 强制截断防暴走：锁定只取最近 40 期
+            snapshots = snapshots.slice(-40);
             const totalSnaps = snapshots.length;
             // 2. 构建每只股票在所有快照中的得分矩阵 (不存在则填入 null)
             const tickerData = {};
@@ -310,12 +305,8 @@
             }
             // === 👆 插入点结束 👆 ===
 
-            // 2. 渲染表头：1d 和 1d_china 共享同一种表头格式
-            if (timeframe === '1d' || timeframe === '1d_china') {
-                thead.innerHTML = `<tr><th>Asset (资产)</th><th>Total Runs (测算数)</th><th class="long">Long (多)</th><th class="short">Short (空)</th><th class="neutral">Neutral (平)</th><th>Net Score (净动能)</th></tr>`;
-            } else {
-                thead.innerHTML = `<tr><th>Asset (资产)</th><th>Net Score (净动能)</th><th>T20 (3D)</th><th>T50 (1W)</th><th>T100 (0.5M)</th><th>T200 (1M)</th></tr>`;
-            }
+            // 统一强制使用标准 1D 表头
+            thead.innerHTML = `<tr><th>Asset (资产)</th><th>Total Runs (测算数)</th><th class="long">Long (多)</th><th class="short">Short (空)</th><th class="neutral">Neutral (平)</th><th>Net Score (净动能)</th></tr>`;
             tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8">📡 Fetching ${timeframe.toUpperCase()} Data... (拉取数据中)</td></tr>`;
             
             try {
@@ -335,19 +326,12 @@
                     // 1. 统一提取显示名称 (无论哪个模式都先准备好 displayName)
                     const displayName = row.name ? `${row.ticker} (${row.name})` : row.ticker;
                     
-                    // 2. 根据模式决定渲染哪种 HTML 布局
-                    if (timeframe === '1d' || timeframe === '1d_china') {
-                        // --- 1D 宏观/中国布局 ---
-                        const runs = row.total_runs !== undefined ? row.total_runs : (row.runs || 0);
-                        const long = row.long_votes !== undefined ? row.long_votes : (row.long || 0);
-                        const short = row.short_votes !== undefined ? row.short_votes : (row.short || 0);
-                        const neutral = row.neutral_votes !== undefined ? row.neutral_votes : (runs - long - short);
-                        
-                        tr.innerHTML = `<td class="font-bold text-white text-base">${displayName}</td><td>${runs}</td><td class="long">${long}</td><td class="short">${short}</td><td class="neutral">${neutral}</td><td><span class="math-box ${scoreClass}">${sign}${row.net_score}</span></td>`;
-                    } else {
-                        // --- 1H 日内布局 ---
-                        tr.innerHTML = `<td class="font-bold text-white text-base">${displayName}</td><td><span class="math-box ${scoreClass}">${sign}${row.net_score}</span></td><td>${cleanStatus(row['3_Day_Momentum_T20'])}</td><td>${cleanStatus(row['1_Week_Structure_T50'])}</td><td>${cleanStatus(row['Half_Month_Institutional_T100'])}</td><td>${cleanStatus(row['1_Month_Macro_T200'])}</td>`;
-                    }
+                    const runs = row.total_runs !== undefined ? row.total_runs : (row.runs || 0);
+                    const long = row.long_votes !== undefined ? row.long_votes : (row.long || 0);
+                    const short = row.short_votes !== undefined ? row.short_votes : (row.short || 0);
+                    const neutral = row.neutral_votes !== undefined ? row.neutral_votes : (runs - long - short);
+                    
+                    tr.innerHTML = `<td class="font-bold text-white text-base">${displayName}</td><td>${runs}</td><td class="long">${long}</td><td class="short">${short}</td><td class="neutral">${neutral}</td><td><span class="math-box ${scoreClass}">${sign}${row.net_score}</span></td>`;
                     
                     tbody.appendChild(tr);
                 });
