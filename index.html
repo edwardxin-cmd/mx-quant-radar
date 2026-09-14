@@ -195,7 +195,7 @@
                 return 0;
             });
             // 5. 渲染表头 X 轴 (1D显示 D-1, 1H显示 T-1 代表Time)
-            const prefix = currentTF === '1h' ? 'T' : 'D';
+            const prefix = 'D';
             for (let i = maxDays - 1; i >= 0; i--) {
                 axis.innerHTML += `<div class="axis-label">${prefix}-${i}</div>`;
             }
@@ -263,19 +263,6 @@
         }
 
 
-        function cleanStatus(val) {
-            if (!val || val.includes('✅')) return '<span class="text-[#3fb950]">OK</span>';
-            const match = val.match(/XM(\d)/);
-            if (match) {
-                const code = match[0];
-                let label = '';
-                if (code === 'XM2') label = ' (Vel)';
-                else if (code === 'XM3') label = ' (Stru)';
-                else if (code === 'XM4') label = ' (Frc)';
-                return `<span class="short">${code}${label}</span>`;
-            }
-            return val;
-        }
 
         async function loadData(timeframe) {
             currentTF = timeframe; // 👈 新增：更新全局维度
@@ -295,8 +282,8 @@
                 fetch(`weekly.json?t=${bust}`).then(res => res.json()).then(data => {
                     const formatList = (arr) => arr && arr.length > 0 ? arr.join(', ') : '<span class="text-[#8b949e]">无信号 (Standby)</span>';
                     tbody.innerHTML = `
-                        <tr><td class="font-bold text-white text-base">🇺🇸 美股 (US Core)</td><td class="long text-base tracking-wide">${formatList(data.US_WEEKLY.LONG)}</td><td class="short text-base tracking-wide">${formatList(data.US_WEEKLY.SHORT)}</td></tr>
-                        <tr><td class="font-bold text-white text-base">🇨🇳 中国 (CN Core)</td><td class="long text-base tracking-wide">${formatList(data.CN_WEEKLY.LONG)}</td><td class="short text-base tracking-wide">${formatList(data.CN_WEEKLY.SHORT)}</td></tr>
+                        <tr><td class="font-bold text-white text-base">🇺🇸 美股 (US Core)</td><td class="long text-base tracking-wide leading-relaxed py-4">${formatList(data.US_WEEKLY?.LONG)}</td><td class="short text-base tracking-wide leading-relaxed py-4">${formatList(data.US_WEEKLY?.SHORT)}</td></tr>
+                        <tr><td class="font-bold text-white text-base">🇨🇳 中国 (CN Core)</td><td class="long text-base tracking-wide leading-relaxed py-4">${formatList(data.CN_WEEKLY?.LONG)}</td><td class="short text-base tracking-wide leading-relaxed py-4">${formatList(data.CN_WEEKLY?.SHORT)}</td></tr>
                     `;
                 }).catch(e => {
                     tbody.innerHTML = `<tr><td colspan="3" class="text-center py-8 text-[#f85149]">Weekly Offline | 未提取到底层 weekly.json</td></tr>`;
