@@ -9,6 +9,20 @@
         body { background-color: #0d1117; color: #c9d1d9; font-family: 'Courier New', Courier, monospace; overflow-x: hidden; }
         .tab-btn { padding: 10px 20px; border: 1px solid #30363d; border-radius: 6px; cursor: pointer; transition: 0.3s; background: #161b22; }
         .tab-btn.active { background: #238636; color: white; border-color: #2ea043; font-weight: bold; }
+        .hidden { display: none; }
+        .sync-times { display: flex; flex-wrap: wrap; gap: 8px 20px; line-height: 1.8; }
+        .sync-value { color: #58a6ff; font-weight: bold; }
+        .sync-warning { color: #d29922; }
+        .sync-error { color: #f85149; }
+        .tab-controls { flex-wrap: wrap; }
+        .market-updated { display: block; margin-top: 8px; font-size: 11px; font-weight: normal; color: #8b949e; }
+        .market-updated.sync-warning { color: #d29922; }
+        .weekly-table { table-layout: fixed; min-width: 780px; }
+        .weekly-table th:first-child { width: 220px; }
+        .tab-btn { white-space: nowrap; }
+        #data-status { margin: 0 0 16px; font-size: 12px; line-height: 1.8; color: #8b949e; }
+        #data-status.warning { color: #d29922; }
+        #data-status.error { color: #f85149; }
         .long { color: #3fb950; font-weight: bold; }
         .short { color: #f85149; font-weight: bold; }
         .neutral { color: #8b949e; }
@@ -48,21 +62,23 @@
                 <h1 class="text-3xl font-bold text-white flex items-center gap-3">
                     🛸 MX-Unified Dynamics <span class="text-xs bg-[#238636] px-2 py-1 rounded text-white tracking-widest uppercase">Global Edge</span>
                 </h1>
-                <div class="mt-4 text-xs text-[#8b949e]">
-                    🌞 1D Macro: <span id="time-1d" class="text-[#58a6ff]">Scanning...</span> | 
-                    🌲 1W Weekly: <span id="time-1w" class="text-[#58a6ff]">Scanning...</span> | 
-                    🐼 1D China: <span id="time-1d_china" class="text-[#58a6ff]">Scanning...</span>
+                <div class="sync-times mt-4 text-xs text-[#8b949e]" aria-live="polite">
+                    <span>🌞 1D Macro: <span id="time-1d" class="sync-value">加载中…</span></span>
+                    <span>🌲 1W Weekly: <span id="time-1w" class="sync-value">加载中…</span></span>
+                    <span>🐼 1D China: <span id="time-1d_china" class="sync-value">加载中…</span></span>
                 </div>
             </div>
-            <div class="flex gap-2">
-                <button id="btn-1d" class="tab-btn active" onclick="loadData('1d')">1D Macro</button>
-                <button id="btn-1w" class="tab-btn" onclick="loadData('1w')">1W Weekly</button>
+            <div class="tab-controls flex gap-2">
+                <button id="btn-1d" type="button" class="tab-btn active" aria-pressed="true" onclick="loadData('1d')">1D Macro</button>
+                <button id="btn-1w" type="button" class="tab-btn" aria-pressed="false" onclick="loadData('1w')">1W Weekly</button>
                 
                 <div class="w-px bg-[#30363d] mx-1"></div>
                 
-                <button id="btn-1d_china" class="tab-btn" onclick="loadData('1d_china')">1D China</button>
+                <button id="btn-1d_china" type="button" class="tab-btn" aria-pressed="false" onclick="loadData('1d_china')">1D China</button>
+                <button id="btn-refresh" type="button" class="tab-btn" onclick="refreshAll(true)">↻ 刷新</button>
             </div>
         </div>
+        <p id="data-status" role="status" aria-live="polite">正在读取数据…</p>
 
         <div class="grid grid-cols-1 gap-6 mb-6 hidden" id="rotation-container">
             <div class="border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl p-4">
@@ -89,7 +105,7 @@
 
     <script>
         let currentHistoryData = [];
-        let currentTF = '1d'; // 👈 新增：让系统知道现在在看什么维度
+        let currentTF = '1d';
 
 
 
@@ -107,14 +123,14 @@
             wrapper.classList.remove('hidden');
 
             // 1. 确保快照按时间顺序排列 (不再切掉具体时间)
-            let snapshots = currentHistoryData.sort((a, b) => new Date(a.timestamp.replace(/-/g, '/')) - new Date(b.timestamp.replace(/-/g, '/')));
+            let snapshots = [...currentHistoryData].sort((a, b) => parseTimestamp(a.timestamp).epoch - parseTimestamp(b.timestamp).epoch);
             
             // 强制截断防暴走：锁定只取最近 40 期
             snapshots = snapshots.slice(-40);
             const totalSnaps = snapshots.length;
             // 2. 构建每只股票在所有快照中的得分矩阵 (不存在则填入 null)
-            const tickerData = {};
-            const tickerNames = {}; // 新增：保存代码对应的名称
+            const tickerData = Object.create(null);
+            const tickerNames = Object.create(null); // 保存代码对应的名称
             snapshots.forEach((snap, snapIndex) => {
                 snap.signals.forEach(sig => {
                     if (!tickerData[sig.ticker]) {
@@ -196,14 +212,12 @@
             });
             // 5. 渲染表头 X 轴 (1D显示 D-1, 1H显示 T-1 代表Time)
             const prefix = 'D';
-            for (let i = maxDays - 1; i >= 0; i--) {
-                axis.innerHTML += `<div class="axis-label">${prefix}-${i}</div>`;
-            }
+            axis.innerHTML = snapshots.map((snap, i) => `<div class="axis-label" title="${escapeHtml(snap.timestamp)}">${prefix}-${maxDays - 1 - i}</div>`).join('');
 
             // 6. 渲染热力网格
-            alignedRows.forEach(row => {
+            body.innerHTML = alignedRows.map(row => {
                 let rowHtml = `<div class="matrix-row">`;
-                rowHtml += `<div class="matrix-label" title="${row.ticker}">${row.name}</div>`;
+                rowHtml += `<div class="matrix-label" title="${escapeHtml(row.ticker)}">${escapeHtml(row.name)}</div>`;
                 row.path.forEach(score => {
                     let styleClass = 'score-zero';
                     let displayScore = '-'; // 历史未出现的数据显示为空白横杠
@@ -223,133 +237,305 @@
                     rowHtml += `<div class="matrix-cell ${styleClass}">${displayScore}</div>`;
                 });
                 rowHtml += `</div>`;
-                body.innerHTML += rowHtml;
-            });
+                return rowHtml;
+            }).join('');
         }
 
 
 
 
 
-        async function fetchGlobalTimestamps() {
-            const bust = new Date().getTime();
-            
-            // 1. 抓取日线时间戳
-            for (const tf of ['1d', '1d_china']) {
-                try {
-                    const res = await fetch(`consensus_${tf}.json?t=${bust}`);
-                    if (res.ok) {
-                        const textData = await res.text();
-                        if (textData && textData.trim() !== '') {
-                            const data = JSON.parse(textData);
-                            const timeEl = document.getElementById(`time-${tf}`);
-                            if(timeEl && data.update_time) {
-                                timeEl.innerHTML = `🌞 ${tf.toUpperCase()} Sync: <strong class="text-[#58a6ff]">${data.update_time}</strong>`;
-                            }
-                        }
-                    }
-                } catch(e) { }
-            }
-            
-            // 2. 抓取独立 Weekly 时间戳 (必须在函数大括号内部！)
+        // Each tab owns its data and requests; a late response cannot overwrite another tab.
+        const SOURCES = {
+            '1d': { file: 'consensus_1d.json', history: 'history_1d.json', staleDays: 3 },
+            '1w': { file: 'weekly.json', staleDays: 10 },
+            '1d_china': { file: 'consensus_1d_china.json', history: 'history_1d_china.json', staleDays: 3 }
+        };
+        const states = Object.fromEntries(Object.keys(SOURCES).map(tf => [tf, {
+            data: null, history: [], error: '', historyError: '', pending: false,
+            historyPending: false, revision: 0, controller: null, promise: null
+        }]));
+
+        function escapeHtml(value) {
+            return String(value ?? '').replace(/[&<>"']/g, char => ({
+                '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+            }[char]));
+        }
+
+        function parseTimestamp(value) {
+            if (typeof value !== 'string') return null;
+            const text = value.trim();
+            const match = text.match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2}):(\d{2})(\.\d+)?(Z|[+-]\d{2}:?\d{2})?$/i);
+            if (!match) return null;
+            const [, year, month, day, hour, minute, second, fraction = '', zone = ''] = match;
+            const calendar = new Date(Date.UTC(+year, +month - 1, +day, +hour, +minute, +second));
+            if (calendar.getUTCFullYear() !== +year || calendar.getUTCMonth() !== +month - 1 ||
+                calendar.getUTCDate() !== +day || +hour > 23 || +minute > 59 || +second > 59) return null;
+            // Unzoned values stay in source time. UTC is only an approximation for age checks.
+            const normalizedZone = zone ? zone.toUpperCase().replace(/([+-]\d{2})(\d{2})$/, '$1:$2') : 'Z';
+            const epoch = Date.parse(`${year}-${month}-${day}T${hour}:${minute}:${second}${fraction}${normalizedZone}`);
+            return Number.isFinite(epoch) ? { text, epoch, hasZone: Boolean(zone) } : null;
+        }
+
+        function sourceTimestampInfo(value, tf) {
+            const parsed = parseTimestamp(value);
+            if (!parsed) return { text: value ? '更新时间格式无效' : '未提供更新时间', warning: true,
+                detail: '数据源没有有效的 update_time；无法确认这批数据的更新时间。' };
+            const ageDays = (Date.now() - parsed.epoch) / 86400000;
+            // Allow a day of tolerance for a source that does not specify its time zone.
+            const future = ageDays < (parsed.hasZone ? -5 / 1440 : -1);
+            const stale = ageDays > SOURCES[tf].staleDays;
+            const zoneNote = parsed.hasZone ? '保留数据源标注的时区。' : '数据源未标注时区，按原文显示。';
+            return {
+                text: parsed.text + (future ? ' · 时间异常' : stale ? ' · 数据较旧' : ''),
+                warning: stale || future,
+                detail: future ? `数据源时间晚于当前时间。${zoneNote}` : stale
+                    ? `数据源标记的更新时间已超过 ${SOURCES[tf].staleDays} 天，请检查数据生成任务。${zoneNote}`
+                    : `显示当前这批数据的生成时间，每 60 秒重新检查。${zoneNote}`
+            };
+        }
+
+        function timestampInfo(tf) {
+            const data = states[tf].data;
+            if (tf !== '1w') return sourceTimestampInfo(data?.update_time, tf);
+            const markets = [['US_WEEKLY', '美股'], ['CN_WEEKLY', '中国']].map(([key, label]) => ({
+                label, info: data?.[key] ? sourceTimestampInfo(data[key].update_time, tf)
+                    : { text: '暂无记录', warning: true }
+            }));
+            return {
+                text: markets.map(({ label, info }) => `${label} ${info.text}`).join('；'),
+                warning: markets.some(({ info }) => info.warning),
+                detail: '分别显示美股、中国市场最近一次周线扫描结果，每 60 秒重新检查。时间沿用数据源标注。' +
+                    markets.filter(({ info }) => info.warning).map(({ label, info }) => ` ${label}：${info.text}。`).join('')
+            };
+        }
+
+        function renderTimestamp(tf) {
+            const state = states[tf];
+            const el = document.getElementById(`time-${tf}`);
+            const info = state.data ? timestampInfo(tf) : null;
+            el.className = 'sync-value' + (state.error ? ' sync-error' : info?.warning ? ' sync-warning' : '');
+            el.textContent = state.error ? '读取失败' : info ? info.text : state.pending ? '加载中…' : '尚未读取';
+            el.title = state.error || info?.detail || '';
+        }
+
+        async function fetchJson(file, signal) {
+            const controller = new AbortController();
+            const abort = () => controller.abort();
+            signal.addEventListener('abort', abort, { once: true });
+            if (signal.aborted) abort();
+            let timedOut = false;
+            const timeout = setTimeout(() => { timedOut = true; abort(); }, 15000);
             try {
-                const resW = await fetch(`weekly.json?t=${bust}`);
-                if (resW.ok) {
-                    const dataW = await resW.json();
-                    const timeElW = document.getElementById('time-1w');
-                    if(timeElW && dataW.update_time) timeElW.innerHTML = `🌲 1W Sync: <strong class="text-[#58a6ff]">${dataW.update_time}</strong>`;
+                const url = new URL(file, document.baseURI);
+                url.searchParams.set('_', `${Date.now()}-${Math.random().toString(36).slice(2)}`);
+                const response = await fetch(url, { cache: 'no-store', credentials: 'same-origin', signal: controller.signal });
+                if (!response.ok) throw new Error(`${file} 返回 HTTP ${response.status}`);
+                const text = (await response.text()).replace(/^\uFEFF/, '').trim();
+                if (!text) throw new Error(`${file} 内容为空`);
+                if (/^</.test(text)) {
+                    if (/cloudflare access|cloudflareaccess\.com|sign in/i.test(text)) {
+                        throw new Error('登录已失效或尚未登录，请重新打开网站完成登录后刷新。');
+                    }
+                    throw new Error(`${file} 返回了网页而不是 JSON，请检查文件部署。`);
                 }
-            } catch(e) { }
+                try { return JSON.parse(text); }
+                catch { throw new Error(`${file} 不是有效的 JSON`); }
+            } catch (error) {
+                if (timedOut) throw new Error(`${file} 请求超时，请重试。`);
+                if (error instanceof TypeError) {
+                    throw new Error(location.protocol === 'file:'
+                        ? '请将此页面与 JSON 数据一起放到网站服务器，通过网站地址打开。'
+                        : `${file} 无法连接，请检查网络或登录状态。`);
+                }
+                throw error;
+            } finally {
+                clearTimeout(timeout);
+                signal.removeEventListener('abort', abort);
+            }
         }
 
+        function validateSignals(signals) {
+            if (!Array.isArray(signals) || signals.some(row => !row || typeof row.ticker !== 'string' ||
+                !Number.isFinite(row.net_score))) throw new Error('signals 数据格式不正确');
+        }
 
+        function normalizeWeekly(data) {
+            if (!data || typeof data !== 'object') throw new Error('周线数据格式不正确');
+            const latest = { US_WEEKLY: null, CN_WEEKLY: null };
+            const records = Array.isArray(data) ? data : [data];
+            records.forEach(record => {
+                if (!record || typeof record !== 'object' || Array.isArray(record)) {
+                    throw new Error('weekly.json 包含无效记录');
+                }
+                const time = parseTimestamp(record.update_time);
+                if (Array.isArray(data) && !time) {
+                    throw new Error('weekly.json 的历史记录缺少有效更新时间，无法确定最新记录。');
+                }
+                const candidates = [];
+                // Current format: one US/CN market per history entry.
+                if (record.market === 'US' || record.market === 'CN') {
+                    candidates.push([`${record.market}_WEEKLY`, record]);
+                } else {
+                    // Legacy format: both markets in one object (also present in old history).
+                    for (const market of Object.keys(latest)) {
+                        if (Object.hasOwn(record, market)) candidates.push([market, record[market]]);
+                    }
+                }
+                if (!candidates.length) throw new Error('weekly.json 的记录没有可识别的 US/CN 市场');
+                for (const [market, signals] of candidates) {
+                    const previous = latest[market];
+                    const epoch = time?.epoch ?? -Infinity;
+                    // Replace the complete snapshot, including empty arrays. Do not merge old signals.
+                    if (!previous || epoch >= previous.epoch) {
+                        latest[market] = { epoch, update_time: record.update_time,
+                            LONG: signals?.LONG, SHORT: signals?.SHORT };
+                    }
+                }
+            });
+            for (const market of Object.keys(latest)) {
+                if (!latest[market]) continue;
+                for (const side of ['LONG', 'SHORT']) {
+                    const list = latest[market][side];
+                    if (!Array.isArray(list) || list.some(item => typeof item !== 'string' &&
+                        !(item && typeof item.ticker === 'string'))) {
+                        throw new Error(`weekly.json 的 ${market}.${side} 应为数组，请检查周线数据生成任务。`);
+                    }
+                }
+            }
+            return latest;
+        }
 
-        async function loadData(timeframe) {
-            currentTF = timeframe; // 👈 新增：更新全局维度
-            document.getElementById('btn-1d').classList.toggle('active', timeframe === '1d');
-            document.getElementById('btn-1d_china').classList.toggle('active', timeframe === '1d_china');
-            document.getElementById('btn-1w').classList.toggle('active', timeframe === '1w');
-            
-            const bust = new Date().getTime();
+        function validateData(tf, data) {
+            if (tf === '1w') return normalizeWeekly(data);
+            if (!data || typeof data !== 'object' || Array.isArray(data)) throw new Error('数据格式不正确');
+            validateSignals(data.signals);
+            return data;
+        }
+
+        function renderActiveData() {
+            const tf = currentTF;
+            const state = states[tf];
+            const weekly = tf === '1w';
             const thead = document.getElementById('table-head');
             const tbody = document.getElementById('table-body');
-            // === 👇 插入点：拦截 1w 专属极简渲染 👇 ===
-            if (timeframe === '1w') {
-                document.getElementById('rotation-container').classList.add('hidden');
-                thead.innerHTML = `<tr><th>Market (核心风向)</th><th class="long">🌲 Weekly LONG (周线绝对多头)</th><th class="short">🩸 Weekly SHORT (周线绝对空头)</th></tr>`;
-                tbody.innerHTML = `<tr><td colspan="3" class="text-center py-8">📡 Fetching Weekly Signals...</td></tr>`;
-                
-                fetch(`weekly.json?t=${bust}`).then(res => res.json()).then(data => {
-                    const formatList = (arr) => arr && arr.length > 0 ? arr.join(', ') : '<span class="text-[#8b949e]">无信号 (Standby)</span>';
-                    tbody.innerHTML = `
-                        <tr><td class="font-bold text-white text-base">🇺🇸 美股 (US Core)</td><td class="long text-base tracking-wide leading-relaxed py-4">${formatList(data.US_WEEKLY?.LONG)}</td><td class="short text-base tracking-wide leading-relaxed py-4">${formatList(data.US_WEEKLY?.SHORT)}</td></tr>
-                        <tr><td class="font-bold text-white text-base">🇨🇳 中国 (CN Core)</td><td class="long text-base tracking-wide leading-relaxed py-4">${formatList(data.CN_WEEKLY?.LONG)}</td><td class="short text-base tracking-wide leading-relaxed py-4">${formatList(data.CN_WEEKLY?.SHORT)}</td></tr>
-                    `;
-                }).catch(e => {
-                    tbody.innerHTML = `<tr><td colspan="3" class="text-center py-8 text-[#f85149]">Weekly Offline | 未提取到底层 weekly.json</td></tr>`;
-                });
-                return; // 拦截结束，强制退出，不执行下方 1D 和 1H 的废弃代码
+            const status = document.getElementById('data-status');
+            const info = state.data ? timestampInfo(tf) : null;
+            document.getElementById('table-container').setAttribute('aria-busy', String(state.pending));
+            document.getElementById('data-table').classList.toggle('weekly-table', weekly);
+            thead.innerHTML = weekly
+                ? '<tr><th>Market (核心风向)</th><th class="long">🌲 Weekly LONG (周线绝对多头)</th><th class="short">🩸 Weekly SHORT (周线绝对空头)</th></tr>'
+                : '<tr><th>Asset (资产)</th><th>Total Runs (测算数)</th><th class="long">Long (多)</th><th class="short">Short (空)</th><th class="neutral">Neutral (平)</th><th>Net Score (净动能)</th></tr>';
+            status.className = state.error ? 'error' : info?.warning || state.historyError ? 'warning' : '';
+            status.textContent = state.error || (state.pending ? '正在刷新数据… ' : '') +
+                (info?.detail || '正在读取数据…') + (state.historyError ? ` 历史矩阵暂不可用：${state.historyError}` : '');
+            document.getElementById('rotation-container').classList.add('hidden');
+            currentHistoryData = [];
+            if (state.error || !state.data) {
+                tbody.innerHTML = `<tr><td colspan="${weekly ? 3 : 6}" class="text-center py-8">${escapeHtml(state.error || '📡 正在加载数据…')}</td></tr>`;
+                return;
             }
-            // === 👆 插入点结束 👆 ===
-
-            // 统一强制使用标准 1D 表头
-            thead.innerHTML = `<tr><th>Asset (资产)</th><th>Total Runs (测算数)</th><th class="long">Long (多)</th><th class="short">Short (空)</th><th class="neutral">Neutral (平)</th><th>Net Score (净动能)</th></tr>`;
-            tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8">📡 Fetching ${timeframe.toUpperCase()} Data... (拉取数据中)</td></tr>`;
-            
-            try {
-                // 自动拉取对应的 consensus_1d_china.json 或 consensus_1d.json
-                const response = await fetch(`consensus_${timeframe}.json?t=${bust}`);
-                if (!response.ok) throw new Error("Consensus missing");
-                const textData = await response.text();
-                if (!textData || textData.trim() === '') throw new Error("Empty Consensus");
-                const data = JSON.parse(textData);
-                
-                tbody.innerHTML = ''; 
-                data.signals.forEach(row => {
-                    const tr = document.createElement('tr');
-                    const scoreClass = row.net_score > 0 ? 'long' : (row.net_score < 0 ? 'short' : 'neutral');
-                    const sign = row.net_score > 0 ? '+' : '';
-                    
-                    // 1. 统一提取显示名称 (无论哪个模式都先准备好 displayName)
-                    const displayName = row.name ? `${row.ticker} (${row.name})` : row.ticker;
-                    
-                    const runs = row.total_runs !== undefined ? row.total_runs : (row.runs || 0);
-                    const long = row.long_votes !== undefined ? row.long_votes : (row.long || 0);
-                    const short = row.short_votes !== undefined ? row.short_votes : (row.short || 0);
-                    const neutral = row.neutral_votes !== undefined ? row.neutral_votes : (runs - long - short);
-                    
-                    tr.innerHTML = `<td class="font-bold text-white text-base">${displayName}</td><td>${runs}</td><td class="long">${long}</td><td class="short">${short}</td><td class="neutral">${neutral}</td><td><span class="math-box ${scoreClass}">${sign}${row.net_score}</span></td>`;
-                    
-                    tbody.appendChild(tr);
-                });
-            } catch (error) {
-                tbody.innerHTML = `<tr><td colspan="6" class="text-center py-8 text-[#f85149]">Matrix Offline | 未找到 ${timeframe} 数据</td></tr>`;
+            if (weekly) {
+                const formatList = list => list.length ? list.map(item => escapeHtml(typeof item === 'string'
+                    ? item : item.name ? `${item.ticker} (${item.name})` : item.ticker)).join(', ')
+                    : '<span class="neutral">无信号 (Standby)</span>';
+                tbody.innerHTML = [['US_WEEKLY', '🇺🇸 美股 (US Core)'], ['CN_WEEKLY', '🇨🇳 中国 (CN Core)']].map(([market, label]) => {
+                    const snapshot = state.data[market];
+                    if (!snapshot) return `<tr><td class="font-bold text-white text-base">${label}</td><td colspan="2" class="neutral">暂无该市场周线记录</td></tr>`;
+                    const updated = sourceTimestampInfo(snapshot.update_time, '1w');
+                    return `<tr><td class="font-bold text-white text-base">${label}<span class="market-updated${updated.warning ? ' sync-warning' : ''}" title="${escapeHtml(updated.detail)}">更新：${escapeHtml(updated.text)}</span></td><td class="long text-base tracking-wide leading-relaxed py-4">${formatList(snapshot.LONG)}</td><td class="short text-base tracking-wide leading-relaxed py-4">${formatList(snapshot.SHORT)}</td></tr>`;
+                }).join('');
+                return;
             }
-
-            try {
-                // 自动拉取对应的 history_1d_china.json 或 history_1d.json
-                const histResponse = await fetch(`history_${timeframe}.json?t=${bust}`);
-                if (!histResponse.ok) throw new Error("History missing");
-                const rawText = await histResponse.text();
-                if (!rawText || rawText.trim() === '') throw new Error("Empty history");
-                
-                currentHistoryData = JSON.parse(rawText);
-                
-                // 渲染热力矩阵
-                renderPersistenceMatrix(timeframe);
-
-
-            } catch (error) {
-                currentHistoryData = [];
-                document.getElementById('rotation-container').classList.add('hidden');
+            tbody.innerHTML = state.data.signals.map(row => {
+                const scoreClass = row.net_score > 0 ? 'long' : row.net_score < 0 ? 'short' : 'neutral';
+                const name = row.name ? `${row.ticker} (${row.name})` : row.ticker;
+                const runs = row.total_runs ?? row.runs ?? 0;
+                const long = row.long_votes ?? row.long ?? 0;
+                const short = row.short_votes ?? row.short ?? 0;
+                const neutral = row.neutral_votes ?? (runs - long - short);
+                return `<tr><td class="font-bold text-white text-base">${escapeHtml(name)}</td><td>${escapeHtml(runs)}</td><td class="long">${escapeHtml(long)}</td><td class="short">${escapeHtml(short)}</td><td class="neutral">${escapeHtml(neutral)}</td><td><span class="math-box ${scoreClass}">${row.net_score > 0 ? '+' : ''}${row.net_score}</span></td></tr>`;
+            }).join('') || '<tr><td colspan="6" class="text-center py-8">暂无信号 (Standby)</td></tr>';
+            if (!state.historyPending && state.history.length) {
+                currentHistoryData = state.history;
+                renderPersistenceMatrix();
             }
         }
 
-        window.onload = () => {
-            fetchGlobalTimestamps();
-            setTimeout(() => { loadData('1d'); }, 100);
-            setInterval(() => fetchGlobalTimestamps(), 60000);
-        };
+        function refreshDataset(tf, force = false) {
+            const state = states[tf];
+            if ((state.pending || state.historyPending) && !force) return state.promise;
+            state.controller?.abort();
+            const controller = new AbortController();
+            state.controller = controller;
+            const revision = ++state.revision;
+            state.pending = true;
+            state.historyPending = Boolean(SOURCES[tf].history);
+            state.error = '';
+            state.historyError = '';
+            renderTimestamp(tf);
+            if (currentTF === tf) renderActiveData();
+            state.promise = (async () => {
+                const historyTask = SOURCES[tf].history ? fetchJson(SOURCES[tf].history, controller.signal)
+                    .then(history => {
+                        if (!Array.isArray(history)) throw new Error('历史数据应为数组');
+                        history.forEach(snapshot => {
+                            if (!snapshot || !parseTimestamp(snapshot.timestamp)) throw new Error('历史快照时间无效');
+                            validateSignals(snapshot.signals);
+                        });
+                        return { history };
+                    }).catch(error => ({ error })) : Promise.resolve({ history: [] });
+                try {
+                    const data = validateData(tf, await fetchJson(SOURCES[tf].file, controller.signal));
+                    if (revision !== state.revision) return;
+                    state.data = data;
+                    state.pending = false;
+                    state.history = [];
+                    renderTimestamp(tf);
+                    if (currentTF === tf) renderActiveData();
+                    const result = await historyTask;
+                    if (revision !== state.revision) return;
+                    state.history = result.history || [];
+                    state.historyError = result.error?.message || '';
+                    state.historyPending = false;
+                    if (currentTF === tf) renderActiveData();
+                } catch (error) {
+                    if (revision !== state.revision) return;
+                    controller.abort();
+                    state.data = null;
+                    state.history = [];
+                    state.pending = false;
+                    state.historyPending = false;
+                    state.error = error.message || '数据加载失败，请刷新重试。';
+                    renderTimestamp(tf);
+                    if (currentTF === tf) renderActiveData();
+                }
+            })();
+            return state.promise;
+        }
+
+        function loadData(timeframe) {
+            if (!Object.hasOwn(SOURCES, timeframe)) return;
+            currentTF = timeframe;
+            for (const tf of Object.keys(SOURCES)) {
+                const button = document.getElementById(`btn-${tf}`);
+                button.classList.toggle('active', tf === timeframe);
+                button.setAttribute('aria-pressed', String(tf === timeframe));
+            }
+            renderActiveData();
+            return refreshDataset(timeframe);
+        }
+
+        function refreshAll(force = false) {
+            return Promise.all(Object.keys(SOURCES).map(tf => refreshDataset(tf, force)));
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            refreshAll();
+            setInterval(() => { if (!document.hidden) refreshAll(); }, 60000);
+            document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshAll(); });
+        });
+
     </script>
 </body>
 </html>

@@ -1,0 +1,9 @@
+# Revalidate HTML and always request fresh data.
+/
+  Cache-Control: no-cache
+
+/index.html
+  Cache-Control: no-cache
+
+/*.json
+  Cache-Control: no-store
