@@ -29,7 +29,6 @@
         table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
         th, td { padding: 12px; text-align: left; border-bottom: 1px solid #30363d; }
         th { background-color: #161b22; color: #8b949e; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; }
-        .math-box { background: #010409; padding: 4px 8px; border-radius: 4px; border: 1px solid #30363d; font-family: monospace; font-size: 1rem; }
         
         
         /* 🚀 D0 Aligned Matrix Styles */
@@ -93,11 +92,11 @@
             </div>
         </div>
 
-        <div id="table-container" class="overflow-x-auto border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl">
+        <div id="table-container" class="hidden overflow-x-auto border border-[#30363d] rounded-lg bg-[#161b22] shadow-2xl">
             <table id="data-table">
                 <thead id="table-head"></thead>
                 <tbody id="table-body">
-                    <tr><td colspan="6" class="text-center py-8">📡 Connecting... (连接中)</td></tr>
+                    <tr><td colspan="3" class="text-center py-8">📡 Connecting... (连接中)</td></tr>
                 </tbody>
             </table>
         </div>
@@ -291,7 +290,7 @@
                 warning: stale || future,
                 detail: future ? `数据源时间晚于当前时间。${zoneNote}` : stale
                     ? `数据源标记的更新时间已超过 ${SOURCES[tf].staleDays} 天，请检查数据生成任务。${zoneNote}`
-                    : `显示当前这批数据的生成时间，每 60 秒重新检查。${zoneNote}`
+                    : `显示当前这批数据的生成时间。${zoneNote}`
             };
         }
 
@@ -305,7 +304,7 @@
             return {
                 text: markets.map(({ label, info }) => `${label} ${info.text}`).join('；'),
                 warning: markets.some(({ info }) => info.warning),
-                detail: '分别显示美股、中国市场最近一次周线扫描结果，每 60 秒重新检查。时间沿用数据源标注。' +
+                detail: '分别显示美股、中国市场最近一次周线扫描结果。时间沿用数据源标注。' +
                     markets.filter(({ info }) => info.warning).map(({ label, info }) => ` ${label}：${info.text}。`).join('')
             };
         }
@@ -421,18 +420,21 @@
             const tbody = document.getElementById('table-body');
             const status = document.getElementById('data-status');
             const info = state.data ? timestampInfo(tf) : null;
-            document.getElementById('table-container').setAttribute('aria-busy', String(state.pending));
+            const tableContainer = document.getElementById('table-container');
+            tableContainer.classList.toggle('hidden', !weekly);
+            tableContainer.setAttribute('aria-busy', String(state.pending));
             document.getElementById('data-table').classList.toggle('weekly-table', weekly);
             thead.innerHTML = weekly
                 ? '<tr><th>Market (核心风向)</th><th class="long">🌲 Weekly LONG (周线绝对多头)</th><th class="short">🩸 Weekly SHORT (周线绝对空头)</th></tr>'
-                : '<tr><th>Asset (资产)</th><th>Total Runs (测算数)</th><th class="long">Long (多)</th><th class="short">Short (空)</th><th class="neutral">Neutral (平)</th><th>Net Score (净动能)</th></tr>';
+                : '';
+            tbody.innerHTML = '';
             status.className = state.error ? 'error' : info?.warning || state.historyError ? 'warning' : '';
             status.textContent = state.error || (state.pending ? '正在刷新数据… ' : '') +
                 (info?.detail || '正在读取数据…') + (state.historyError ? ` 历史矩阵暂不可用：${state.historyError}` : '');
             document.getElementById('rotation-container').classList.add('hidden');
             currentHistoryData = [];
             if (state.error || !state.data) {
-                tbody.innerHTML = `<tr><td colspan="${weekly ? 3 : 6}" class="text-center py-8">${escapeHtml(state.error || '📡 正在加载数据…')}</td></tr>`;
+                if (weekly) tbody.innerHTML = `<tr><td colspan="3" class="text-center py-8">${escapeHtml(state.error || '📡 正在加载数据…')}</td></tr>`;
                 return;
             }
             if (weekly) {
@@ -447,15 +449,6 @@
                 }).join('');
                 return;
             }
-            tbody.innerHTML = state.data.signals.map(row => {
-                const scoreClass = row.net_score > 0 ? 'long' : row.net_score < 0 ? 'short' : 'neutral';
-                const name = row.name ? `${row.ticker} (${row.name})` : row.ticker;
-                const runs = row.total_runs ?? row.runs ?? 0;
-                const long = row.long_votes ?? row.long ?? 0;
-                const short = row.short_votes ?? row.short ?? 0;
-                const neutral = row.neutral_votes ?? (runs - long - short);
-                return `<tr><td class="font-bold text-white text-base">${escapeHtml(name)}</td><td>${escapeHtml(runs)}</td><td class="long">${escapeHtml(long)}</td><td class="short">${escapeHtml(short)}</td><td class="neutral">${escapeHtml(neutral)}</td><td><span class="math-box ${scoreClass}">${row.net_score > 0 ? '+' : ''}${row.net_score}</span></td></tr>`;
-            }).join('') || '<tr><td colspan="6" class="text-center py-8">暂无信号 (Standby)</td></tr>';
             if (!state.historyPending && state.history.length) {
                 currentHistoryData = state.history;
                 renderPersistenceMatrix();
@@ -532,8 +525,6 @@
 
         window.addEventListener('DOMContentLoaded', () => {
             refreshAll();
-            setInterval(() => { if (!document.hidden) refreshAll(); }, 60000);
-            document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshAll(); });
         });
 
     </script>
