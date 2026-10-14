@@ -3237,5 +3237,49 @@
             "513530.SS",
             "159569.SZ"
         ]
+    },
+    {
+        "update_time": "2026-10-14 14:35:25",
+        "market": "US",
+        "LONG": [
+            "^SKEW",
+            "XLY",
+            "XLU",
+            "OIH",
+            "IAK",
+            "USMV",
+            "ROKT",
+            "SKYY",
+            "TLT",
+            "SHY",
+            "EDV",
+            "ZROZ",
+            "LQD"
+        ],
+        "SHORT": [
+            "^VVIX",
+            "XLF",
+            "XLB",
+            "XLC",
+            "XHB",
+            "XOP",
+            "XME",
+            "TAN",
+            "COPX",
+            "URA",
+            "LIT",
+            "JETS",
+            "ITB",
+            "IYF",
+            "SPLV",
+            "GDX",
+            "SPCX",
+            "PSCD",
+            "RSPF",
+            "RSPD",
+            "RSPC",
+            "IEI",
+            "HYG"
+        ]
     }
 ]
