@@ -3281,5 +3281,56 @@
             "IEI",
             "HYG"
         ]
+    },
+    {
+        "update_time": "2026-10-15 14:52:07",
+        "market": "US",
+        "LONG": [
+            "RSP",
+            "^SKEW",
+            "XLI",
+            "XLP",
+            "XLU",
+            "XAR",
+            "ITA",
+            "USMV",
+            "ARKX",
+            "ARKG",
+            "ROKT",
+            "PPA",
+            "RSPS",
+            "RSPU",
+            "TLT",
+            "IEF",
+            "SHY",
+            "TLH",
+            "EDV",
+            "ZROZ"
+        ],
+        "SHORT": [
+            "^VVIX",
+            "XLF",
+            "XLC",
+            "XHB",
+            "XOP",
+            "XME",
+            "XBI",
+            "TAN",
+            "COPX",
+            "OIH",
+            "JETS",
+            "ITB",
+            "IYF",
+            "IYT",
+            "FTXR",
+            "SPCX",
+            "PSCD",
+            "RSPG",
+            "RSPF",
+            "RSPC",
+            "LABU",
+            "LABD",
+            "HYG"
+        ]
     }
 ]
