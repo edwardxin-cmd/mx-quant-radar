@@ -6329,5 +6329,57 @@
             "TIP",
             "HYG"
         ]
+    },
+    {
+        "update_time": "2026-11-13 05:46:52",
+        "market": "US",
+        "LONG": [
+            "VTI",
+            "^GSPC",
+            "^SPX",
+            "^VIX",
+            "^VXN",
+            "^VVIX",
+            "XLV",
+            "XLE",
+            "XLP",
+            "XLK",
+            "XME",
+            "URA",
+            "LIT",
+            "JETS",
+            "IHI",
+            "ROKT",
+            "BIZD",
+            "SKYY",
+            "RSPT",
+            "RSPM",
+            "RSPS",
+            "UPRO",
+            "SPXU",
+            "TLT",
+            "TLH",
+            "EDV",
+            "ZROZ",
+            "LQD"
+        ],
+        "SHORT": [
+            "^SKEW",
+            "XLC",
+            "XHB",
+            "SOXX",
+            "KRE",
+            "KBE",
+            "IBB",
+            "IAK",
+            "ITB",
+            "SDY",
+            "PSCD",
+            "RSPH",
+            "SOXL",
+            "IEF",
+            "TIP",
+            "HYG"
+        ]
     }
 ]
