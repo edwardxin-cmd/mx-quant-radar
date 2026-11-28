@@ -7707,5 +7707,57 @@
             "562500.SS",
             "159770.SZ"
         ]
+    },
+    {
+        "update_time": "2026-11-28 02:46:27",
+        "market": "US",
+        "LONG": [
+            "^VVIX",
+            "XLB",
+            "XBI",
+            "OIH",
+            "IBB",
+            "IHI",
+            "ITB",
+            "XTN",
+            "RSPN",
+            "LABU"
+        ],
+        "SHORT": [
+            "QQQ",
+            "DIA",
+            "NQ=F",
+            "YM=F",
+            "RTY=F",
+            "^SKEW",
+            "XLP",
+            "XLK",
+            "XLY",
+            "XLU",
+            "XLRE",
+            "XAR",
+            "SMH",
+            "SOXX",
+            "ITA",
+            "USMV",
+            "ARKX",
+            "ARKK",
+            "RSPS",
+            "SQQQ",
+            "SOXS",
+            "TQQQ",
+            "UDOW",
+            "SDOW",
+            "SOXL",
+            "TLT",
+            "IEF",
+            "SHY",
+            "IEI",
+            "TLH",
+            "EDV",
+            "ZROZ",
+            "TIP",
+            "LQD"
+        ]
     }
 ]
